@@ -1,5 +1,8 @@
 name: Build preview installers
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
     inputs:
@@ -46,3 +49,37 @@ jobs:
           name: philo-pet-${{ matrix.label }}
           path: app/desktop/out/make/**/*
           if-no-files-found: error
+
+  release:
+    name: Publish stable download links
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: philo-pet-*
+          path: downloaded
+          merge-multiple: true
+      - name: Prepare stable filenames
+        shell: bash
+        run: |
+          mkdir -p release-assets
+          mac_asset="$(find downloaded -type f -name '*.dmg' -print -quit)"
+          win_asset="$(find downloaded -type f -iname '*Setup.exe' -print -quit)"
+          test -n "$mac_asset" && test -n "$win_asset"
+          cp "$mac_asset" release-assets/philo-pet-macOS-universal.dmg
+          cp "$win_asset" release-assets/philo-pet-Windows-x64-Setup.exe
+      - name: Create or refresh preview release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          if gh release view preview-latest >/dev/null 2>&1; then
+            gh release upload preview-latest release-assets/* --clobber
+          else
+            gh release create preview-latest release-assets/* \
+              --target "$GITHUB_SHA" \
+              --title "philo-pet 测试版" \
+              --notes "供小范围测试使用。macOS 版本未签名，首次打开请按测试说明手动放行。" \
+              --prerelease
+          fi

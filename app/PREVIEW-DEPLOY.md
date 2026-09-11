@@ -19,7 +19,12 @@
 - macOS Universal：同时支持 Apple Silicon 和 Intel。
 - Windows x64：支持常见的 64 位 Windows 10/11 电脑。
 
-最方便的做法是在 GitHub 仓库的 **Actions → Build preview installers → Run workflow** 中填入 Render 服务地址。构建完成后，下载两个 Artifacts 发给测试者。
+最方便的做法是在 GitHub 仓库的 **Actions → Build preview installers → Run workflow** 中填入 Render 服务地址。构建完成后，工作流会把安装包发布到 `preview-latest` Release，并保留两个固定下载地址：
+
+- macOS：`https://github.com/ariana1-0/pilo-pet/releases/download/preview-latest/philo-pet-macOS-universal.dmg`
+- Windows：`https://github.com/ariana1-0/pilo-pet/releases/download/preview-latest/philo-pet-Windows-x64-Setup.exe`
+
+后续重新运行工作流会覆盖 Release 中的同名文件，演示材料里的链接不需要修改。
 
 也可以在对应系统本机打包：
 
