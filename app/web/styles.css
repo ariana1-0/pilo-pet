@@ -40,11 +40,11 @@ a { color: inherit; }
 .portrait { display: block; height: 100%; width: 100%; object-fit: cover; object-position: 50% 25%; border-radius: inherit; filter: grayscale(1) sepia(.25) contrast(.92); mix-blend-mode: multiply; }
 #portrait-fallback { position: absolute; inset: 0; display: grid; place-items: center; font: 32px var(--serif); }
 .latin-name { margin: 0 0 2px; font: 12px/1.7 Georgia, serif; text-transform: uppercase; letter-spacing: .15em; color: #82745e; }
-.philosopher-title { display: inline-flex; align-items: center; position: relative; }
-.philosopher-title h1 { margin: 0; font: 29px/1.65 var(--serif); letter-spacing: .06em; }
-.philosopher-picker { position: absolute; left: calc(100% + 4px); width: 32px; height: 40px; display: grid; place-items: center; background: transparent; border: 0; color: var(--ink); padding: 0; }
-.philosopher-picker svg { width: 16px; height: 16px; fill: none; stroke: #756d5c; stroke-width: 1.2; }
+.philosopher-title { display: inline-flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0 14px; min-width: 0; }
+.philosopher-title h1 { margin: 0; font: 29px/1.65 var(--serif); letter-spacing: .06em; white-space: nowrap; }
+.philosopher-picker { background: transparent; border: 0; color: #756d5c; padding: 5px 0; font: 13px/1.7 var(--sans); white-space: nowrap; text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px; }
 .philosopher-picker:hover { color: #796244; background: #8f8c6c0c; }
+.philosopher-picker:disabled { opacity: .45; }
 .chapter-rule { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 16px; }
 .chapter-rule span { height: 1px; width: 90px; background: linear-gradient(90deg, transparent, #998b6f77); }
 .chapter-rule span:last-child { transform: rotate(180deg); }
@@ -151,7 +151,8 @@ dialog p { font-size: 16px; }
 .roundtable.has-discussion .roundtable-heading { margin-bottom: 0; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
 .roundtable.has-discussion .roundtable-heading h1 { font-size: 21px; }
 .deep-chat.has-discussion .philosopher-header { text-align: left; padding: 15px 35px 0; }
-.deep-chat.has-discussion .deep-heading { display: flex; justify-content: space-between; align-items: center; gap: 36px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.deep-chat.has-discussion .deep-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.deep-chat.has-discussion .philosopher-title { justify-content: flex-start; }
 .deep-chat.has-discussion .philosopher-title h1 { font-size: 21px; line-height: 1.5; }
 .deep-chat .msg.philo { padding: 0; white-space: normal; }
 .deep-chat:not(.has-discussion) .speaker-label { display: none; }

@@ -114,7 +114,7 @@ function startConversation(nextPerson) {
   pinnedToBottom = true;
   $("#philosopher-name").textContent = person.name;
   $("#latin-name").textContent = person.latinName;
-  $("#btn-philosopher").setAttribute("aria-label", "当前为" + person.name + "，选择哲学家");
+  $("#btn-philosopher").setAttribute("aria-label", "和其他哲学家聊聊，当前为" + person.name);
   if (document.body.dataset.mode !== "roundtable") document.title = person.name + " · 深度聊";
   const portrait = $("#portrait");
   $("#portrait-fallback").hidden = true;
