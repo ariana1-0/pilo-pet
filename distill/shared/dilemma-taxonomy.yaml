@@ -1,0 +1,161 @@
+# 困境标签树 v0 —— 毕业前后大学生
+# 状态：先验草案。拿到真实困境样本（shared/eval/dilemma-cases/）后必须校准：
+# 合并没人命中的标签、拆分被高频命中的粗标签。
+# 每个标签：name / cluster / signals（用户典型原话，供分类器 few-shot）/ note
+
+clusters:
+  choice: 选择与道路
+  meaning: 意义与方向
+  comparison: 比较与关系
+  self: 自我与情绪
+
+tags:
+  # ── 选择与道路 ──────────────────────────────
+  - id: choice-paralysis
+    cluster: choice
+    name: 选择恐惧（怕选错、不可逆感）
+    signals:
+      - "考研还是工作，感觉选错一步全完了"
+      - "我不敢选，万一后悔怎么办"
+    note: 核心是把选择看成一次性判决；区别于 option-overload（选项太多）
+
+  - id: option-overload
+    cluster: choice
+    name: 选项过载
+    signals:
+      - "秋招、考公、留学、gap，每个都有人劝我，越听越乱"
+    note: 信息过多导致的瘫痪，先做减法再谈选择
+
+  - id: sunk-cost
+    cluster: choice
+    name: 沉没成本（专业/路径选错了）
+    signals:
+      - "学了四年才发现不喜欢这个专业，换方向是不是全白费了"
+
+  - id: family-expectation
+    cluster: choice
+    name: 家庭期待冲突
+    signals:
+      - "爸妈非让我考编，我想去大城市闯"
+      - "不想让他们失望，但那不是我想要的生活"
+
+  - id: irreversibility-fear
+    cluster: choice
+    name: 城市/离家/关系的分岔口
+    signals:
+      - "留在家乡还是去大城市，感觉是两种完全不同的人生"
+
+  # ── 意义与方向 ──────────────────────────────
+  - id: meaning-void
+    cluster: meaning
+    name: 意义缺失（做这些到底为什么）
+    signals:
+      - "每天上课打卡实习，不知道图什么"
+      - "感觉自己过的不是生活，是流程"
+
+  - id: hollow-self
+    cluster: meaning
+    name: 空心感（不知道自己喜欢什么）
+    signals:
+      - "别人都有热爱的东西，我好像对什么都没兴趣"
+      - "我不知道自己想要什么"
+
+  - id: work-meaninglessness
+    cluster: meaning
+    name: 工作/学业无意义感
+    signals:
+      - "这份实习就是打杂，做的事毫无价值"
+      - "不想起床，不想面对今天要做的事"
+
+  - id: deferred-life
+    cluster: meaning
+    name: 延迟人生感（等……就好了）
+    signals:
+      - "等考上研就好了，等上岸就好了——可我现在就很痛苦"
+    note: 把现在当作通往未来的工具
+
+  - id: ideal-reality-gap
+    cluster: meaning
+    name: 理想与现实落差
+    signals:
+      - "以为毕业后会做喜欢的事，结果为了生计什么都得接受"
+
+  # ── 比较与关系 ──────────────────────────────
+  - id: peer-comparison
+    cluster: comparison
+    name: 同辈比较
+    signals:
+      - "舍友保研了，我还什么都没定下来，感觉自己特别失败"
+      - "朋友圈里同学不是上岸就是大厂 offer"
+
+  - id: timeline-anxiety
+    cluster: comparison
+    name: 人生时间表焦虑（落后感）
+    signals:
+      - "25 岁了还一事无成"
+      - "别人这个年纪都已经……"
+    note: 与 peer-comparison 的区别：对手是"社会时钟"而非具体的人
+
+  - id: impostor
+    cluster: comparison
+    name: 冒名顶替感
+    signals:
+      - "offer 是我运气好，其实我根本不配"
+
+  - id: social-evaluation
+    cluster: comparison
+    name: 他人眼光与评价恐惧
+    signals:
+      - "gap 一年会不会被人觉得是失败者"
+
+  - id: envy-guilt
+    cluster: comparison
+    name: 嫉妒及其愧疚
+    signals:
+      - "看到朋友成功心里发酸，然后又讨厌这样的自己"
+
+  # ── 自我与情绪 ──────────────────────────────
+  - id: fear-of-failure
+    cluster: self
+    name: 怕失败（不敢开始）
+    signals:
+      - "想做但一直不敢投简历，怕被拒"
+      - "没把握的事我就不想碰"
+
+  - id: perfectionism-procrastination
+    cluster: self
+    name: 完美主义拖延
+    signals:
+      - "论文开题拖了三个月，总觉得还没准备好"
+
+  - id: self-doubt
+    cluster: self
+    name: 自我怀疑
+    signals:
+      - "我是不是真的不行"
+
+  - id: rumination
+    cluster: self
+    name: 情绪内耗（反刍）
+    signals:
+      - "面试说错一句话，反复想了一个星期"
+
+  - id: loneliness
+    cluster: self
+    name: 孤独感
+    signals:
+      - "毕业后朋友各奔东西，好像没有人真的懂我"
+
+  - id: identity
+    cluster: self
+    name: 身份认同（我是谁）
+    signals:
+      - "离开学生身份，我不知道我是谁了"
+
+# ── 特殊标签（非困境，路由用）─────────────────
+  - id: crisis-signal
+    cluster: self
+    name: 危机信号（触发破角色规则，不进哲学路由）
+    signals:
+      - 自伤/自杀意念、急性崩溃表达
+    note: 命中即停止角色扮演，走 persona.md 第 8 节的破角色流程。宁可误报不可漏报

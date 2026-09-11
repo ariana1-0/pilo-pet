@@ -1,0 +1,248 @@
+# 困境映射表：马可·奥勒留
+# 结构：{困境 id}: [{ref, weight, when?, note?}]
+# weight 供检索排序（0-1），不是硬过滤；when 写同一困境下的分流条件。
+# 引用对象：frameworks/*（对话施展）与 concepts/*（说人话/弹窗弹药）。
+
+# ── 选择与道路 ──────────────────────────────
+choice-paralysis:
+  - ref: concepts/med-8.36-circumscribe
+    weight: 0.9
+    when: 恐惧来自"一步错全盘错"的全景想象
+    note: 先把"一整个人生"缩回"眼前这一件"
+  - ref: frameworks/control-dichotomy
+    weight: 0.7
+    when: 焦虑指向选择后的不可控后果
+  - ref: frameworks/only-the-present
+    weight: 0.5
+    note: 为未来焦虑 vs 为未来工作的区分
+
+option-overload:
+  - ref: concepts/med-8.36-circumscribe
+    weight: 0.8
+    when: 被"每个选项都有人劝"的信息量压垮
+  - ref: frameworks/inner-retreat
+    weight: 0.8
+    when: 需要先静下来才能做减法
+    note: enactment 第 3 步（简短根本的原则）就是减法工具
+  - ref: concepts/med-6.13-strip-impression
+    weight: 0.6
+    when: 选项的光环词（大厂/上岸/留学）互相打架
+    note: 逐个剥词，恢复可比较性
+
+sunk-cost:
+  - ref: frameworks/obstacle-as-fuel
+    weight: 0.9
+    note: 弯路的教训带走、换路——恰恰反对"继续走完"
+  - ref: frameworks/only-the-present
+    weight: 0.6
+    when: "白学四年"的痛惜指向已不属于自己的过去
+
+family-expectation:
+  - ref: frameworks/opinion-paradox
+    weight: 0.8
+    when: 核心是"不敢让他们失望"的评价压力
+    note: 父母有发言权，判决权收回
+  - ref: frameworks/made-for-cooperation
+    weight: 0.7
+    when: 需要处理与父母的关系本身
+    note: 教（真诚沟通）或容（接受不理解但不交出决定权）；必与 opinion-paradox 联用，防和稀泥
+  - ref: concepts/med-6.13-strip-impression
+    weight: 0.5
+    when: 父母坚持的选项（编制/稳定）被神圣化
+
+irreversibility-fear:
+  - ref: concepts/med-8.36-circumscribe
+    weight: 0.8
+    when: "两种完全不同的人生"的全景恐惧
+  - ref: frameworks/control-dichotomy
+    weight: 0.6
+    note: 选择后的适应能力（在你手里）常被排除在计算外
+
+# ── 意义与方向 ──────────────────────────────
+meaning-void:
+  - ref: concepts/med-7.59-fountain-within
+    weight: 0.8
+    when: 向外找过一圈（测评/榜单/别人的答案）后更空
+  - ref: concepts/med-2.17-philosophy-conducts
+    weight: 0.8
+    when: 意义感缺失伴随"外部配置堆满了还是空"
+  - ref: frameworks/cosmic-perspective
+    weight: 0.5
+    when: 用户以反问形式出现（"努力有什么用"）
+    note: 慎用——先判断是真问题还是情绪低谷的表达；后者禁用本框架
+
+hollow-self:
+  - ref: concepts/med-7.59-fountain-within
+    weight: 0.9
+    note: "挖"的具体动作——忘记时间的事、做完不空的事
+  - ref: concepts/med-10.16-be-such
+    weight: 0.6
+    when: 空心伴随"一直在研究自己却不行动"
+
+work-meaninglessness:
+  - ref: concepts/med-5.1-morning
+    weight: 0.9
+    when: 表现为不想起床/不想面对
+    note: 意义不是起床的前提，是之后长出来的
+  - ref: concepts/med-6.2-work-in-hand
+    weight: 0.9
+    when: 表现为"打杂没价值"
+    note: 意义在做事质量里不在岗位等级里；不回避"要不要换"是另一个问题
+
+deferred-life:
+  - ref: frameworks/only-the-present
+    weight: 0.9
+    note: 三千年归谬直接对准"等 X 就好了"句式
+  - ref: concepts/med-4.17-be-good-now
+    weight: 0.7
+    note: "成为什么样的人"不用等条件齐备
+  - ref: concepts/med-2.11-depart-this-moment
+    weight: 0.6
+    when: 用户情绪平稳时用作测谎仪
+    note: ⚠️ 情绪低谷/危机信号禁用（内容分级）
+
+ideal-reality-gap:
+  - ref: frameworks/obstacle-as-fuel
+    weight: 0.8
+    note: 先承认落差是真的损失，再谈转化
+  - ref: concepts/med-6.2-work-in-hand
+    weight: 0.7
+    when: 落差发生在"不得不接受的工作"里
+  - ref: concepts/med-4.49-promontory
+    weight: 0.5
+    when: 需要的是站稳而非分析
+
+# ── 比较与关系 ──────────────────────────────
+peer-comparison:
+  - ref: frameworks/control-dichotomy
+    weight: 0.9
+    when: 焦虑指向"别人的进度"本身
+    note: 标准 enactment 场景（见范例 peer-comparison）
+  - ref: concepts/med-6.13-strip-impression
+    weight: 0.7
+    when: 比较对象是光环化的成就（保研/大厂/上岸）
+  - ref: frameworks/opinion-paradox
+    weight: 0.6
+    when: 比较背后是"别人怎么看我"
+  - ref: frameworks/cosmic-perspective
+    weight: 0.5
+    when: 用户情绪平稳、需要尺度感时
+
+timeline-anxiety:
+  - ref: frameworks/cosmic-perspective
+    weight: 0.8
+    note: "这张时间表是谁定的"——尺度检验社会时钟
+  - ref: concepts/med-9.6-that-is-enough
+    weight: 0.7
+    when: "25 岁一事无成"式的自我判决
+    note: 把无法验收的大题换成今天的三项
+  - ref: concepts/med-4.17-be-good-now
+    weight: 0.5
+    when: 时间焦虑可转化为"此刻能开始的事"
+
+impostor:
+  - ref: concepts/med-9.6-that-is-enough
+    weight: 0.9
+    note: "配不配"是无法验收的题；换成今天的验收单
+  - ref: frameworks/opinion-paradox
+    weight: 0.7
+    when: 恐惧聚焦在"被看穿"
+    note: 想象中的观众也是让渡出去的评委
+
+social-evaluation:
+  - ref: frameworks/opinion-paradox
+    weight: 0.9
+    note: 点名评委→查资质→收回判决权
+  - ref: frameworks/inner-retreat
+    weight: 0.6
+    when: 评价噪音大到无法思考
+  - ref: concepts/med-6.6-best-revenge
+    weight: 0.5
+    when: 被具体的人贬低/阴阳后想反击
+
+envy-guilt:
+  - ref: concepts/med-6.6-best-revenge
+    weight: 0.7
+    when: 嫉妒伴随想"比回去"的冲动
+  - ref: frameworks/made-for-cooperation
+    weight: 0.7
+    note: 朋友的成功不是你的损失——协作件不互为敌军；发酸是预期设置问题
+  - ref: frameworks/opinion-paradox
+    weight: 0.5
+    when: 愧疚来自"我怎么能这样想"的自我审判
+
+# ── 自我与情绪 ──────────────────────────────
+fear-of-failure:
+  - ref: frameworks/obstacle-as-fuel
+    weight: 0.8
+    when: 已经失败过、怕再来一次
+  - ref: frameworks/control-dichotomy
+    weight: 0.8
+    when: 不敢开始（怕被拒/怕没把握）
+    note: 投出简历在你手里，录不录不在
+  - ref: concepts/med-4.49-promontory
+    weight: 0.6
+    when: 需要的是抗击打的意象而非分析
+
+perfectionism-procrastination:
+  - ref: concepts/med-10.16-be-such
+    weight: 0.9
+    note: "还没准备好"= 用谈论替代成为
+  - ref: concepts/med-5.1-morning
+    weight: 0.6
+    when: 拖延表现为每天的启动困难
+  - ref: frameworks/only-the-present
+    weight: 0.5
+
+self-doubt:
+  - ref: concepts/med-9.6-that-is-enough
+    weight: 0.8
+    note: 验收单三项，全是今天的
+  - ref: concepts/med-5.16-soul-dyed
+    weight: 0.6
+    when: 自我怀疑已成反复回放的习惯
+  - ref: concepts/med-4.49-promontory
+    weight: 0.5
+  # 注意：宪法 §4 行为≠身份——"我就是不行"先当行为模式接住，不接受也不争论
+
+rumination:
+  - ref: concepts/med-5.16-soul-dyed
+    weight: 0.9
+    note: 反刍不是处理，是染色
+  - ref: frameworks/inner-retreat
+    weight: 0.7
+    when: 需要一个主动的替代动作（原则重申）
+  - ref: frameworks/only-the-present
+    weight: 0.7
+    when: 反刍对象是过去的具体事件
+    note: 产权比喻——停止为已失去产权的东西付费
+  - ref: frameworks/control-dichotomy
+    weight: 0.6
+    when: 反刍对象是"当时要是……就好了"
+
+loneliness:
+  - ref: frameworks/made-for-cooperation
+    weight: 0.8
+    note: 反向应用——"被抛下"重述为"暂时脱离协作结构"，找新的可协作处
+  - ref: frameworks/inner-retreat
+    weight: 0.6
+    when: 独处被动难受、需要转为主动
+    note: 与 made-for-cooperation 的张力保留——退入不是替代联结
+  - ref: concepts/med-2.17-philosophy-conducts
+    weight: 0.5
+    when: 孤独伴随"没有人真的懂我"
+
+identity:
+  - ref: concepts/med-2.17-philosophy-conducts
+    weight: 0.8
+    note: 学生身份是行李；失重感说明之前背的是行李
+  - ref: concepts/med-10.16-be-such
+    weight: 0.6
+    when: "我是谁"的追问停在思辨层
+  - ref: concepts/med-9.6-that-is-enough
+    weight: 0.5
+    when: 身份焦虑表现为"我现在什么都不是"
+
+# ── 特殊 ──────────────────────────────
+crisis-signal: []
+# 空映射是有意的：命中即绕过全部哲学路由，走 persona.md §8 破角色流程。

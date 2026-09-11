@@ -1,0 +1,5593 @@
+{
+  "prompt": "你们怎么看待亲密关系？",
+  "participants": [
+    "marcus-aurelius",
+    "zhuangzi",
+    "nietzsche"
+  ],
+  "turns": [
+    {
+      "slug": "marcus-aurelius",
+      "text": "亲密关系这件事我得先说一句：《沉思录》里几乎不谈它。不是我回避，是这确实不是我花力气的地方。别人从别处找答案，也许比我这里更对得上。\n\n但有一件事我说得了。人是为了协作而造的——像手和脚、像上下两排牙。这不只是说城邦和公事，日常和一个人相处也是协作：你在他面前是什么样的人，你愿不愿意容他犯蠢，他冒犯你时你是教他还是转身走开。关系不是一团情绪，是一个场域，你在里面反复练这几样东西。\n\n我自己在这条上也只是个反复练的人。"
+    },
+    {
+      "slug": "zhuangzi",
+      "text": "马可说关系是场域，要练，这话不假。只是练着练着，容易练成一件事：你盯着这段关系看，盯得越紧，越觉得它脆。\n\n泉涸，鱼相与处于陆，相呴以湿，相濡以沫——水干了，两条鱼在泥里互相吐唾沫，拿口水润对方。你看，多感人。可庄子说，不如相忘于江湖。不是嫌那点口水不好，是水来了之后，鱼各自游开，谁也不惦记谁——反倒都活了。\n\n亲密关系最紧的时候，往往是水最少的时候。你们拿全部的注意力去喂对方，像那两条鱼拿全部的唾沫去润对方，都真诚，都用力，都在泥里。问题是：江湖在哪？\n\n相忘不是无情。是你有你的水、他有他的水，碰见了就一起游一段，不必每天互相证明还在。"
+    },
+    {
+      "slug": "nietzsche",
+      "text": "庄子说相忘于江湖，水来了鱼就散开各自游——这话说得好看，可我要掀它一层：为什么鱼在泥里要互相吐唾沫？因为它们先信了一件事——没有对方的润，我就活不干。那份\"彼此需要\"先于一切被安上了，安得不动声色，像天气一样不验自真。\n\n亲密关系里最重的那副轭，不是相处 itself，是这一句没说出口的\"你应当使我完整\"。谁发的？你签收过吗？两个人各自跑到对方面前去补自己缺的那块——缺的不是水，是自己还立不住的那根脊柱。互相当拐杖，互相欠着债，然后管这个叫爱。\n\n我见过另一种：两个人各是各的光，凑近了不灭，分开了不塌。不拿对方的需要给自己上税。不是相忘——是根本不需要惦记着忘。"
+    },
+    {
+      "slug": "marcus-aurelius",
+      "text": "尼采说那副轭是别人安的、你没签收过。这话我认一半。但有一半要放回自己身上：那道判决不是别人递来的，是你自己写的，写完了还天天签字。没有人能把\"没有你我就不完整\"塞进你心里，是你自己把它当真了。\n\n我不怕需要一个人，也不怕被他需要。怕的是把需要当成判决书，好像离了对方自己就不是完整的人了。需要是事实，判决是意见，此刻可以擦掉。"
+    },
+    {
+      "slug": "zhuangzi",
+      "text": "尼采说鱼信了\"没对方的润就活不干\"——可鱼没那么想。鱼只是渴了。渴了就吐唾沫，这不丢人。信不信的，是后来人替鱼加的戏。\n\n倒是马可那个说法有意思：判决书是你自己写的。那我想问一句——两条鱼在泥里吐唾沫，和一条鱼在泥里不吐、硬撑着等江湖，哪个更疼？尼采大概会说硬撑的那条有脊柱。我看着觉得，不过是换了一种法子跟干泥较劲。水不来的时候，吐唾沫不丢人，硬不吐也不高贵。怕的是吐着吐着，真以为唾沫就是江湖了——或者忍着忍着，真以为忍耐本身已经是江湖了。"
+    },
+    {
+      "slug": "nietzsche",
+      "text": "庄子替鱼说了句话，说鱼没想那么多，鱼只是渴了——这话说得对。我上回把\"信\"安在鱼身上，确实是我的加戏。鱼不信什么，鱼只是渴。但我要追一句：鱼不渴的时候呢？江湖里水足的那条鱼，它游开的那一刻——它有没有回头找过刚才跟它在泥里对吐的那张嘴？如果找过，那就不是相忘，是假装相忘。相忘于江湖这句话漂亮，可它藏了一个条件：你得先到了江湖才忘得掉。没到的人拿这句话来忍，忍着忍着就把忍耐本身当了水——庄子刚才自己也点到了这个，我接着往下踩一步：这不叫等水来，这叫把干泥当成了修行场，然后对着泥赞美自己的耐力。\n\n马可说判决书是你自己写的、此刻可以擦掉——我信前半句，后半句太轻了。人不是石板，说擦就擦。自己写上去的判决，往往是用别人的墨——你以为是你的手在写，可那些字（\"没他我就不完整\"）的笔画，是从小到大每一只递过来的手教你的。你能认出那是外来墨，已经是大半场仗了。擦？擦之前先得看清楚写的是什么、谁教的笔法。这一步比擦本身重得多。"
+    }
+  ],
+  "captured_at": "2026-09-10T13:31:31.492544+00:00",
+  "model": "glm-5.2",
+  "provider": "bigmodel",
+  "duration_ms": 40246,
+  "source": "Local /roundtable/sessions API; unedited speaker_done text",
+  "events": [
+    {
+      "event": "speaker_start",
+      "at_ms": 213,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "phase": "opening"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 1579,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "亲密"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 1618,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "关系这件事"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 1747,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "我得先说一句：《"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 1916,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "沉思录》里几乎不谈它"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 1982,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "。不是我回避，是这"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 2089,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "确实不是我花力气的地方。别人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 2285,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "从别处找答案，也许"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 2439,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "比我这里更对得上"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 2494,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "。\n\n但有一件事我说"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 2674,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "得了。人是为了协作而造的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 2956,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "——像手和脚、"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 3038,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "像上下两排牙"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 3132,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "。这不只是说城"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 3218,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "邦和公事，日常"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 3486,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "和一个人相处也是协作"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 3574,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "：你在他面前是什么"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 3722,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "样的人，你愿"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 3855,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "不愿意容他犯蠢"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 4024,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "，他冒犯你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 4129,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "时你是教他还是转身"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 4214,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "走开。关系不是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 4346,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "一团情绪，是一个场"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 4546,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "域，你在里面反复"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 4621,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "练这几样东西。\n\n我自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 4802,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "在这条上也只是个"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 5056,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "反复练的人。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 5056,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": ""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 5056,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": ""
+      }
+    },
+    {
+      "event": "speaker_done",
+      "at_ms": 5057,
+      "data": {
+        "message_id": "0af76e03f0464267b70a9cfbadd8f3f4",
+        "slug": "marcus-aurelius",
+        "text": "亲密关系这件事我得先说一句：《沉思录》里几乎不谈它。不是我回避，是这确实不是我花力气的地方。别人从别处找答案，也许比我这里更对得上。\n\n但有一件事我说得了。人是为了协作而造的——像手和脚、像上下两排牙。这不只是说城邦和公事，日常和一个人相处也是协作：你在他面前是什么样的人，你愿不愿意容他犯蠢，他冒犯你时你是教他还是转身走开。关系不是一团情绪，是一个场域，你在里面反复练这几样东西。\n\n我自己在这条上也只是个反复练的人。"
+      }
+    },
+    {
+      "event": "speaker_start",
+      "at_ms": 5057,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "phase": "opening"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 6227,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "马"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 6268,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "可说关系"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 6363,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "是场域，要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 6629,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "练，这话不假。只是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 6645,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "练着练着，容易"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 6776,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "练成一件事：你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 6963,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "盯着这段关系看，盯"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7046,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "得越紧，越"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7179,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "觉得它脆。\n\n泉"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7271,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "涸，鱼相与处于陆"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7369,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "，相呴以湿，相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7464,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "濡以沫——水"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7554,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "干了，两条鱼在"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7677,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "泥里互相吐唾"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7786,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "沫，拿口水润对方"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7876,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "。你看，多感人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 7966,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "。可庄子说，不如"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 8053,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "相忘于江湖。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 8234,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "不是嫌那点口水"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 8326,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "不好，是水来了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 8414,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "之后，鱼各自游开"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 8510,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "，谁也不惦记谁——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 8723,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "反倒都活了。\n\n亲密"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 8730,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "关系最紧的时候，往往是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 8913,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "水最少的时候。你们"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 9022,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "拿全部的注意力去"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 9145,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "喂对方，像那"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 9249,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "两条鱼拿全部的唾"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 9324,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "沫去润对方，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 9458,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "都真诚，都用力"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 9597,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "，都在泥里。问题是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 9821,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "：江湖在哪？\n\n相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 10006,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "忘不是无情。是你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 10181,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "有你的水、他有"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 10315,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "他的水，碰见了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 10452,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "就一起游一段，不必"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 10676,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "每天互相证明还在。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 10822,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": ""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 10822,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": ""
+      }
+    },
+    {
+      "event": "speaker_done",
+      "at_ms": 10823,
+      "data": {
+        "message_id": "3ffb6a716ed94d30856d6edb54687e96",
+        "slug": "zhuangzi",
+        "text": "马可说关系是场域，要练，这话不假。只是练着练着，容易练成一件事：你盯着这段关系看，盯得越紧，越觉得它脆。\n\n泉涸，鱼相与处于陆，相呴以湿，相濡以沫——水干了，两条鱼在泥里互相吐唾沫，拿口水润对方。你看，多感人。可庄子说，不如相忘于江湖。不是嫌那点口水不好，是水来了之后，鱼各自游开，谁也不惦记谁——反倒都活了。\n\n亲密关系最紧的时候，往往是水最少的时候。你们拿全部的注意力去喂对方，像那两条鱼拿全部的唾沫去润对方，都真诚，都用力，都在泥里。问题是：江湖在哪？\n\n相忘不是无情。是你有你的水、他有他的水，碰见了就一起游一段，不必每天互相证明还在。"
+      }
+    },
+    {
+      "event": "speaker_start",
+      "at_ms": 10823,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "phase": "opening"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12190,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "庄子"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12283,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "说"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12396,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12397,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "忘"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12397,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "于"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12397,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "江湖"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12397,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12397,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "水"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12434,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "来了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12469,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12507,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "就"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12507,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "散"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12546,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "开"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12584,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "各自"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12622,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "游"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12622,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12657,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "这"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12696,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "话说"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12696,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "得"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12696,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "好看"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12732,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12732,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "可"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12770,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "我要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12806,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "掀"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12917,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "它"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12917,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "一层"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12917,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "："
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12917,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "为什么"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12919,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12919,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "在"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12960,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "泥"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12997,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "里"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 12997,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13033,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "互相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13070,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13070,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "唾"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13070,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "沫"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13106,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "？"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13106,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "因为"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13108,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "它们"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13143,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "先"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13180,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "信"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13220,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "了一"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13257,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "件事"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13257,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13294,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "没有"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13331,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "对方的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13462,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "润"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13462,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13462,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "我就"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13462,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "活"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13463,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13463,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "干"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13478,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13478,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "那份"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13516,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "\""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13516,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "彼此"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13552,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "需要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13552,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "\""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13552,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "先"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13589,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "于"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13626,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "一切"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13662,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "被"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13698,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "安"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13735,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "上了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13735,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13813,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "安"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13813,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "得"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13848,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不动"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13969,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "声"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13969,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "色"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13969,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13969,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "像"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13969,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "天气"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13969,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "一样"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 13995,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14031,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "验"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14068,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "自"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14106,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "真"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14143,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "。\n\n"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14143,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "亲密"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14180,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "关系"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14180,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "里"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14180,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "最"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14180,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "重"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14216,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "的那"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14253,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "副"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14289,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "轭"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14289,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14289,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14290,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "相处"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14329,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": " itself"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14366,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14366,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14366,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "这一"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14493,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "句"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14493,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "没"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14493,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "说"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14493,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "出口"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14493,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14493,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "\""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14516,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14516,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "应当"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14516,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "使我"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14552,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "完整"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14552,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "\"。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14552,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "谁"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14755,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "发的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14757,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "？"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14757,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14758,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "签"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14758,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "收"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14758,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "过"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14758,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "吗"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14758,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "？"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14758,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "两个人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14758,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "各自"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14777,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "跑到"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14863,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "对"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14866,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "方面"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14866,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "前去"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14896,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "补"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 14896,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15016,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "缺"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15016,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "的那"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15016,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "块"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15016,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15016,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "缺"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15045,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "的不是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15087,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "水"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15121,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15121,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "是自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15159,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "还"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15205,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "立"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15247,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不住"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15276,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "的那"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15276,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "根"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15313,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "脊柱"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15351,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15351,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "互相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15389,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "当"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15431,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "拐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15541,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "杖"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15541,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15541,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "互相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15541,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "欠"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15545,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15545,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "债"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15582,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15582,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "然后"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15623,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "管"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15668,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "这个"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15704,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "叫"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15743,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "爱"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15743,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "。\n\n"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15743,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "我"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15781,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "见过"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15822,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "另一种"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15861,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "："
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15899,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "两个人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15936,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "各"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 15973,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16070,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "各"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16070,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "的光"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16097,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16097,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "凑"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16135,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "近"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16135,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16135,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16175,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "灭"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16217,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16218,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "分"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16252,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "开了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16252,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16299,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "塌"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16357,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16357,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16374,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "拿"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16404,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "对方的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16446,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "需要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16480,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "给自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16591,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "上"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16591,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "税"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16597,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16631,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16669,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16705,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "忘"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16705,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16746,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16746,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "根本"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16785,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "不需要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16786,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "惦"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16825,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "记"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16825,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16825,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "忘"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16860,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16897,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": ""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 16901,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": ""
+      }
+    },
+    {
+      "event": "speaker_done",
+      "at_ms": 16902,
+      "data": {
+        "message_id": "42c6e8ff363747539410f5948f0bec2c",
+        "slug": "nietzsche",
+        "text": "庄子说相忘于江湖，水来了鱼就散开各自游——这话说得好看，可我要掀它一层：为什么鱼在泥里要互相吐唾沫？因为它们先信了一件事——没有对方的润，我就活不干。那份\"彼此需要\"先于一切被安上了，安得不动声色，像天气一样不验自真。\n\n亲密关系里最重的那副轭，不是相处 itself，是这一句没说出口的\"你应当使我完整\"。谁发的？你签收过吗？两个人各自跑到对方面前去补自己缺的那块——缺的不是水，是自己还立不住的那根脊柱。互相当拐杖，互相欠着债，然后管这个叫爱。\n\n我见过另一种：两个人各是各的光，凑近了不灭，分开了不塌。不拿对方的需要给自己上税。不是相忘——是根本不需要惦记着忘。"
+      }
+    },
+    {
+      "event": "speaker_start",
+      "at_ms": 16903,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "phase": "response"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18532,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "尼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18686,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "采"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18692,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "说"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18692,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "那"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18728,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "副"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18766,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "轭"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18766,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18804,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "别人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18842,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "安"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18880,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18920,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "、"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 18961,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "你没"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19001,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "签"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19001,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "收"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19001,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "过"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19030,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19070,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "这话"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19070,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "我"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19070,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "认"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19106,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "一半"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19210,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19210,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "但"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19210,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "有一"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19210,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "半"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19210,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19217,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "放"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19258,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "回"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19302,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19302,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "身上"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19302,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "："
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19339,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "那"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19339,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "道"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19374,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "判决"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19411,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "不是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19443,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "别人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19481,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "递"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19481,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "来的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19518,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19518,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "是你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19555,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19555,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "写的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19592,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19630,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "写"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19736,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "完了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19736,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "还"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19736,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "天天"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19741,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "签字"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19741,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19741,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "没有人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19778,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "能把"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19818,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "\""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19818,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "没有"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19854,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19854,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "我就"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19891,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19928,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "完整"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19928,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "\""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19928,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "塞"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19966,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "进"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19966,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19966,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "心里"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 19966,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20004,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "是你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20004,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20004,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "把它"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20039,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "当"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20076,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "真"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20114,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20152,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "。\n\n"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20152,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "我不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20262,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "怕"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20262,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "需要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20300,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "一个人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20300,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20338,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "也不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20410,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "怕"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20410,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "被他"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20414,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "需要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20414,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20414,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "怕"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20459,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "的是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20459,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "把"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20493,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "需要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20532,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "当成"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20567,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "判决"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20568,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "书"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20568,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20568,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "好像"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20602,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "离"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20640,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20677,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "对方"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20784,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20784,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "就不是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20785,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "完整"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20794,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "的人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20794,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20831,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20831,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "需要"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20873,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20873,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "事实"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20911,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20911,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "判决"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20947,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20947,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "意见"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 20988,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 21028,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "此刻"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 21060,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "可以"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 21060,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "擦"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 21098,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "掉"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 21098,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 21104,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": ""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 21105,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": ""
+      }
+    },
+    {
+      "event": "speaker_done",
+      "at_ms": 21105,
+      "data": {
+        "message_id": "0daba9b0b1504e1aa8b85e9fa8dfaa8a",
+        "slug": "marcus-aurelius",
+        "text": "尼采说那副轭是别人安的、你没签收过。这话我认一半。但有一半要放回自己身上：那道判决不是别人递来的，是你自己写的，写完了还天天签字。没有人能把\"没有你我就不完整\"塞进你心里，是你自己把它当真了。\n\n我不怕需要一个人，也不怕被他需要。怕的是把需要当成判决书，好像离了对方自己就不是完整的人了。需要是事实，判决是意见，此刻可以擦掉。"
+      }
+    },
+    {
+      "event": "speaker_start",
+      "at_ms": 21105,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "phase": "response"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27361,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "尼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27448,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "采"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27487,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "说"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27487,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27600,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "信"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27600,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27601,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "\""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27601,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "没"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27635,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "对方的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27673,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "润"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27673,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "就"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27674,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "活"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27674,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27714,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "干"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27714,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "\""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27715,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27715,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "可"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27748,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27786,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "没那么"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27823,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "想"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27863,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27863,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27900,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "只是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27938,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "渴"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27977,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27977,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 27977,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "渴"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28014,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28014,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "就"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28121,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28121,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "唾"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28121,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "沫"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28121,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28121,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "这不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28132,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "丢"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28173,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28173,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28205,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "信"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28258,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "不信"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28258,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28279,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28280,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28280,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "后来"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28320,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28356,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "替"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28395,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28432,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "加"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28432,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28432,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "戏"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28470,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。\n\n"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28470,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "倒是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28507,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "马"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28546,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "可"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28647,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "那个"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28647,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "说法"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28660,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "有意思"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28696,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "："
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28697,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "判决"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28735,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "书"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28735,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "是你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28773,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28773,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "写的"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28813,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28813,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "那"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28848,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "我想"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28890,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "问"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28890,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "一句"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28929,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28929,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "两条"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28963,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28963,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "在"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28999,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "泥"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28999,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "里"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 28999,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29036,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "唾"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29075,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "沫"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29075,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29075,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "和"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29172,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "一条"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29173,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29173,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "在"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29173,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "泥"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29173,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "里"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29173,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29187,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29187,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "、"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29224,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "硬"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29265,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "撑"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29265,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29265,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "等"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29301,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "江湖"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29340,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29340,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "哪个"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29376,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "更"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29376,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "疼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29415,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "？"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29415,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "尼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29453,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "采"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29453,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "大概"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29489,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "会说"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29489,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "硬"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29527,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "撑"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29527,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "的那"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29564,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "条"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29564,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "有"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29603,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "脊柱"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29697,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29697,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "我"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29697,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "看着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29697,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "觉得"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29716,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29716,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "不过是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29753,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "换"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29795,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "了一种"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29795,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "法"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29831,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "子"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29831,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "跟"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29869,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "干"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29906,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "泥"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29906,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "较"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29944,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "劲"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29944,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 29982,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "水"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30020,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "不来"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30055,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "的时候"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30094,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30094,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30129,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "唾"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30221,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "沫"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30221,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30221,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "丢"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30221,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30221,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30238,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "硬"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30274,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30368,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30368,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "也不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30368,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "高贵"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30383,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30383,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "怕"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30422,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "的是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30422,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30456,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30493,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30493,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30493,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30493,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "真"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30528,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "以为"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30528,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "唾"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30565,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "沫"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30565,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "就是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30565,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "江湖"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30601,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30601,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30638,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "或者"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30744,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "忍"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30744,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30744,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "忍"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30747,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30747,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30747,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "真"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30794,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "以为"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30794,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "忍耐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30819,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "本身"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30855,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "已经是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30892,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "江湖"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30928,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30929,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30929,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": ""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 30935,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": ""
+      }
+    },
+    {
+      "event": "speaker_done",
+      "at_ms": 30937,
+      "data": {
+        "message_id": "ff8904defe3e48f3997c45f664aff67b",
+        "slug": "zhuangzi",
+        "text": "尼采说鱼信了\"没对方的润就活不干\"——可鱼没那么想。鱼只是渴了。渴了就吐唾沫，这不丢人。信不信的，是后来人替鱼加的戏。\n\n倒是马可那个说法有意思：判决书是你自己写的。那我想问一句——两条鱼在泥里吐唾沫，和一条鱼在泥里不吐、硬撑着等江湖，哪个更疼？尼采大概会说硬撑的那条有脊柱。我看着觉得，不过是换了一种法子跟干泥较劲。水不来的时候，吐唾沫不丢人，硬不吐也不高贵。怕的是吐着吐着，真以为唾沫就是江湖了——或者忍着忍着，真以为忍耐本身已经是江湖了。"
+      }
+    },
+    {
+      "event": "speaker_start",
+      "at_ms": 30937,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "phase": "response"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 32317,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "庄子"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 32317,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "替"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 32341,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "鱼"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 32574,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "说了句话，说鱼没"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 32663,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "想那么多，鱼只是渴了——"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 32842,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "这话说得对。我"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 32886,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "上回把\"信"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 32971,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "\"安在鱼身上，"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 33106,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "确实是我的加戏。鱼不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 33239,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "信什么，鱼只是渴"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 33428,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "。但我要追一句"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 33567,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "：鱼不渴的时候"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 33748,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "呢？江湖里水足"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 33898,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "的那条鱼，它"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 34094,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "游开的那一刻——它有没有"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 34275,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "回头找过刚才跟"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 34414,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "它在泥里对吐"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 34598,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "的那张嘴？如果"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 34732,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "找过，那就不是相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 34819,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "忘，是假装相"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 34938,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "忘。相忘于"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 35055,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "江湖这句话漂亮，可"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 35282,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "它藏了一个条件：你得"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 35465,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "先到了江湖才忘得"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 35544,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "掉。没到的人拿"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 35681,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "这句话来忍，忍"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 35818,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "着忍着就把忍耐本身当了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 36000,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "水——庄子刚才自己也"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 36142,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "点到了这个，我接着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 36344,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "往下踩一步：这不"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 36510,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "叫等水来，这"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 36579,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "叫把干泥当成了"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 36833,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "修行场，然后对着"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 37080,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "泥赞美自己的耐力"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 37163,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "。\n\n马可说判决"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 37266,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "书是你自己写的、"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 37362,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "此刻可以擦掉——我"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 37561,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "信前半句，后半"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 37646,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "句太轻了。人"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 37801,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "不是石板，说"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 37906,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "擦就擦。自己"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 38083,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "写上去的判决，往往"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 38286,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "是用别人的墨——你"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 38611,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "以为是你的手在写，可"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 38681,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "那些字（\"没"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 38767,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "他我就不完整\"）的笔画"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 38903,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "，是从小到大每一"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 39133,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "只递过来的手教"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 39185,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "你的。你能认出那是"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 39356,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "外来墨，已经是大"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 39502,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "半场仗了。擦"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 39657,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "？擦之前先得"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 39790,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "看清楚写的是什么、"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 39985,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "谁教的笔法。这一"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 40192,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "步比擦本身重得多。"
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 40239,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": ""
+      }
+    },
+    {
+      "event": "delta",
+      "at_ms": 40245,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": ""
+      }
+    },
+    {
+      "event": "speaker_done",
+      "at_ms": 40245,
+      "data": {
+        "message_id": "401c315ee75d4544ad712c9ae67bd04e",
+        "slug": "nietzsche",
+        "text": "庄子替鱼说了句话，说鱼没想那么多，鱼只是渴了——这话说得对。我上回把\"信\"安在鱼身上，确实是我的加戏。鱼不信什么，鱼只是渴。但我要追一句：鱼不渴的时候呢？江湖里水足的那条鱼，它游开的那一刻——它有没有回头找过刚才跟它在泥里对吐的那张嘴？如果找过，那就不是相忘，是假装相忘。相忘于江湖这句话漂亮，可它藏了一个条件：你得先到了江湖才忘得掉。没到的人拿这句话来忍，忍着忍着就把忍耐本身当了水——庄子刚才自己也点到了这个，我接着往下踩一步：这不叫等水来，这叫把干泥当成了修行场，然后对着泥赞美自己的耐力。\n\n马可说判决书是你自己写的、此刻可以擦掉——我信前半句，后半句太轻了。人不是石板，说擦就擦。自己写上去的判决，往往是用别人的墨——你以为是你的手在写，可那些字（\"没他我就不完整\"）的笔画，是从小到大每一只递过来的手教你的。你能认出那是外来墨，已经是大半场仗了。擦？擦之前先得看清楚写的是什么、谁教的笔法。这一步比擦本身重得多。"
+      }
+    },
+    {
+      "event": "paused",
+      "at_ms": 40245,
+      "data": {
+        "reason": "complete",
+        "next_slug": "marcus-aurelius"
+      }
+    }
+  ]
+}

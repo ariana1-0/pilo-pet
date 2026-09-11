@@ -1,0 +1,11 @@
+{
+  "sources": {
+    "index.html": "d53eebc8cc0be948049ef5ea1283391136b79855a53f52fa54a6f26633d8789d",
+    "styles.css": "b5adf12f6af9fed98854832a3fc9e1eeaca569d51296f32bc62d15439b2176d6",
+    "philosophers.json": "e4c34b5cf5d701487a004fed7b566f78168e54c0d5449f17be5e7391e5a89140",
+    "chat-core.js": "123c85040fac2e268d1a2afbd149e2ea251a83d5d0f69b45ba39116519c0d064"
+  },
+  "capturedAt": "2026-09-10T13:31:31.492544+00:00",
+  "model": "glm-5.2",
+  "generatedBy": "prepare_showcase.cjs"
+}

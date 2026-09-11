@@ -1,0 +1,117 @@
+[
+  {
+    "id": "tsz-0.4-rope-bridge",
+    "slug": "nietzsche",
+    "author": "尼采",
+    "text": "人身上伟大的，是他是一座桥而不是一个目的；人身上可爱的，是他是一次过渡和一次没落。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "0cf967d5c0c530f2f939ed7eca83409d082a2eb807c7dde7852f8f25ee41f935",
+    "featured_rank": 1,
+    "concept": "绳索与桥（man is a rope, a bridge）",
+    "corpus_id": "tsz-0.4",
+    "locus": "《查拉图斯特拉如是说》序言·第 4 节",
+    "quote": "What is great in man is that he is a bridge and not a goal: what is lovable in man is that he is an OVER-GOING and a DOWN-GOING.",
+    "source": "Thomas Common 英译（公版，Project Gutenberg #1998）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "identity",
+      "timeline-anxiety",
+      "self-doubt"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "tsz-0.5-chaos-star",
+    "slug": "nietzsche",
+    "author": "尼采",
+    "text": "我告诉你们：人必须身怀混沌，才能生出一颗跳舞的星。我告诉你们：你们身上还有混沌。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "ff63fb4c42b5d1a040dd0dcc8d2ef89fe5c9b5616040dc8685e2da3beb69c39b",
+    "featured_rank": 2,
+    "concept": "混沌与跳舞的星（chaos and the dancing star）",
+    "corpus_id": "tsz-0.5",
+    "locus": "《查拉图斯特拉如是说》序言·第 5 节",
+    "quote": "I tell you: one must still have chaos in one, to give birth to a dancing star. I tell you: ye have still chaos in you.",
+    "source": "Thomas Common 英译（公版，Project Gutenberg #1998）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "hollow-self",
+      "meaning-void",
+      "rumination"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "tsz-1.7-laughter",
+    "slug": "nietzsche",
+    "author": "尼采",
+    "text": "我们杀戮，靠的不是愤怒，而是笑。来，让我们杀死那沉重的精神！",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "c3441bb9b4b676ff9dd7559687b342348ab895133360248bddbcce5a415b2a50",
+    "featured_rank": 3,
+    "concept": "以笑杀之（not by wrath, but by laughter）",
+    "corpus_id": "tsz-1.7",
+    "locus": "《查拉图斯特拉如是说》第一部·论读与写",
+    "quote": "Not by wrath, but by laughter, do we slay. Come, let us slay the spirit of gravity!",
+    "source": "Thomas Common 英译（公版，Project Gutenberg #1998）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "rumination",
+      "self-doubt",
+      "fear-of-failure"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "tsz-1.12-market-flies",
+    "slug": "nietzsche",
+    "author": "尼采",
+    "text": "逃吧，我的朋友，逃进你的孤独里去！我看见你被大人物的喧嚣震聋，被小人物的芒刺蜇得遍体鳞伤。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "4f2be2aa74d814ebaea1675eec9ab1e39a56188729cfe1223b633a8d106af48c",
+    "featured_rank": 4,
+    "concept": "市场之蝇（the flies in the market-place）",
+    "corpus_id": "tsz-1.12",
+    "locus": "《查拉图斯特拉如是说》第一部·论市场之蝇",
+    "quote": "Flee, my friend, into thy solitude! I see thee deafened with the noise of the great men, and stung all over with the stings of the little ones.",
+    "source": "Thomas Common 英译（公版，Project Gutenberg #1998）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "social-evaluation",
+      "peer-comparison",
+      "rumination"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "tsz-0.1-honey",
+    "slug": "nietzsche",
+    "author": "尼采",
+    "text": "看哪！我厌倦了我的智慧，像采了太多蜜的蜂；我需要伸来接取的手。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "294b2be7d7f69e076accc7c5d22816058fabb982c033285e2642646311c3f094",
+    "featured_rank": 5,
+    "concept": "采了太多蜜的蜂（the bee with too much honey）",
+    "corpus_id": "tsz-0.1",
+    "locus": "《查拉图斯特拉如是说》序言·第 1 节",
+    "quote": "Lo! I am weary of my wisdom, like the bee that hath gathered too much honey; I need hands outstretched to take it.",
+    "source": "Thomas Common 英译（公版，Project Gutenberg #1998）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "meaning-void",
+      "loneliness",
+      "work-meaninglessness"
+    ],
+    "content_flags": []
+  }
+]

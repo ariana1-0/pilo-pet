@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: philo-pet-preview
+    runtime: python
+    plan: free
+    region: singapore
+    buildCommand: python3 -m compileall -q app/server
+    startCommand: python3 -m app.server.app
+    healthCheckPath: /health
+    envVars:
+      - key: PHILO_HOST
+        value: 0.0.0.0
+      - key: ZAI_API_KEY
+        sync: false
+      - key: PHILO_CHAT_MODEL
+        value: glm-5.2
+      - key: PHILO_CLASSIFIER_MODEL
+        value: glm-4.7-flash
+      - key: PHILO_CHAT_THINKING
+        value: disabled
+      - key: PHILO_DATA_DIR
+        value: /tmp/philo-pet-data

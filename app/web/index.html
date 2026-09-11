@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#24392f" />
+  <meta name="description" content="从一个困惑开始，与哲学家慢慢聊。" />
+  <meta name="referrer" content="no-referrer" />
+  <title>深度聊 · philo-pet</title>
+  <link rel="stylesheet" href="./styles.css?v=20260910c" />
+  <script src="./chat-core.js?v=20260910b" defer></script>
+  <script src="./app.js?v=20260910c" defer></script>
+  <script src="./roundtable-core.js" defer></script>
+  <script src="./roundtable.js?v=20260910b" defer></script>
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+  <div class="page-frame" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="./" aria-label="philo-pet 首页">philo<span>·</span>pet</a>
+    <nav class="mode-nav" aria-label="对话方式">
+      <a href="?mode=deep" data-mode="deep" aria-current="page">深度聊</a>
+      <a href="?mode=roundtable" data-mode="roundtable">圆桌派</a>
+    </nav>
+    <details class="more-menu" id="more-menu">
+      <summary aria-label="更多操作"><span class="desktop-label">更多</span><span aria-hidden="true">···</span></summary>
+      <div class="menu-content">
+        <button id="btn-reset" type="button">另起一聊<span aria-hidden="true">↗</span></button>
+        <button id="rt-menu-new" type="button" hidden>新开圆桌<span aria-hidden="true">↗</span></button>
+        <button id="btn-forget" type="button">遗忘我的记录</button>
+        <a href="./assets/credits.html" target="_blank" rel="noopener">图像来源<span aria-hidden="true">↗</span></a>
+      </div>
+    </details>
+  </header>
+  <main class="conversation deep-chat" id="app" aria-label="与哲学家深度聊">
+    <header class="philosopher-header">
+      <div class="portrait-frame">
+        <img id="portrait" class="portrait" alt="" width="94" height="112" fetchpriority="high" />
+        <span id="portrait-fallback" hidden aria-hidden="true"></span>
+      </div>
+      <p class="latin-name" id="latin-name"></p>
+      <div class="deep-heading"><div class="philosopher-title">
+        <h1 id="philosopher-name">深度聊</h1>
+        <button class="philosopher-picker" id="btn-philosopher" type="button" aria-haspopup="dialog" aria-label="选择哲学家">
+          <svg aria-hidden="true" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4"/></svg>
+        </button>
+      </div><button id="btn-new-chat" class="text-button" type="button" hidden>另起一聊</button></div>
+      <div class="chapter-rule" aria-hidden="true"><span></span><i>✧</i><span></span></div>
+    </header>
+    <div id="stream" class="stream" role="log" aria-label="对话内容" aria-live="off" tabindex="0"></div>
+    <footer class="composer">
+      <div class="crisis-banner" id="crisis-banner" hidden>
+        <p>我们先暂停角色对话，把注意力放在你此刻的安全上。</p>
+        <button id="btn-resume" type="button">我已平稳，希望继续聊</button>
+      </div>
+      <p class="status" id="status" role="status" aria-live="polite" hidden></p>
+      <div id="deep-controls" class="conversation-controls" hidden>
+        <p id="deep-status" class="status" role="status" aria-live="polite"></p>
+        <div class="conversation-actions">
+          <button id="btn-compose-toggle" class="text-button" type="button" aria-controls="chat-form" aria-expanded="false">写下一句</button>
+          <button id="btn-stop-reply" class="text-button" type="button">停止回复</button>
+        </div>
+      </div>
+      <form id="chat-form" class="input-shell">
+        <label class="sr-only" for="input">想和哲学家说的话</label>
+        <textarea id="input" rows="1" placeholder="从此刻想到的那件事说起…" maxlength="12000" enterkeyhint="enter" disabled></textarea>
+        <button id="btn-send" class="send" type="submit" aria-label="发送" title="发送" disabled>
+          <svg class="send-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
+        </button>
+      </form>
+    </footer>
+  </main>
+  <main class="conversation roundtable" id="roundtable" aria-label="圆桌派" hidden>
+    <header class="roundtable-header">
+      <div class="roundtable-heading"><h1>圆桌派</h1><button id="rt-choose" class="text-button" type="button" aria-haspopup="dialog">选择入场者</button></div>
+      <div id="rt-participants" class="roundtable-participants" aria-label="入场者与发言顺序"></div>
+      <div class="chapter-rule" aria-hidden="true"><span></span><i>✧</i><span></span></div>
+    </header>
+    <div id="rt-stream" class="stream" role="log" aria-label="圆桌讨论" aria-live="off" tabindex="0">
+      <div class="roundtable-empty"><p>把你的问题，放在桌上。</p><span>听听不同的想法，也随时说说你的。</span></div>
+    </div>
+    <footer class="composer">
+      <div id="rt-crisis" class="crisis-banner" hidden><p>我们先暂停角色讨论，照顾好此刻的自己。</p><button id="rt-resume" type="button">我已平稳，希望继续聊</button></div>
+      <div class="roundtable-controls conversation-controls">
+        <p id="rt-status" class="status" role="status" aria-live="polite"></p>
+        <div class="conversation-actions">
+          <button id="rt-compose-toggle" class="text-button" type="button" aria-controls="rt-form" aria-expanded="false" hidden>插话</button>
+          <button id="rt-toggle" class="text-button" type="button" hidden>继续讨论</button>
+        </div>
+      </div>
+      <form id="rt-form" class="input-shell">
+        <label class="sr-only" for="rt-input">向圆桌提问或补充想法</label>
+        <textarea id="rt-input" rows="1" placeholder="想请大家聊聊什么？" maxlength="12000" enterkeyhint="enter" disabled></textarea>
+        <button id="rt-send" class="send" type="submit" aria-label="发送" title="发送" disabled><svg class="send-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button>
+      </form>
+    </footer>
+  </main>
+  <footer class="page-footer"><span>PHILO–PET</span><span>留一点时间，给自己。</span><span aria-hidden="true">EST. 2026</span></footer>
+  <dialog id="philosopher-dialog" aria-labelledby="picker-title">
+    <div class="dialog-heading"><h2 id="picker-title">与谁聊一聊</h2><button class="close-button" type="button" data-close="philosopher-dialog" aria-label="关闭">×</button></div>
+    <div class="philosopher-list" id="philosopher-list"></div>
+  </dialog>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title" aria-describedby="confirm-description">
+    <h2 id="confirm-title"></h2><p id="confirm-description"></p>
+    <div class="dialog-actions"><button type="button" id="confirm-cancel">取消</button><button type="button" id="confirm-ok" class="primary">确认</button></div>
+  </dialog>
+  <dialog id="rt-picker" aria-labelledby="rt-picker-title">
+    <div class="dialog-heading"><h2 id="rt-picker-title">邀请谁入场</h2><button id="rt-picker-close" class="close-button" type="button" aria-label="关闭">×</button></div>
+    <p class="picker-hint">选择 2—6 位，按选择顺序轮流发言。</p>
+    <div id="rt-picker-list" class="philosopher-list"></div>
+    <p id="rt-picker-order" class="picker-order" role="status"></p>
+    <div class="dialog-actions"><button id="rt-picker-apply" class="primary" type="button">请他们入场</button></div>
+  </dialog>
+  <noscript><p class="noscript">请开启 JavaScript，以使用深度聊。</p></noscript>
+</body>
+</html>

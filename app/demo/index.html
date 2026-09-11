@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="陪你思考日常与人生的哲学伙伴：桌面端的轻量桌宠，把伟大思想家的观点带进你的日常；网页端深入对话、圆桌探索，展开人生难题的多元视角。">
+  <title>哲学小猫 · philo-pet</title>
+  <link rel="stylesheet" href="./styles.css?v=demo-back-2">
+  <script src="./action-assets.js" defer></script>
+  <script src="./motion.js?v=door-direct-1" defer></script>
+  <script src="./desktop-data.js?v=desktop-1" defer></script>
+  <script src="./desktop-demo.js?v=desktop-1" defer></script>
+  <script src="./craft-data.js?v=craft-2" defer></script>
+  <script src="./craft-demo.js?v=craft-2" defer></script>
+  <script src="./app.js?v=demo-back-1" defer></script>
+</head>
+<body data-page="cover">
+  <header class="masthead">
+    <a class="wordmark" href="#cover" aria-label="philo-pet，返回封面">philo-pet<span class="wordmark-dot">.</span></a>
+    <span class="edition">一只小猫，一场思想漫游</span>
+  </header>
+
+  <main>
+    <section id="cover" class="scene cover" aria-labelledby="cover-title">
+      <div class="cover-layout">
+        <div class="cover-copy">
+          <p class="eyebrow">哲学，来到你身边。</p>
+          <h1 id="cover-title">住在桌面上的<br><span class="accent">哲学小猫，</span></h1>
+          <p class="tagline">陪你思考日常与人生的哲学伙伴：桌面端的轻量桌宠，把伟大思想家的观点带进你的日常；网页端深入对话、圆桌探索，展开人生难题的多元视角。</p>
+        </div>
+
+        <div class="computer" aria-label="模拟电脑屏幕，哲学小猫在左下角陪伴">
+          <div class="screen-shell">
+            <span class="camera" aria-hidden="true"></span>
+            <div class="desktop">
+              <img class="wallpaper" src="./assets/wallpaper.jpg" alt="电脑桌面壁纸" width="2880" height="1780">
+              <div class="desktop-menu" aria-hidden="true"><span>philo-pet</span><span>文件　编辑　显示</span><span class="menu-time">星期三　09:41</span></div>
+              <div class="quote-bubble" id="quote-bubble">
+                <svg class="bubble-paper" viewBox="0 0 360 188" preserveAspectRatio="none" aria-hidden="true">
+                  <path class="paper-fill" d="M37 10 C62 1 89 14 114 7 C141 -2 162 13 188 8 C219 1 246 7 269 14 C297 12 328 28 336 52 C349 75 343 108 334 129 C326 150 306 162 283 166 L317 184 L270 173 C247 180 219 175 197 178 C169 183 143 173 117 178 C89 182 64 175 41 168 C20 162 10 143 14 123 C4 101 13 73 16 55 C20 35 24 21 37 10 Z"/>
+                  <path class="paper-sketch" d="M39 12 C63 3 90 16 115 8 C141 0 163 15 189 10 C220 3 245 9 269 16 C298 13 326 29 334 54 C347 76 341 107 332 129 C324 149 304 160 281 165 L314 181 L269 171 C246 178 220 173 196 176 C169 181 144 171 117 176 C90 180 65 173 42 166 C22 160 12 142 16 123 C7 102 15 74 18 56 C22 36 27 23 39 12 Z"/>
+                  <path class="paper-fold" d="M316 22 L337 40 L317 37 Z M319 26 L333 38"/>
+                </svg>
+                <div class="quote-content">
+                  <p class="quote-text">知人者智，自知者明。<br>胜人者有力，自胜者强。</p>
+                  <p class="quote-author">老子</p>
+                  <p class="quote-source">《道德经》第三十三章</p>
+                </div>
+              </div>
+              <div id="cover-cat-anchor" class="cover-cat-anchor" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="computer-base" aria-hidden="true"><span></span></div>
+          <div class="computer-shadow" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="cover-bottom"><button id="begin" class="begin" type="button">跟着小猫，往里走 <span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <section id="questions" class="scene questions" aria-labelledby="question-title" aria-hidden="true" inert>
+      <div class="question-heading"><p class="eyebrow">那些没有说出口的困惑</p><h2 id="question-title" tabindex="-1">当努力换不来答案，<br>我们如何安放自己？</h2></div>
+      <div class="thought-stage" id="thought-stage">
+        <div class="voices" id="voices" aria-hidden="true"></div>
+        <div class="cat-ground" aria-hidden="true"></div>
+        <div id="question-cat-anchor" class="question-cat-anchor" aria-hidden="true"></div>
+        <p class="sr-only">我比别人慢了。我不知道选哪条路。努力好像没有意义。我是不是不够好。为什么总是我。大家都往前走了。什么才算成功。我真的喜欢现在的生活吗。</p>
+      </div>
+      <div class="question-bottom"><button id="back" class="text-button" type="button"><span aria-hidden="true">←</span> 回到桌面</button><button id="continue" class="begin continue" type="button">继续往前走 <span aria-hidden="true">→</span></button><button id="replay" class="text-button" type="button"><span aria-hidden="true">↻</span> 再看一次</button></div>
+    </section>
+
+    <section id="world" class="scene world" aria-labelledby="world-title" aria-hidden="true" inert>
+      <div id="world-heading" class="world-heading">
+        <h2 id="world-title" tabindex="-1">这些问题，<br>也曾有人用一生追问。</h2>
+        <p>带着你的困惑，走进哲学家们的精神世界，<br>也重新认识自己。</p>
+      </div>
+      <div class="world-stage" id="world-stage">
+        <div class="world-portal" id="world-portal">
+          <div class="philosophers" id="philosophers" aria-hidden="true">
+            <figure><img data-world-asset src="./assets/world/zhuangzi.png" alt="庄子肖像" width="320" height="420"><figcaption>庄子</figcaption></figure>
+            <figure><img data-world-asset src="./assets/world/marcus-aurelius.jpg" alt="马可·奥勒留雕像" width="320" height="420"><figcaption>马可·奥勒留</figcaption></figure>
+            <figure><img data-world-asset src="./assets/world/nietzsche.jpg" alt="尼采肖像" width="320" height="420"><figcaption>尼采</figcaption></figure>
+          </div>
+          <div class="door-leaf door-left" id="door-left"><img data-world-asset src="./assets/world/door-leaf.png" alt="" aria-hidden="true"></div>
+          <div class="door-leaf door-right" id="door-right"><img src="./assets/world/door-leaf.png" alt="" aria-hidden="true"></div>
+          <img data-world-asset class="door-frame" src="./assets/world/door-frame.png" alt="" aria-hidden="true">
+          <div id="world-cat-anchor" class="world-cat-anchor" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="world-bottom">
+        <button id="world-back" class="text-button" type="button"><span aria-hidden="true">←</span> 返回上一页</button>
+        <button id="meet" class="begin" type="button" hidden>跟着小猫，去见见他们 <span aria-hidden="true">↗</span></button>
+        <button id="world-replay" class="text-button" type="button"><span aria-hidden="true">↻</span> 再看一次</button>
+      </div>
+    </section>
+    <section id="showcase" class="showcase" aria-label="网页版对话演示" aria-hidden="true" inert>
+      <iframe id="showcase-frame" src="./showcase/index.html?v=roundtable-readonly-1" title="深度聊与圆桌派演示" tabindex="-1"></iframe>
+      <div class="demo-actions demo-navigation showcase-actions" aria-label="演示操作">
+        <button id="showcase-back" class="demo-back" type="button">返回上一页</button>
+        <button id="showcase-replay" class="demo-replay" type="button">重新播放</button>
+        <button id="showcase-next" class="demo-next" type="button">继续看 <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+
+    <section id="companion" class="scene companion" aria-labelledby="companion-title" aria-hidden="true" inert>
+      <div class="companion-heading">
+        <h2 id="companion-title" tabindex="-1">不必专程寻找，<br>哲学也会来到你身边。</h2>
+        <p>安静陪伴在桌面一角。偶尔一句哲人的话，把思考带回日常。</p>
+      </div>
+      <div id="pet-computer-area" class="pet-computer-area">
+        <div id="pet-computer" class="computer pet-computer">
+          <div class="screen-shell"><span class="camera" aria-hidden="true"></span>
+            <div id="pet-desktop-screen" class="pet-desktop-screen" aria-label="虚拟电脑屏幕中的桌宠演示">
+              <div id="pet-desktop-canvas" class="pet-desktop-canvas">
+                <img class="wallpaper" src="./assets/wallpaper.jpg" alt="" aria-hidden="true">
+                <div class="pet-desktop-shade" aria-hidden="true"></div>
+                <div class="desktop-menu" aria-hidden="true"><span>philo-pet</span><span>文件　编辑　显示</span><span class="menu-time">星期四　10:24</span></div>
+                <div class="pet-workspace" aria-hidden="true"><div class="pet-window-dots">● ● ● <span>备忘录</span></div><h3>今天的事</h3><p>把手头的事做好。</p><p>给自己留一点余地。</p><div class="pet-note-lines"></div></div>
+                <div class="pet-popup-stack">
+                  <div id="pet-demo-bubble" class="pet-demo-bubble" hidden>
+                    <svg class="bubble-paper" viewBox="0 0 360 188" preserveAspectRatio="none" aria-hidden="true">
+        <path class="paper-shadow" d="M40 13 C65 4 91 17 116 10 C143 1 163 16 190 11 C221 4 247 10 270 17 C298 15 329 31 337 55 C350 78 345 111 336 132 C328 153 308 165 286 169 L320 187 L273 176 C249 183 222 178 199 181 C171 186 145 176 119 181 C91 185 66 178 43 171 C22 165 12 146 16 126 C6 104 14 76 18 58 C22 38 27 24 40 13 Z"/>
+        <path class="paper-fill" d="M37 10 C62 1 89 14 114 7 C141 -2 162 13 188 8 C219 1 246 7 269 14 C297 12 328 28 336 52 C349 75 343 108 334 129 C326 150 306 162 283 166 L317 184 L270 173 C247 180 219 175 197 178 C169 183 143 173 117 178 C89 182 64 175 41 168 C20 162 10 143 14 123 C4 101 13 73 16 55 C20 35 24 21 37 10 Z"/>
+        <path class="paper-sketch" d="M39 12 C63 3 90 16 115 8 C141 0 163 15 189 10 C220 3 245 9 269 16 C298 13 326 29 334 54 C347 76 341 107 332 129 C324 149 304 160 281 165 L314 181 L269 171 C246 178 220 173 196 176 C169 181 144 171 117 176 C90 180 65 173 42 166 C22 160 12 142 16 123 C7 102 15 74 18 56 C22 36 27 23 39 12 Z"/>
+        <path class="paper-fold" d="M316 22 L337 40 L317 37 Z M319 26 L333 38"/>
+      </svg>
+                    <div class="pet-bubble-content">
+                      <p id="pet-quote-text" class="pet-quote-text"></p>
+                      <p id="pet-author" class="pet-author"></p>
+                      <p id="pet-plain-text" class="pet-plain-text" hidden></p>
+                      <div id="pet-source-panel" class="pet-source-panel" hidden><p id="pet-source-locus"></p><p id="pet-source-original"></p></div>
+                    </div>
+                  </div>
+                  <div id="pet-demo-actions" class="pet-demo-actions" hidden>
+                    <button id="pet-plain-button" type="button">说人话</button>
+                    <button id="pet-source-button" type="button">看出处</button>
+                    <button id="pet-deep-button" type="button">深度聊 →</button>
+                    <button id="pet-return-quote" type="button" hidden>返回弹语</button>
+                  </div>
+                </div>
+                <div class="pet-demo-cat" role="img" aria-label="陪伴在桌面右下角的哲学小猫"><div id="pet-demo-sprite" class="cat-sprite"></div></div>
+                <div id="pet-click-ring" class="pet-click-ring" aria-hidden="true"></div>
+                <svg id="pet-demo-cursor" class="pet-demo-cursor" viewBox="0 0 32 40" aria-hidden="true"><path d="M2 2 L2 30 L10 23 L16 37 L22 34 L16 21 L27 21 Z" fill="#fffdf7" stroke="#282b29" stroke-width="2.4" stroke-linejoin="round"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="computer-base" aria-hidden="true"><span></span></div>
+          <div class="computer-shadow" aria-hidden="true"></div>
+        </div>
+      </div>
+      <p id="pet-demo-caption" class="pet-demo-caption" role="status">安静待在一角，陪你做自己的事。</p>
+      <div class="demo-actions demo-navigation companion-actions" aria-label="桌宠演示操作">
+        <button id="pet-back" class="demo-back" type="button">返回上一页</button>
+        <button id="pet-replay" class="demo-replay" type="button">重新播放</button>
+        <button id="pet-next" class="demo-next" type="button">继续看 <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+
+    <section id="craft" class="scene craft" aria-labelledby="craft-title" aria-hidden="true" inert>
+      <div id="craft-scroll" class="craft-scroll">
+        <div class="craft-content">
+          <div class="craft-heading">
+            <p class="eyebrow">走到哲学家的身后</p>
+            <h2 id="craft-title" tabindex="-1">一句回答背后，<br>是一套有来处的思想。</h2>
+            <p>从原著语料出发，提炼思考方式，<br class="craft-mobile-break">让哲学家的思想成为对话的底气。</p>
+          </div>
+          <div class="craft-pipeline" aria-label="从原著到对话的四个步骤">
+            <article id="craft-step-0" class="craft-step">
+              <span class="craft-step-number">01 / 读到来处</span>
+              <div class="craft-books" aria-hidden="true"><span>沉思录</span><span>道德经</span><span>庄子</span></div>
+              <h3>原著语料</h3>
+              <p>整理原典、译本与选段，保留书名、篇章和语料标识。</p>
+              <span class="craft-step-note">引文与原著逐字核验</span>
+              <span id="craft-link-0" class="craft-link" aria-hidden="true">→</span>
+            </article>
+            <article id="craft-step-1" class="craft-step">
+              <span class="craft-step-number">02 / 提炼如何思考</span>
+              <div class="craft-notes" aria-hidden="true"><span>如何看待问题</span><span>如何展开思考</span><span>哪里容易误读</span></div>
+              <h3>思想蒸馏</h3>
+              <p>从原文提炼概念、思维框架，以及思想的适用边界。</p>
+              <span class="craft-step-note">保留论证与分歧</span>
+              <span id="craft-link-1" class="craft-link" aria-hidden="true">→</span>
+            </article>
+            <article id="craft-step-2" class="craft-step">
+              <span class="craft-step-number">03 / 组织为专属知识</span>
+              <div class="craft-folder" aria-hidden="true"><span>概念 · 框架</span><span>人格 · 范例</span><span>困境映射</span></div>
+              <h3>哲学家知识库</h3>
+              <p>每位哲学家一个知识包，连接思想、表达与现实困惑。</p>
+              <span class="craft-step-note">一人一套思想与人格</span>
+              <span id="craft-link-2" class="craft-link" aria-hidden="true">→</span>
+            </article>
+            <article id="craft-step-3" class="craft-step">
+              <span class="craft-step-number">04 / 让思想进入对话</span>
+              <div class="craft-prompt" aria-hidden="true"><span>System Prompt</span><i>＋ 对话上下文</i><b>↓ LLM</b></div>
+              <h3>专属对话引擎</h3>
+              <p>知识编译为系统提示词，与当下对话一起交给语言模型。</p>
+              <span class="craft-step-note">有材料，也有表达方式</span>
+            </article>
+          </div>
+          <div id="craft-evidence" class="craft-evidence">
+            <div class="craft-counts" aria-label="当前知识库规模">
+              <p><strong id="craft-count-people"></strong><span>位哲学家</span></p>
+              <p><strong id="craft-count-corpus"></strong><span>条原著语料</span></p>
+              <p><strong id="craft-count-frameworks"></strong><span>张思维框架</span></p>
+              <p><strong id="craft-count-concepts"></strong><span>张概念卡</span></p>
+            </div>
+            <p class="craft-count-note">当前六位已接入哲学家的整理成果；语料含原典、译本与选段。</p>
+          </div>
+          <details id="craft-example" class="craft-example">
+            <summary><span>沿着刚才那句老子，看看真实的蒸馏材料</span><span class="craft-disclosure" aria-hidden="true">＋</span></summary>
+            <div class="craft-example-content">
+              <article><span class="craft-example-label">原著锚点</span><blockquote id="craft-example-quote"></blockquote><p id="craft-example-locus" class="craft-example-source"></p><h4 id="craft-example-concept"></h4><p id="craft-example-plain"></p><small>原文与通俗释义分层保存。</small></article>
+              <article><span class="craft-example-label">从一句话到一种思考方式</span><h4 id="craft-example-framework"></h4><p id="craft-example-framework-text"></p><small>框架以多个原文段落为依据，记录如何运用和可能的误读。</small></article>
+              <article><span class="craft-example-label">编译进老子的 System Prompt</span><h4>思想、人格与困境一同组织</h4><dl><dt>表达方式</dt><dd id="craft-example-persona"></dd><dt>关联困境</dt><dd id="craft-example-dilemmas"></dd></dl><p>对话时，模型能同时参考他的原文、思维框架与表达习惯。</p><small>以上展示真实知识材料与编译关系。</small></article>
+            </div>
+            <p class="craft-method">我们的蒸馏，落在原著研读、思想提炼与知识组织上。</p>
+          </details>
+        </div>
+      </div>
+      <div class="demo-actions craft-actions" aria-label="技术展示操作">
+        <button id="craft-replay" class="demo-replay" type="button">重新播放</button>
+        <button id="craft-back" class="demo-next" type="button">返回上一页</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="travel-cat" class="travel-cat" role="img" aria-label="戴着圆眼镜、抱着红书的哲学小猫">
+    <div id="cat-sprite" class="cat-sprite"></div>
+    <div id="run-sprite" class="action-sprite" aria-hidden="true"></div>
+    <div id="scratch-sprite" class="action-sprite" aria-hidden="true"></div>
+  </div>
+  <p id="asset-status" class="asset-status" role="status" hidden></p>
+  <footer class="page-footer"><button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="false" aria-label="暂停动画"><span class="pause-icon" aria-hidden="true"></span><span id="motion-label">暂停动画</span></button><span class="page-number" aria-live="polite"><span id="page-current">01</span><span class="page-line"></span>06</span></footer>
+</body>
+</html>

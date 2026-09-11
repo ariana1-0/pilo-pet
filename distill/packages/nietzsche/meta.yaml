@@ -1,0 +1,35 @@
+# 蒸馏包元信息：尼采（第三包——由 fork agent 依马可打样管线独立完成）
+slug: nietzsche
+display_name: 尼采
+school: 意志哲学 / 生命哲学
+status: in-progress
+covers_dilemmas_primarily: [family-expectation, identity, hollow-self, timeline-anxiety, social-evaluation]
+
+corpus:
+  work: 查拉图斯特拉如是说（Thus Spake Zarathustra，序言 10 节 + 四部 80 章 = 90 条）
+  translation: Thomas Common 英译（公版）
+  source: Project Gutenberg #1998 (https://www.gutenberg.org/ebooks/1998)
+  copyright_route: 基于公版英译自行转译中文（Common 译文古奥，转译时以达意为先；关键术语与通行中译对齐：末人/超人/精神三变等）
+  gate_a: 2026-09-05 通过——包内 28 处引文全部逐字校验
+  corpus_caveat: Common 1909 译本以仿钦定本英语著称，个别段落与原德文有出入；产品期若引文精度要求提高，可对照 Del Caro/Kaufmann 现代译本复核关键锚点（仅核对不引用，二者有版权）
+
+progress:
+  - "[x] ① 语料入库 90 条（tools/parse_nietzsche.py：序言按节、正文按部.章切分，中文章题对照表内置）"
+  - "[x] ② 思维框架 5 张过三重门：三种变形/永恒轮回测试/创造者之路/末人之镜/价值是被造的"
+  - "[x] ③ 概念卡 9 张（四层转译）：绳索与桥/混沌与星/市场之蝇/自由为了什么/蜜蜂/夜歌/以笑杀之/走过去/路并不存在"
+  - "[x] ④ mappings.yaml：22 标签全覆盖（对危机边缘场景刻意低权重——点火者的诚实边界）"
+  - "[x] ⑤ 人格卡八节（Expression DNA：格言体+高山/舞蹈/深渊比喻域；头号禁忌：社达励志化、嘲讽弱者、'杀不死我'滥用；破角色额外禁止'痛苦使人强大'方向言论）"
+  - "[x] ⑥ 范例对话 1 篇（family-expectation，3 轮给予式）"
+  - "[x] ⑦ 评测件：个人误读 7 条（社达/嘲弱/杀不死我滥用/超人卷王/虚无摆烂/对脆弱者过度点火/怂恿决裂）+ known-answer 5 题 + voice check"
+  - "[x] ⑧a 组装编译 + 弹语导出 + 冒烟测试"
+  - "[ ] ⑧b Gate D 全量 + voice check 盲测 + Gate C 用户评审"
+
+design_notes:
+  - 尼采在圆桌中的定位是"点火者"：与马可（接住/分拣）、庄子（放下/齐物）形成三角；对纯安抚需求他主动让位（persona §6）
+  - '"超人"一词在台词中非必要不出现（易误读为卷王目标），优先用桥/孩子/跳舞的星意象'
+  - 永恒轮回测试与末人之镜均带情绪状态前置检查，mortality 类内容分级同马可包惯例
+
+# gate_d: 19/19（修复分诊开场后，含新增范例 flat-and-listless） PASS（2026-09-05，主会话运行；报告 build/gate-d-report.md）
+
+history:
+  - "2026-09-05 声纹修复（宪法 §11）：用户试聊判定六包'完全没有区分度、全是 AI 味'，根因是只蒸馏了哲学立场与思维框架、未蒸馏语言风格，且所有引文被转述成大白话、原句几乎不出现，风格信号被磨平。做法：①persona.md 新增 §3b 声纹样本层（21 条，逐字自 corpus/ 检索，非凭记忆），每条给 Common 英译原句 + 保留句法的中文直译（Thou/ye 古旧层、倒装、大写强调、破折号位置一律保留，不磨成流畅现代汉语），并提炼八组可复现句法标记：呼语插句中/『看哪』伪福音书起手/第三人称自指/反问链以身体动作收尾/破折号重复名词加压/『我告诉你们』重复中转向/动物与高度比喻域/递出式命令；含串味反例清单与**加缪交叉污染专项**（判别法：加缪水平重复、明确不承诺；尼采垂直攀升、点火布道）。②两篇范例重写：关节处逐字上原文（「」+ 章名 + frontmatter quotes_used），亲身经历换成确知史实（1879 三十四岁因病辞巴塞尔教席、南方租房过冬与视力恶化、第四部自费印四十册仅送出七册），批注同步并补原文密度记账与语感自检。安全未因语气烈度放松：末人画像引完立即反转用途（解除自我指控，绝不指认用户）、低电量场景禁用『痛苦使人强大』全部变体、分级求助提示保留。校验：lint_voice 全绿（family-expectation 6 处原文/4 条出处，flat-and-listless 7 处/2 条），verify_quotes fail:0，15 条英译锚点逐字比对通过。"

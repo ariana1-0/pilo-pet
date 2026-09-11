@@ -1,0 +1,120 @@
+[
+  {
+    "id": "camus-happy-sisyphus",
+    "slug": "camus",
+    "author": "加缪",
+    "text": "必须设想西西弗是幸福的。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "3c71bcd4eb6acf9d33247748cb7a75e101dec26c58116f2b5db97f7668190243",
+    "featured_rank": 1,
+    "concept": "幸福与荒诞是同一片土地的两个儿子",
+    "corpus_id": "camus-sisyphe-happy",
+    "locus": "《西西弗神话》末章",
+    "quote": "Il faut imaginer Sisyphe heureux.",
+    "source": "Albert Camus, Le Mythe de Sisyphe (1942)（短句据 Société des Études camusiennes 复核）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "meaning-void",
+      "work-meaninglessness",
+      "ideal-reality-gap"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "camus-we-are",
+    "slug": "camus",
+    "author": "加缪",
+    "text": "我反抗，故我们存在。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "3e644c5cbec9b854bd0cf91b9af2b402a8a92c8b0b2d2bc28701eca77bd5b2b0",
+    "featured_rank": 2,
+    "concept": "我反抗，故我们存在",
+    "corpus_id": "camus-revolte-nous",
+    "locus": "《反抗者》第一部",
+    "quote": "Je me révolte, donc nous sommes.",
+    "source": "Albert Camus, L'Homme révolté (1951)（短句据 Société des Études camusiennes 复核）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "loneliness",
+      "envy-guilt",
+      "social-evaluation",
+      "identity"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "camus-creation-is-revolt",
+    "slug": "camus",
+    "author": "加缪",
+    "text": "创造，就是活两次。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "84ef0bc250c1fea8369a89a8699899dca6fe55ead4eeafc2014113dbf570d568",
+    "featured_rank": 3,
+    "concept": "创造即反抗（做出一样东西来）",
+    "corpus_id": "camus-sisyphe-create",
+    "locus": "《西西弗神话》荒诞的创造·哲学与小说",
+    "quote": "Créer, c'est vivre deux fois.",
+    "source": "Albert Camus, Le Mythe de Sisyphe (1942); Gallimard Folio 1994, p. 130（版次页码据带书目条目的引文索引复核）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "work-meaninglessness",
+      "meaning-void",
+      "perfectionism-procrastination",
+      "hollow-self"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "camus-mediterranean-present",
+    "slug": "camus",
+    "author": "加缪",
+    "text": "在冬天的正中间，我终于得知，我身上有一个不可战胜的夏天。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "7b7289a64abca8b036d4bf62952007d0836447846949755525f1b544812f095e",
+    "featured_rank": 4,
+    "concept": "不可战胜的夏天（地中海式的当下）",
+    "corpus_id": "camus-ete-invincible",
+    "locus": "《夏天·重返蒂巴萨》",
+    "quote": "Au milieu de l'hiver, j'apprenais enfin qu'il y avait en moi un été invincible.",
+    "source": "Albert Camus, L'Été, Retour à Tipasa (Gallimard, 1954)（短句据 Société des Études camusiennes 复核）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "hollow-self",
+      "self-doubt",
+      "peer-comparison",
+      "ideal-reality-gap"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "camus-summit-struggle",
+    "slug": "camus",
+    "author": "加缪",
+    "text": "向着峰顶的斗争本身，足以充满一颗人的心。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "2814a18ffc1430ad6f66aeb338d36a24096213ce26c1430f13dfde7f64c1dbfc",
+    "featured_rank": 5,
+    "concept": "向着峰顶的斗争本身",
+    "corpus_id": "camus-sisyphe-struggle",
+    "locus": "《西西弗神话》末章",
+    "quote": "La lutte elle-même vers les sommets suffit à remplir un cœur d'homme.",
+    "source": "Albert Camus, Le Mythe de Sisyphe (1942)（短句据 Société des Études camusiennes 复核）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "meaning-void",
+      "work-meaninglessness",
+      "perfectionism-procrastination"
+    ],
+    "content_flags": []
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "zz-2.9-butterfly",
+    "slug": "zhuangzi",
+    "author": "庄子",
+    "text": "不知周之梦为胡蝶与？胡蝶之梦为周与？",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "3b275e3b83a91e9ee0fff72b4fc7cae41c9f8a208b501058a64f9b9e8ffd772a",
+    "featured_rank": 1,
+    "concept": "胡蝶梦（物化）",
+    "corpus_id": "zz-2.9",
+    "locus": "《庄子·齐物论》",
+    "quote": "不知周之梦为胡蝶与？胡蝶之梦为周与？",
+    "source": "先秦公版原典（转自 NiuTrans/Classical-Modern source.txt，需与权威底本校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "identity",
+      "meaning-void"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "zz-3.1-finite-life",
+    "slug": "zhuangzi",
+    "author": "庄子",
+    "text": "吾生也有涯，而知也无涯。以有涯随无涯，殆已！",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "32ea66592fb774d2bf3a50eb2d9d32a1dafc41e88782814ba93ee6c310f67ea8",
+    "featured_rank": 2,
+    "concept": "吾生也有涯（知识的止损线）",
+    "corpus_id": "zz-3.1",
+    "locus": "《庄子·养生主》",
+    "quote": "吾生也有涯，而知也无涯。以有涯随无涯，殆已！",
+    "source": "先秦公版原典（转自 NiuTrans/Classical-Modern source.txt，需与权威底本校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "option-overload",
+      "timeline-anxiety"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "zz-5.1-still-water",
+    "slug": "zhuangzi",
+    "author": "庄子",
+    "text": "人莫鉴于流水而鉴于止水。唯止能止众止。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "9a4628da7c06fecc3c03560a218a547564c0aa279d683b8b4000702183d17772",
+    "featured_rank": 3,
+    "concept": "鉴于止水",
+    "corpus_id": "zz-5.1",
+    "locus": "《庄子·德充符》",
+    "quote": "人莫鉴于流水而鉴于止水。唯止能止众止。",
+    "source": "先秦公版原典（转自 NiuTrans/Classical-Modern source.txt，需与权威底本校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "rumination",
+      "social-evaluation",
+      "self-doubt"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "zz-6.3-forgetting-in-rivers",
+    "slug": "zhuangzi",
+    "author": "庄子",
+    "text": "相呴以湿，相濡以沫，不如相忘于江湖。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "346e43eefcfcec6cabed6a1cd4a7795ad9fbfa50c85ed89bf1fe056ab636c8ec",
+    "featured_rank": 4,
+    "concept": "相忘于江湖",
+    "corpus_id": "zz-6.3",
+    "locus": "《庄子·大宗师》",
+    "quote": "相呴以湿，相濡以沫，不如相忘于江湖。",
+    "source": "先秦公版原典（转自 NiuTrans/Classical-Modern source.txt，需与权威底本校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "loneliness"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "zz-7.4-mirror-mind",
+    "slug": "zhuangzi",
+    "author": "庄子",
+    "text": "至人之用心若镜，不将不逆，应而不藏，故能胜物而不伤。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "d80943b509cebca17e6592d2c40a6fb96480bfcc899eda19868eb0377fb64d04",
+    "featured_rank": 5,
+    "concept": "用心若镜",
+    "corpus_id": "zz-7.4",
+    "locus": "《庄子·应帝王》",
+    "quote": "至人之用心若镜，不将不逆，应而不藏，故能胜物而不伤。",
+    "source": "先秦公版原典（转自 NiuTrans/Classical-Modern source.txt，需与权威底本校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "rumination",
+      "social-evaluation",
+      "envy-guilt"
+    ],
+    "content_flags": []
+  }
+]

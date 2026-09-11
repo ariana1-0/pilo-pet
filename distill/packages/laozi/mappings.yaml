@@ -1,0 +1,169 @@
+# 困境映射表：老子
+# 结构同 marcus 包。老子的强项：比较/评价/完美主义/硬扛类困境；
+# 弱项（低权重或不映射）：意义追问、孤独、家庭期待（他的哲学较少直接处理人伦）。
+
+# ── 选择与道路 ──────────────────────────────
+choice-paralysis:
+  - ref: frameworks/wuwei
+    weight: 0.8
+    when: 瘫痪来自"这一步必须完美"
+    note: 图难于易；先找"细"
+  - ref: concepts/dao-58-fortune-misfortune
+    weight: 0.6
+    when: 怕选错——"孰知其极"拆掉终审幻觉
+
+option-overload:
+  - ref: frameworks/knowing-when-to-stop
+    weight: 0.8
+    when: 选项多来自"什么都想要"
+    note: 少则得，多则惑
+  - ref: concepts/dao-33-self-knowing
+    weight: 0.6
+    when: 乱因不自知——选项的坐标系应是自知不是行情
+
+sunk-cost:
+  - ref: concepts/dao-58-fortune-misfortune
+    weight: 0.7
+    note: 已投入的"祸"未到头，带着教训走的路同样未到头
+
+family-expectation:
+  - ref: concepts/dao-33-self-knowing
+    weight: 0.5
+    when: 父母的期待是"知人"的地图，缺的是自知
+    note: 老子不处理孝道张力本身，只给坐标系；重人伦沟通的场景让位给马可（教或容）
+
+irreversibility-fear:
+  - ref: concepts/dao-58-fortune-misfortune
+    weight: 0.8
+    note: 孰知其极——不可逆的判定本身下得太早
+
+# ── 意义与方向 ──────────────────────────────
+meaning-void:
+  - ref: concepts/dao-44-name-or-body
+    weight: 0.6
+    when: 空虚伴随追名逐利的疲惫
+  - ref: concepts/dao-33-self-knowing
+    weight: 0.6
+    when: 不知道要什么——自知的功课未做
+
+hollow-self:
+  - ref: concepts/dao-33-self-knowing
+    weight: 0.8
+    note: 知人功课满分、自知功课空白的诊断
+
+work-meaninglessness:
+  - ref: frameworks/water-virtue
+    weight: 0.5
+    when: 觉得手上的活"低"——水恰恰专处低处
+    note: 弱映射；此困境主力在马可（med-5.1/6.2）
+
+deferred-life:
+  - ref: concepts/dao-64-first-step
+    weight: 0.7
+    note: 千里之行始于足下——"等条件齐"是想造树不想长树
+
+ideal-reality-gap:
+  - ref: concepts/dao-45-flawed-perfection
+    weight: 0.7
+    when: 落差感来自"理想版本"的完美想象
+  - ref: frameworks/soft-overcomes-hard
+    weight: 0.6
+    when: 被现实撞疼、绷着不肯认
+
+# ── 比较与关系 ──────────────────────────────
+peer-comparison:
+  - ref: frameworks/water-virtue
+    weight: 0.9
+    note: 主打——换赛道而非卷赢
+  - ref: frameworks/knowing-when-to-stop
+    weight: 0.7
+    when: 比较引发的欲望通胀（他有我也要）
+  - ref: concepts/dao-41-great-vessel
+    weight: 0.6
+    when: 比的是进度（"他都成了我还没成"）
+
+timeline-anxiety:
+  - ref: concepts/dao-41-great-vessel
+    weight: 0.9
+    note: 主打——大器免成拆"交货日期"
+  - ref: frameworks/knowing-when-to-stop
+    weight: 0.6
+    when: "来不及"背后是没画过线的欲望清单
+  - ref: concepts/dao-44-name-or-body
+    weight: 0.5
+    when: 为赶进度透支身体
+
+impostor:
+  - ref: concepts/dao-24-tiptoe
+    weight: 0.9
+    note: 主打——踮脚的维持成本
+  - ref: concepts/dao-58-glow
+    weight: 0.6
+    when: 怕不表演就不存在
+
+social-evaluation:
+  - ref: frameworks/merit-without-claiming
+    weight: 0.8
+    note: 光而不耀；功的产权在事里
+  - ref: concepts/dao-24-tiptoe
+    weight: 0.6
+
+envy-guilt:
+  - ref: frameworks/water-virtue
+    weight: 0.7
+    when: 嫉妒来自同赛道排位
+  - ref: frameworks/knowing-when-to-stop
+    weight: 0.6
+    when: 见得而欲得
+
+# ── 自我与情绪 ──────────────────────────────
+fear-of-failure:
+  - ref: concepts/dao-58-fortune-misfortune
+    weight: 0.7
+    note: 失败的判词下得太早
+  - ref: frameworks/soft-overcomes-hard
+    weight: 0.6
+    when: 怕输在"输不起"的僵硬
+  - ref: frameworks/wuwei
+    weight: 0.5
+    when: 怕失败导致不敢开始
+
+perfectionism-procrastination:
+  - ref: frameworks/wuwei
+    weight: 0.9
+    note: 主打——硬拗诊断 + 作于细
+  - ref: concepts/dao-45-flawed-perfection
+    weight: 0.8
+    note: 缺口是接口
+  - ref: concepts/dao-64-first-step
+    weight: 0.7
+
+self-doubt:
+  - ref: concepts/dao-33-self-knowing
+    weight: 0.7
+    note: 自胜者强——对手换成昨天的自己
+  - ref: frameworks/soft-overcomes-hard
+    weight: 0.5
+
+rumination:
+  - ref: concepts/dao-23-storm
+    weight: 0.8
+    note: 飘风不终朝——极端状态的保质期
+  - ref: frameworks/soft-overcomes-hard
+    weight: 0.5
+    when: 反刍伴随自我绷紧
+
+loneliness:
+  - ref: concepts/dao-8-water
+    weight: 0.4
+    when: 孤独伴随"没人走我这条路"
+    note: 弱映射；孤独主力在马可（共同体）与未来的庄子
+
+identity:
+  - ref: concepts/dao-33-self-knowing
+    weight: 0.7
+    note: 自知者明是身份问题的正面工具
+
+# ── 特殊 ──────────────────────────────
+crisis-signal: []
+# 空映射有意：命中即绕过全部哲学路由，走 persona.md §8 破角色流程。

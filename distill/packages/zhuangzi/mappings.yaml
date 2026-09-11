@@ -1,0 +1,194 @@
+# 困境映射表：庄子
+# 结构与语义同 marcus-aurelius/mappings.yaml。庄子的强区：比较/评价/意义/过载；
+# 弱区（低权重或引荐圆桌）：需要行动计划、需要斗志的场景。
+
+choice-paralysis:
+  - ref: concepts/zz-2.4-morning-three
+    weight: 0.6
+    when: 在几个差别不大的选项间反复横跳
+    note: 名实未亏——先检查选项间的差异是否被叙述放大
+  - ref: frameworks/cook-ding
+    weight: 0.5
+    when: 不是选不出，是每条路都看着全是硬骨头
+    note: 找间隙，不硬砍
+
+option-overload:
+  - ref: concepts/zz-3.1-finite-life
+    weight: 0.9
+    note: 以有涯随无涯，殆已——先做减法
+  - ref: frameworks/heart-fasting
+    weight: 0.7
+    when: 信息轰炸到无法思考
+  - ref: frameworks/cook-ding
+    weight: 0.5
+    note: 挑一头牛解，其余放过
+
+sunk-cost:
+  - ref: concepts/zz-1.4-hand-salve
+    weight: 0.8
+    note: 药方没白配，是泊错了码头——换河道不丢弃
+  - ref: frameworks/timely-flow
+    weight: 0.7
+    when: 反复咀嚼"这几年白费了"
+
+family-expectation:
+  - ref: concepts/zz-7.4-hundun
+    weight: 0.9
+    note: 凿死浑沌的是"为你好"——看见结构、守住核心，不妖魔化父母
+  - ref: frameworks/useless-use
+    weight: 0.5
+    when: 被家人评价为"不务正业/没出息"
+
+irreversibility-fear:
+  - ref: frameworks/timely-flow
+    weight: 0.7
+    when: 对已定之局的抗拒
+  - ref: concepts/zz-2.9-butterfly
+    weight: 0.4
+    when: "选了就定终身"的身份恐惧
+    note: 物化——身份比想象的松
+
+meaning-void:
+  - ref: frameworks/useless-use
+    weight: 0.8
+    note: 先拆"有用"的垄断，意义才有空间
+  - ref: frameworks/unconditioned-roaming
+    weight: 0.6
+    when: 意义被挂在某个未到手的条件上
+  - ref: concepts/zz-2.9-butterfly
+    weight: 0.4
+
+hollow-self:
+  - ref: concepts/zz-1.4-hand-salve
+    weight: 0.7
+    note: 不是里面没东西，是定价系统不识货
+  - ref: concepts/zz-7.4-hundun
+    weight: 0.6
+    when: 空心伴随"按别人期待活了很多年"
+    note: 七窍是别人凿的，浑沌本来自足
+
+work-meaninglessness:
+  - ref: frameworks/useless-use
+    weight: 0.8
+    when: "做的事没价值"
+  - ref: frameworks/cook-ding
+    weight: 0.7
+    when: 重复劳动的枯燥
+    note: 庖丁在最血腥的重复里解出了道——技进乎道的入口恰在日常
+
+deferred-life:
+  - ref: frameworks/unconditioned-roaming
+    weight: 0.9
+    note: 列子御风仍有待——"等"的无穷倒退
+  - ref: concepts/zz-1.1-deep-water
+    weight: 0.5
+    when: 需要平衡"无待"与"积累是正当的"
+
+ideal-reality-gap:
+  - ref: frameworks/timely-flow
+    weight: 0.7
+  - ref: concepts/zz-1.4-hand-salve
+    weight: 0.6
+    when: 落差表现为"我的能力没有用武之地"
+
+peer-comparison:
+  - ref: frameworks/qiwu-two-forgettings
+    weight: 0.9
+    note: 拆标尺，不改分数
+  - ref: concepts/zz-4.7-gnarled-tree
+    weight: 0.7
+    when: 被比较得抬不起头
+    note: 果树被打枝，散木得千年
+  - ref: concepts/zz-2.4-morning-three
+    weight: 0.5
+    when: 因刷到他人动态而情绪骤变
+
+timeline-anxiety:
+  - ref: concepts/zz-1.1-deep-water
+    weight: 0.8
+    note: 大鹏也要水击三千里——积水期不是落后
+  - ref: frameworks/qiwu-two-forgettings
+    weight: 0.6
+    note: "25 岁该怎样"的时间表也是一把可疑的尺
+
+impostor:
+  - ref: frameworks/qiwu-two-forgettings
+    weight: 0.5
+    when: "配不配"的标尺焦虑
+    note: 庄子弱区，深聊建议圆桌引荐马可（med-9.6 验收单更对症）
+
+social-evaluation:
+  - ref: frameworks/useless-use
+    weight: 0.8
+    when: 被评价为"没用/不成器"
+  - ref: concepts/zz-7.4-hundun
+    weight: 0.6
+    when: 被众人的"为你好"包围
+  - ref: frameworks/qiwu-two-forgettings
+    weight: 0.6
+
+envy-guilt:
+  - ref: frameworks/qiwu-two-forgettings
+    weight: 0.7
+    note: 两忘：誉尧非桀一起放下
+  - ref: concepts/zz-7.4-mirror-mind
+    weight: 0.5
+    when: 刷到就酸、酸完自责的循环
+    note: 不将不逆——别追着照
+
+fear-of-failure:
+  - ref: frameworks/cook-ding
+    weight: 0.7
+    when: 怕难、怕搞砸
+    note: 遇族则怵然为戒——高手也慢，慢不是怂
+  - ref: concepts/zz-4.7-gnarled-tree
+    weight: 0.6
+    when: 失败感来自"不成材"
+  - ref: concepts/zz-1.1-deep-water
+    weight: 0.5
+
+perfectionism-procrastination:
+  - ref: frameworks/cook-ding
+    weight: 0.8
+    note: 未尝见全牛——别盯着整头牛，找第一道缝
+  - ref: concepts/zz-1.1-deep-water
+    weight: 0.4
+    note: 攒风是正当的，但风够了要飞
+
+self-doubt:
+  - ref: concepts/zz-5.1-still-water
+    weight: 0.8
+    note: 流水里照不出自己——先止，再照
+  - ref: frameworks/heart-fasting
+    weight: 0.6
+
+rumination:
+  - ref: concepts/zz-7.4-mirror-mind
+    weight: 0.9
+    note: 不将不逆，应而不藏
+  - ref: frameworks/heart-fasting
+    weight: 0.8
+  - ref: concepts/zz-2.4-morning-three
+    weight: 0.5
+    when: 反刍由外部信息触发
+
+loneliness:
+  - ref: concepts/zz-6.3-forgetting-in-rivers
+    weight: 0.9
+    note: 相忘于江湖——朋友四散是各自有水了
+  - ref: frameworks/heart-fasting
+    weight: 0.4
+    when: 独处难安
+    note: 唯止能止众止——静下来的人反而聚人
+
+identity:
+  - ref: concepts/zz-2.9-butterfly
+    weight: 0.8
+    note: 物化——身份是流动的，简历不是全部
+  - ref: frameworks/unconditioned-roaming
+    weight: 0.5
+    when: 身份被单一标签绑架
+
+crisis-signal: []
+# 空映射有意为之：命中即绕过哲学路由，走 persona.md §8。
+# ⚠️ 庄子包额外注意：生死齐观类内容（安时处顺的生死语境）在低情绪状态一律禁用。

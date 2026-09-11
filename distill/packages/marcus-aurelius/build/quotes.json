@@ -1,0 +1,114 @@
+[
+  {
+    "id": "med-10.16-be-such",
+    "slug": "marcus-aurelius",
+    "author": "马可·奥勒留",
+    "text": "不要再谈论一个好人应该是什么样的了——去成为那样的人。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "f862de4de264cccfc6eaa4e9dfd1fe25bf2bbd6cfc8364fd3dbf5974cf1c161b",
+    "featured_rank": 1,
+    "concept": "别再谈论，去成为（be such）",
+    "corpus_id": "med-10.16",
+    "locus": "《沉思录》卷十·第 16 条",
+    "quote": "No longer talk at all about the kind of man that a good man ought to be, but be such.",
+    "source": "George Long 英译（公版，Project Gutenberg #15877）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "perfectionism-procrastination",
+      "hollow-self",
+      "deferred-life"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "med-6.6-best-revenge",
+    "slug": "marcus-aurelius",
+    "author": "马可·奥勒留",
+    "text": "为自己复仇的最好方式，是不变成和加害者一样的人。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "b356f929285a9885b289518fb6d14eff188a8ede9b88eb20ea80d432e4f24bf4",
+    "featured_rank": 2,
+    "concept": "最好的复仇（the best revenge）",
+    "corpus_id": "med-6.6",
+    "locus": "《沉思录》卷六·第 6 条",
+    "quote": "The best way of avenging thyself is not to become like [the wrong-doer].",
+    "source": "George Long 英译（公版，Project Gutenberg #15877）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "envy-guilt",
+      "social-evaluation"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "med-5.16-soul-dyed",
+    "slug": "marcus-aurelius",
+    "author": "马可·奥勒留",
+    "text": "你的习惯性思想是什么样，你心灵的品格就会是什么样；因为灵魂会被思想染上颜色。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "dc7aa27dd45f4153ee101b68dd6f5f466edf0cc4d21f8c20cac75c16e3f388a8",
+    "featured_rank": 3,
+    "concept": "灵魂被思想染色（the soul is dyed by the thoughts）",
+    "corpus_id": "med-5.16",
+    "locus": "《沉思录》卷五·第 16 条",
+    "quote": "Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts.",
+    "source": "George Long 英译（公版，Project Gutenberg #15877）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "rumination",
+      "self-doubt"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "med-4.49-promontory",
+    "slug": "marcus-aurelius",
+    "author": "马可·奥勒留",
+    "text": "像那伸入海中的岬角：波浪不断拍碎在它身上，它却屹立不动，反而驯服了周围狂怒的水。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "e595aeaaeadcaec0cb6887474fe22902c5a500b27becdc43d77119e106e5a2d9",
+    "featured_rank": 4,
+    "concept": "岬角（the promontory）",
+    "corpus_id": "med-4.49",
+    "locus": "《沉思录》卷四·第 49 条",
+    "quote": "Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it.",
+    "source": "George Long 英译（公版，Project Gutenberg #15877）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "fear-of-failure",
+      "ideal-reality-gap",
+      "self-doubt"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "med-7.59-fountain-within",
+    "slug": "marcus-aurelius",
+    "author": "马可·奥勒留",
+    "text": "向内看。善的泉眼就在你之内；只要你肯一直挖，它就会一直涌。",
+    "text_kind": "literal_translation",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "51b074f4286e1f6eae28407c251efd76a1c05a92e0b9d59ff175ac8f4562fc63",
+    "featured_rank": 5,
+    "concept": "内在的泉眼（the fountain within）",
+    "corpus_id": "med-7.59",
+    "locus": "《沉思录》卷七·第 59 条",
+    "quote": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
+    "source": "George Long 英译（公版，Project Gutenberg #15877）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "hollow-self",
+      "meaning-void"
+    ],
+    "content_flags": []
+  }
+]

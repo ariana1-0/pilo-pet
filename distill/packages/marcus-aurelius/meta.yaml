@@ -1,0 +1,28 @@
+# 蒸馏包元信息：马可·奥勒留（打样包）
+slug: marcus-aurelius
+display_name: 马可·奥勒留
+school: 斯多葛
+status: in-progress   # schema-example → in-progress → gated → shipped
+covers_dilemmas_primarily: [rumination, peer-comparison, fear-of-failure, work-meaninglessness]
+
+corpus:
+  work: 沉思录（Meditations，12 卷 487 条已入库）
+  translation: George Long 英译（公版）
+  source: Project Gutenberg #15877 (https://www.gutenberg.org/ebooks/15877)
+  copyright_route: 基于公版英译自行转译中文（用户确认状态：待确认，见 SCHEMA.md §5.1）
+  gate_a: 2026-09-05 通过——27 处引文全部逐字校验（tools/verify_quotes.py）
+
+progress:
+  - "[x] ① 语料入库（487 条）+ 引文校验脚本"
+  - "[x] ② 思维框架 7 张（全部过三重门、锚点已校验）——待 Gate C 用户评审"
+  - "[x] ③ 概念卡第一批 13 张（含四层转译、锚点已校验）"
+  - "[x] ④ mappings.yaml——22 个困境标签全覆盖，引用一致性已校验"
+  - "[x] ⑤ 人格卡（八节全，含 Expression DNA / 内在矛盾 / 诚实边界 / 破角色）"
+  - "[x] ⑥ 范例对话 2 篇（给予式 v3：peer-comparison、failed-two-months——后者取自真实失败案例）；更多范例等困境样本"
+  - "[x] ⑦ 评测件：误读回归 12 条（#12 审讯模式为实测新增）+ known-answer 6 题 + voice check 协议"
+  - "[x] ⑧a 组装：tools/build_system_prompt.py → build/system-prompt.md（~9.4k tokens 全内联，未校验引文拒绝编译；层级 v2：人格 > 宪法）；tools/chat.py 终端对话（claude-opus-5，自动借用 Claude Code 凭据）"
+  - "[~] ⑧b Gate D：自动化评测 23/23 PASS（2026-09-05，tools/run_gate_d.py：known-answer 6 + 误读 14 + 节奏 3；危机用例已人工复核）。剩余：voice check 盲测（需用户）+ Gate C 用户评审 → 通过后 status 转 gated"
+
+history:
+  - "2026-09-05 定位回锚：实测发现对话层滑向教练式审讯（用户判死）。根因：宪法 v1 每轮必问 + enactment 一轮一步 + 宪法压人格 + 范例示范提问接力。修正：宪法 v2（给予为主/首轮交货/明牌哲学/连续问题≤2）、层级调序、范例重写、误读 #12。产品哲学修正：对抗鸡汤靠'给的东西质量高'，不靠'不给'。"
+  - "2026-09-05 宪法 v2.1：二次实测反馈——纯陈述收尾产出'自闭合的小文章'，用户不知怎么接话。新增把手规则：钩子≠问题（v1 的病是钩子全是作业），每轮收尾留低成本把手（轻问/递出可反驳判断/邀请/给门，形态轮换），终局轮豁免。范例同步加把手，回归测试通过（把手形态三轮各异、无审讯回潮）。"

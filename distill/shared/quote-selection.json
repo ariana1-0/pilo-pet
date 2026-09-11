@@ -1,0 +1,220 @@
+{
+  "default_top_n": 5,
+  "packages": {
+    "marcus-aurelius": {
+      "author": "马可·奥勒留",
+      "quotes": [
+        {
+          "id": "med-10.16-be-such",
+          "locus": "《沉思录》卷十·第 16 条",
+          "translation_reviewed": true,
+          "translation_review_sha256": "f862de4de264cccfc6eaa4e9dfd1fe25bf2bbd6cfc8364fd3dbf5974cf1c161b"
+        },
+        {
+          "id": "med-6.6-best-revenge",
+          "locus": "《沉思录》卷六·第 6 条",
+          "translation_reviewed": true,
+          "translation_review_sha256": "b356f929285a9885b289518fb6d14eff188a8ede9b88eb20ea80d432e4f24bf4"
+        },
+        {
+          "id": "med-5.16-soul-dyed",
+          "locus": "《沉思录》卷五·第 16 条",
+          "translation_reviewed": true,
+          "translation_review_sha256": "dc7aa27dd45f4153ee101b68dd6f5f466edf0cc4d21f8c20cac75c16e3f388a8"
+        },
+        {
+          "id": "med-4.49-promontory",
+          "locus": "《沉思录》卷四·第 49 条",
+          "translation_reviewed": true,
+          "translation_review_sha256": "e595aeaaeadcaec0cb6887474fe22902c5a500b27becdc43d77119e106e5a2d9"
+        },
+        {
+          "id": "med-7.59-fountain-within",
+          "locus": "《沉思录》卷七·第 59 条",
+          "translation_reviewed": true,
+          "translation_review_sha256": "51b074f4286e1f6eae28407c251efd76a1c05a92e0b9d59ff175ac8f4562fc63"
+        }
+      ]
+    },
+    "nietzsche": {
+      "author": "尼采",
+      "quotes": [
+        {
+          "id": "tsz-0.4-rope-bridge",
+          "locus": "《查拉图斯特拉如是说》序言·第 4 节",
+          "translation_reviewed": true,
+          "translation_review_sha256": "0cf967d5c0c530f2f939ed7eca83409d082a2eb807c7dde7852f8f25ee41f935"
+        },
+        {
+          "id": "tsz-0.5-chaos-star",
+          "locus": "《查拉图斯特拉如是说》序言·第 5 节",
+          "translation_reviewed": true,
+          "translation_review_sha256": "ff63fb4c42b5d1a040dd0dcc8d2ef89fe5c9b5616040dc8685e2da3beb69c39b"
+        },
+        {
+          "id": "tsz-1.7-laughter",
+          "locus": "《查拉图斯特拉如是说》第一部·论读与写",
+          "translation_reviewed": true,
+          "translation_review_sha256": "c3441bb9b4b676ff9dd7559687b342348ab895133360248bddbcce5a415b2a50"
+        },
+        {
+          "id": "tsz-1.12-market-flies",
+          "locus": "《查拉图斯特拉如是说》第一部·论市场之蝇",
+          "translation_reviewed": true,
+          "translation_review_sha256": "4f2be2aa74d814ebaea1675eec9ab1e39a56188729cfe1223b633a8d106af48c"
+        },
+        {
+          "id": "tsz-0.1-honey",
+          "locus": "《查拉图斯特拉如是说》序言·第 1 节",
+          "translation_reviewed": true,
+          "translation_review_sha256": "294b2be7d7f69e076accc7c5d22816058fabb982c033285e2642646311c3f094"
+        }
+      ]
+    },
+    "laozi": {
+      "author": "老子",
+      "display_mode": "source_original",
+      "quotes": [
+        {
+          "id": "dao-8-water",
+          "locus": "《道德经》第八章",
+          "translation_reviewed": true,
+          "translation_review_sha256": "e786c1831c41b4a4f6aaca7562f917776fd73e9891abae0adf4ef901d365fe44"
+        },
+        {
+          "id": "dao-33-self-knowing",
+          "locus": "《道德经》第三十三章",
+          "translation_reviewed": true,
+          "translation_review_sha256": "434b3545370bb9216c12cc09496393c2fa7144802549c5aad8bf91df8032c059"
+        },
+        {
+          "id": "dao-64-first-step",
+          "locus": "《道德经》第六十四章",
+          "translation_reviewed": true,
+          "translation_review_sha256": "f4b17e9a79a0fbe7a901698b3f91df0885e07132194d38fb6cd340d3db3b7432"
+        },
+        {
+          "id": "dao-24-tiptoe",
+          "locus": "《道德经》第二十四章",
+          "translation_reviewed": true,
+          "translation_review_sha256": "85f17e7dfb9df972f217932a4ba5d36583a08cc013fd0570ec88791176646ad3"
+        },
+        {
+          "id": "dao-45-flawed-perfection",
+          "locus": "《道德经》第四十五章",
+          "translation_reviewed": true,
+          "translation_review_sha256": "046ab76651453be74d80df05989c65e7e46b3a9a840220d9f84ce5af710ae1e7"
+        }
+      ]
+    },
+    "confucius": {
+      "author": "孔子",
+      "display_mode": "source_original",
+      "quotes": [
+        {
+          "id": "lun-2.16-not-a-vessel",
+          "locus": "《论语·为政》2.12",
+          "translation_reviewed": true,
+          "translation_review_sha256": "bc766e5af6f46189eb45711dab5303619c0f12870897b20c533845f31ab7ef58"
+        },
+        {
+          "id": "lun-6.22-three-depths",
+          "locus": "《论语·雍也》6.20",
+          "translation_reviewed": true,
+          "translation_review_sha256": "c9980eec171edaba0a67ecc3faa0e1879476e9ec804379d77beb4d5a8c1f6568"
+        },
+        {
+          "id": "lun-13.21-haste",
+          "locus": "《论语·子路》13.17",
+          "translation_reviewed": true,
+          "translation_review_sha256": "6ccfa1264e3c635fa748863043fb99feff95ff5bf592e6c1a4cf05cf7f76f46d"
+        },
+        {
+          "id": "lun-9.17-basket",
+          "locus": "《论语·子罕》9.19",
+          "translation_reviewed": true,
+          "translation_review_sha256": "416a825cfd42aecdc78c24e8ba12b9675a96dbfb6d67ea18a21003f388743ffe"
+        },
+        {
+          "id": "lun-9.26-pines",
+          "locus": "《论语·子罕》9.28",
+          "translation_reviewed": true,
+          "translation_review_sha256": "f971e59003fc9e61eb340ff5353a9004c3a1e8db2a70a7174c265bae108d2dc9"
+        }
+      ]
+    },
+    "zhuangzi": {
+      "author": "庄子",
+      "display_mode": "source_original",
+      "quotes": [
+        {
+          "id": "zz-2.9-butterfly",
+          "locus": "《庄子·齐物论》",
+          "translation_reviewed": true,
+          "translation_review_sha256": "3b275e3b83a91e9ee0fff72b4fc7cae41c9f8a208b501058a64f9b9e8ffd772a"
+        },
+        {
+          "id": "zz-3.1-finite-life",
+          "locus": "《庄子·养生主》",
+          "translation_reviewed": true,
+          "translation_review_sha256": "32ea66592fb774d2bf3a50eb2d9d32a1dafc41e88782814ba93ee6c310f67ea8"
+        },
+        {
+          "id": "zz-5.1-still-water",
+          "locus": "《庄子·德充符》",
+          "translation_reviewed": true,
+          "translation_review_sha256": "9a4628da7c06fecc3c03560a218a547564c0aa279d683b8b4000702183d17772"
+        },
+        {
+          "id": "zz-6.3-forgetting-in-rivers",
+          "locus": "《庄子·大宗师》",
+          "translation_reviewed": true,
+          "translation_review_sha256": "346e43eefcfcec6cabed6a1cd4a7795ad9fbfa50c85ed89bf1fe056ab636c8ec"
+        },
+        {
+          "id": "zz-7.4-mirror-mind",
+          "locus": "《庄子·应帝王》",
+          "translation_reviewed": true,
+          "translation_review_sha256": "d80943b509cebca17e6592d2c40a6fb96480bfcc899eda19868eb0377fb64d04"
+        }
+      ]
+    },
+    "camus": {
+      "author": "加缪",
+      "release_scope": "self-use/internal; public distribution requires territory-specific copyright review",
+      "quotes": [
+        {
+          "id": "camus-happy-sisyphus",
+          "locus": "《西西弗神话》末章",
+          "translation_reviewed": true,
+          "translation_review_sha256": "3c71bcd4eb6acf9d33247748cb7a75e101dec26c58116f2b5db97f7668190243"
+        },
+        {
+          "id": "camus-we-are",
+          "locus": "《反抗者》第一部",
+          "translation_reviewed": true,
+          "translation_review_sha256": "3e644c5cbec9b854bd0cf91b9af2b402a8a92c8b0b2d2bc28701eca77bd5b2b0"
+        },
+        {
+          "id": "camus-creation-is-revolt",
+          "locus": "《西西弗神话》荒诞的创造·哲学与小说",
+          "translation_reviewed": true,
+          "translation_review_sha256": "84ef0bc250c1fea8369a89a8699899dca6fe55ead4eeafc2014113dbf570d568"
+        },
+        {
+          "id": "camus-mediterranean-present",
+          "locus": "《夏天·重返蒂巴萨》",
+          "translation_reviewed": true,
+          "translation_review_sha256": "7b7289a64abca8b036d4bf62952007d0836447846949755525f1b544812f095e"
+        },
+        {
+          "id": "camus-summit-struggle",
+          "locus": "《西西弗神话》末章",
+          "translation_reviewed": true,
+          "translation_review_sha256": "2814a18ffc1430ad6f66aeb338d36a24096213ce26c1430f13dfde7f64c1dbfc"
+        }
+      ]
+    }
+  },
+  "excluded_packages": {}
+}

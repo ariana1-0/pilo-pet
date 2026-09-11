@@ -1,0 +1,32 @@
+{
+  "name": "philo-pet-desktop",
+  "productName": "philo-pet",
+  "version": "0.1.0",
+  "private": true,
+  "author": "philo-pet",
+  "license": "UNLICENSED",
+  "description": "philo-pet 桌宠——常驻桌面的哲学家，点击开关弹窗，深聊跳网页端。",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check main.js && node --check preload.js && node --check renderer/pet.js && node --check deep-link.js && node --check scripts/configure-release.js",
+    "release:config": "node scripts/configure-release.js",
+    "package:mac": "npm run release:config && electron-forge package --platform=darwin --arch=universal",
+    "package:win": "npm run release:config && electron-forge package --platform=win32 --arch=x64",
+    "make:mac": "npm run release:config && electron-forge make --platform=darwin --arch=universal",
+    "make:win": "npm run release:config && electron-forge make --platform=win32 --arch=x64"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.0.0",
+    "@electron-forge/maker-dmg": "^7.0.0",
+    "@electron-forge/maker-squirrel": "^7.0.0",
+    "@electron-forge/maker-zip": "^7.0.0",
+    "electron": "^44.3.0"
+  },
+  "allowScripts": {
+    "electron-winstaller@5.4.4": true,
+    "fs-xattr@0.3.1": true,
+    "macos-alias@0.2.12": true,
+    "electron@44.3.0": true
+  }
+}

@@ -1,0 +1,44 @@
+name: Build preview installers
+
+on:
+  workflow_dispatch:
+    inputs:
+      service_url:
+        description: Render 服务地址，例如 https://philo-pet-preview.onrender.com
+        required: true
+        type: string
+
+jobs:
+  build:
+    name: ${{ matrix.label }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-latest
+            command: npm run make:mac
+            label: macOS-universal
+          - os: windows-latest
+            command: npm run make:win
+            label: Windows-x64
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: app/desktop
+    env:
+      PHILO_SERVICE_URL: ${{ inputs.service_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/desktop/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: ${{ matrix.command }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: philo-pet-${{ matrix.label }}
+          path: app/desktop/out/make/**/*
+          if-no-files-found: error

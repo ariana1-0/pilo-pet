@@ -1,0 +1,57 @@
+# 蒸馏包元信息：老子（第三包——箴言体中文语料）
+slug: laozi
+display_name: 老子
+school: 道家
+status: in-progress
+covers_dilemmas_primarily: [peer-comparison, timeline-anxiety, social-evaluation, perfectionism-procrastination, fear-of-failure]
+
+corpus:
+  work: 道德经（81 章全）
+  copyright_route: 先秦原典，公版。说人话转译自产，无译本版权问题
+  source: NiuTrans/Classical-Modern 仓库 source.txt（简体；网络转录，需与权威底本〔王弼本〕抽样校对；只用原文，不碰其现代译文）
+  status: 待 Gate A
+
+pipeline_notes:
+  - 与庄子的区分（同为道家，人格必须拉开）：老子=沉静的长者，箴言体，说话极简、正言若反、留白多；庄子=狂放的寓言家，故事体。两者比喻域也分开——老子：水/谷/婴儿/器皿/弓；庄子：鲲鹏/蝴蝶/庖丁/大树
+  - one_liner 弹语潜力全库最强（原文本身就是金句体），概念卡是本包重心
+  - 高危误读：躺平摆烂合理化、厚黑权谋帝王术、"无为=什么都不做"、玄学神棍腔
+
+progress:
+  - "[x] ① 语料 81 章入库 + parse_laozi.py"
+  - "[x] ② 思维框架 5 张（过三重门）"
+  - "[x] ③ 概念卡 9 张"
+  - "[x] ④ mappings.yaml"
+  - "[x] ⑤ 人格卡"
+  - "[x] ⑥ 范例对话 1 篇（给予式）"
+  - "[x] ⑦ eval：misreadings 7 条 + known-answers 5 题 + voice check"
+  - "[~] ⑧ 已组装+冒烟；Gate D 全量、Gate C 待主会话/用户"
+
+# gate_d: 19/19 PASS（2026-09-05，主会话运行；报告 build/gate-d-report.md）
+
+history:
+  - date: 2026-09-05
+    change: 声纹修复（persona 声纹样本层 + 范例重写）
+    reason: >-
+      用户试聊判定六包"完全没有区分度，一股 AI 味"。根因：只蒸馏了哲学立场与思维框架，
+      没蒸馏语言风格；且所有引文被转述成大白话，原句几乎不出现，风格信号被磨平。
+      老子包另有专项风险——与庄子同为道家、同为古汉语，是全库最易交叉污染的一对。
+    actions:
+      - persona.md 新增 §3b 声纹样本层：从 corpus/daodejing.jsonl 实检 12 条逐字原句
+        （不凭记忆），每条附一行句法特征；提炼 7 组可复现句法标记（四言排比与韵文、
+        正言若反、"…者…"格言判断、否定式定义、"故/是以"推论链、"不/无/弗"三重否定、
+        纯箴言体无叙事）。
+      - 写明与庄子的区分锚（§3b 六）：庄子有寓言/有对话者/有人物/有戏谑自嘲；
+        老子无一处叙事、无一个对话者、无幽默。附 6 条串味反例，头号为"庄子式寓言开场"，
+        另含鸡汤"顺其自然就好"、躺平腔、把箴言拉长成解释段。
+      - 依宪法 §11.4 明文例外条款写下本包禁止讲亲身经历（老子无可考生平，司马迁记载
+        存疑、骑青牛出关是传说），改以经验域（水/婴儿/谷/器皿/车毂/木/绳约/江海/风/门户）
+        承担同一交付形态。
+      - exemplars/peer-comparison-offers.md 全文重写：三轮 7 处逐字原文（「」+ 章号，
+        frontmatter 列 quotes_used 供机械校验），句法改为老子的短句与悖论；批注同步重写，
+        结尾加语感自检（逐句论证为何放到庄子嘴里一句都不成立）。
+      - 修正原 persona.md 两处硬伤：残留的 "磨了八版simple" 中英混杂串；以及例句
+        「大器晚成」与本仓语料不符——corpus dao-41 作「大器免成」，已按语料改。
+    verification: >-
+      verify_quotes.py fail=0（新增锚点全部单行逐字命中，未用 --fix）；
+      lint_voice.py laozi 全绿（声纹层在位、首轮有原文、quotes_used 7 条 id 全部有效、
+      中文引文逐字命中语料）；build_system_prompt.py laozi 重新编译 24,207 chars。

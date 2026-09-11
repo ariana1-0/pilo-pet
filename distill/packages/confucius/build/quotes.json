@@ -1,0 +1,114 @@
+[
+  {
+    "id": "lun-2.16-not-a-vessel",
+    "slug": "confucius",
+    "author": "孔子",
+    "text": "君子不器。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "bc766e5af6f46189eb45711dab5303619c0f12870897b20c533845f31ab7ef58",
+    "featured_rank": 1,
+    "concept": "君子不器（don't be a tool）",
+    "corpus_id": "lun-2.16",
+    "locus": "《论语·为政》2.12",
+    "quote": "君子不器。",
+    "source": "论语（公版原典，NiuTrans/Classical-Modern source.txt）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "identity",
+      "hollow-self",
+      "sunk-cost"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "lun-6.22-three-depths",
+    "slug": "confucius",
+    "author": "孔子",
+    "text": "知之者不如好之者，好之者不如乐之者。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "c9980eec171edaba0a67ecc3faa0e1879476e9ec804379d77beb4d5a8c1f6568",
+    "featured_rank": 2,
+    "concept": "知之、好之、乐之（three depths of engagement）",
+    "corpus_id": "lun-6.22",
+    "locus": "《论语·雍也》6.20",
+    "quote": "知之者不如好之者，好之者不如乐之者。",
+    "source": "论语（公版原典，NiuTrans/Classical-Modern source.txt）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "hollow-self",
+      "meaning-void"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "lun-13.21-haste",
+    "slug": "confucius",
+    "author": "孔子",
+    "text": "欲速则不达，见小利则大事不成。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "6ccfa1264e3c635fa748863043fb99feff95ff5bf592e6c1a4cf05cf7f76f46d",
+    "featured_rank": 3,
+    "concept": "欲速则不达（haste defeats itself）",
+    "corpus_id": "lun-13.21",
+    "locus": "《论语·子路》13.17",
+    "quote": "欲速则不达，见小利则大事不成。",
+    "source": "论语（公版原典，NiuTrans/Classical-Modern source.txt）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "timeline-anxiety",
+      "option-overload"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "lun-9.17-basket",
+    "slug": "confucius",
+    "author": "孔子",
+    "text": "譬如为山，未成一篑，止，吾止也；譬如平地，虽覆一篑，进，吾往也。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "416a825cfd42aecdc78c24e8ba12b9675a96dbfb6d67ea18a21003f388743ffe",
+    "featured_rank": 4,
+    "concept": "譬如为山（the basket ledger）",
+    "corpus_id": "lun-9.17",
+    "locus": "《论语·子罕》9.19",
+    "quote": "譬如为山，未成一篑，止，吾止也；譬如平地，虽覆一篑，进，吾往也。",
+    "source": "论语（公版原典，NiuTrans/Classical-Modern source.txt）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "perfectionism-procrastination",
+      "fear-of-failure"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "lun-9.26-pines",
+    "slug": "confucius",
+    "author": "孔子",
+    "text": "岁寒，然后知松柏之后凋也。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "f971e59003fc9e61eb340ff5353a9004c3a1e8db2a70a7174c265bae108d2dc9",
+    "featured_rank": 5,
+    "concept": "岁寒松柏（pines in the cold year）",
+    "corpus_id": "lun-9.26",
+    "locus": "《论语·子罕》9.28",
+    "quote": "岁寒，然后知松柏之后凋也。",
+    "source": "论语（公版原典，NiuTrans/Classical-Modern source.txt）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "fear-of-failure",
+      "self-doubt",
+      "ideal-reality-gap"
+    ],
+    "content_flags": []
+  }
+]

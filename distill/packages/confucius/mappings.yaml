@@ -1,0 +1,178 @@
+# 困境映射表：孔子
+# 结构与 marcus 包一致；只用 shared/dilemma-taxonomy.yaml 的标签 id。
+
+# ── 选择与道路 ──────────────────────────────
+choice-paralysis:
+  - ref: frameworks/seek-in-yourself
+    weight: 0.7
+    when: 瘫痪表现为"等人指路/等条件齐备"
+    note: 把"我需要谁做什么"翻译成"我能发起什么"
+  - ref: concepts/lun-6.22-three-depths
+    weight: 0.6
+    when: 选项间难分高下、全靠"该不该"打分
+    note: 换尺子——找"好之"的证据
+
+option-overload:
+  - ref: concepts/lun-13.21-haste
+    weight: 0.7
+    when: 被"哪条路更快"的比较压垮
+  - ref: concepts/lun-6.22-three-depths
+    weight: 0.6
+
+sunk-cost:
+  - ref: concepts/lun-2.16-not-a-vessel
+    weight: 0.9
+    note: "四年白学"的前提是把自己当定型的器皿
+  - ref: frameworks/one-basket
+    weight: 0.5
+    when: 纠结要不要换方向重新开始
+
+family-expectation:
+  - ref: frameworks/seek-in-yourself
+    weight: 0.7
+    note: 对父母的期待，能发起的是真诚沟通与自己立得住——不是等他们改变
+  - ref: frameworks/wei-ji-learning
+    weight: 0.6
+    when: 核心冲突是"活成父母要的样子给他们看"
+    note: 为己/为人之辨同样适用于家庭剧场
+
+irreversibility-fear:
+  - ref: concepts/lun-2.16-not-a-vessel
+    weight: 0.7
+    note: 怕定型的人，先确认自己不是器皿
+  - ref: frameworks/one-basket
+    weight: 0.5
+
+# ── 意义与方向 ──────────────────────────────
+meaning-void:
+  - ref: concepts/lun-6.22-three-depths
+    weight: 0.8
+    note: 三格量尺找"好之"的证据
+  - ref: concepts/lun-7.22-self-portrait
+    weight: 0.7
+    when: 意义缺失伴随"我是谁"的空洞
+  - ref: concepts/lun-4.8-one-morning
+    weight: 0.5
+    when: 用户情绪平稳、在推迟"想明白"这件事
+
+hollow-self:
+  - ref: concepts/lun-6.22-three-depths
+    weight: 0.9
+    note: 从"知之"清单里辨认"好之"
+  - ref: concepts/lun-2.16-not-a-vessel
+    weight: 0.5
+
+work-meaninglessness:
+  - ref: frameworks/wei-ji-learning
+    weight: 0.8
+    when: 无意义感来自"做的全是给别人看的"
+    note: 每天至少一件纯为己的事
+
+deferred-life:
+  - ref: concepts/lun-4.8-one-morning
+    weight: 0.7
+    when: 情绪平稳时用（带 mortality flag，注意分级）
+  - ref: concepts/lun-9.15-river
+    weight: 0.7
+    note: 河不停，但叹完接着做事的范式
+
+ideal-reality-gap:
+  - ref: concepts/lun-9.26-pines
+    weight: 0.7
+    note: 寒冬显影松柏——落差期的自我识别
+  - ref: concepts/lun-9.15-river
+    weight: 0.5
+    when: 落差伴随"来不及"的时间感
+
+# ── 比较与关系 ──────────────────────────────
+peer-comparison:
+  - ref: concepts/lun-7.24-everyone-teaches
+    weight: 0.9
+    note: 比较数据转教材——本包对此困境的招牌解法
+  - ref: frameworks/right-worry
+    weight: 0.8
+    when: 比较的痛点是"他被看见了我没有"
+  - ref: frameworks/wei-ji-learning
+    weight: 0.6
+
+timeline-anxiety:
+  - ref: concepts/lun-13.21-haste
+    weight: 0.8
+    note: 欲速则不达——时间表焦虑的直接对症
+  - ref: concepts/lun-9.15-river
+    weight: 0.7
+  - ref: frameworks/one-basket
+    weight: 0.6
+
+impostor:
+  - ref: frameworks/right-worry
+    weight: 0.8
+    note: "患其不能"把配不配换成能不能补
+  - ref: frameworks/wei-ji-learning
+    weight: 0.6
+
+social-evaluation:
+  - ref: frameworks/wei-ji-learning
+    weight: 0.9
+    note: 验收人审计
+  - ref: frameworks/right-worry
+    weight: 0.8
+
+envy-guilt:
+  - ref: concepts/lun-7.24-everyone-teaches
+    weight: 0.8
+    note: 嫉妒的对象转成教材，愧疚随之松动
+  - ref: frameworks/no-spillover-no-repeat
+    weight: 0.6
+    when: 愧疚在于"把酸味撒到了对方身上"（迁怒）
+
+# ── 自我与情绪 ──────────────────────────────
+fear-of-failure:
+  - ref: frameworks/one-basket
+    weight: 0.8
+    note: 把"成不成"换成"这一筐"
+  - ref: concepts/lun-9.26-pines
+    weight: 0.6
+    when: 已经在挫折里、需要自我识别
+
+perfectionism-procrastination:
+  - ref: concepts/lun-9.17-basket
+    weight: 0.9
+    note: 平地一筐即是进——开始的门槛只有一筐
+  - ref: frameworks/one-basket
+    weight: 0.7
+
+self-doubt:
+  - ref: concepts/lun-9.26-pines
+    weight: 0.7
+  - ref: frameworks/right-worry
+    weight: 0.7
+    note: 患其不能——怀疑落到可补的具体处
+
+rumination:
+  - ref: frameworks/no-spillover-no-repeat
+    weight: 0.9
+    note: 反复自责=贰过；单次结账
+  - ref: concepts/lun-9.15-river
+    weight: 0.5
+    when: 反刍对象是流走的过去
+
+loneliness:
+  - ref: concepts/lun-7.24-everyone-teaches
+    weight: 0.6
+    note: 三人行的前提是去"行"——把孤独部分转译为协作结构的缺位
+  - ref: frameworks/seek-in-yourself
+    weight: 0.5
+    when: 等别人来找 vs 自己发起联系
+
+identity:
+  - ref: concepts/lun-2.16-not-a-vessel
+    weight: 0.8
+    note: 不以规格自我定义
+  - ref: concepts/lun-7.22-self-portrait
+    weight: 0.8
+    note: 用忘我时刻作答"我是谁"
+
+# ── 特殊 ──────────────────────────────
+crisis-signal: []
+# 空映射有意：命中即绕过哲学路由，走 persona.md §8 破角色流程。

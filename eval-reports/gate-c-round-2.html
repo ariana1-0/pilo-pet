@@ -1,0 +1,764 @@
+<title>声纹盲测台</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&family=Archivo+Narrow:wght@500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+  :root{
+    --paper:#E9EBE6; --card:#F3F4F0; --ink:#1C1F1D; --ink-2:#55605A;
+    --rule:#C6CCC4; --rule-hard:#A8B0A7;
+    --mark:#8C2F23; --mark-soft:#8C2F231a;
+    --ok:#3B5A44; --warn:#7A5A16;
+    --shadow:0 1px 0 #ffffff80 inset, 0 1px 2px #1c1f1d0f;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --paper:#141715; --card:#1B1F1C; --ink:#DEE1DB; --ink-2:#98A29A;
+      --rule:#333A34; --rule-hard:#495049;
+      --mark:#CB6155; --mark-soft:#cb61551f;
+      --ok:#86A88E; --warn:#C9A24E;
+      --shadow:0 1px 0 #ffffff08 inset, 0 1px 2px #0006;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#141715; --card:#1B1F1C; --ink:#DEE1DB; --ink-2:#98A29A;
+    --rule:#333A34; --rule-hard:#495049;
+    --mark:#CB6155; --mark-soft:#cb61551f;
+    --ok:#86A88E; --warn:#C9A24E;
+    --shadow:0 1px 0 #ffffff08 inset, 0 1px 2px #0006;
+  }
+  *{box-sizing:border-box}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:"Noto Serif SC","Songti SC",Georgia,serif;
+    font-size:16px; line-height:1.5; margin:0;
+    padding:clamp(20px,4vw,56px) clamp(16px,4vw,40px) 96px;
+  }
+  .sheet{max-width:76ch; margin:0 auto}
+  .lbl{
+    font-family:"Archivo Narrow","Helvetica Neue",sans-serif;
+    text-transform:uppercase; letter-spacing:.12em; font-weight:600;
+    font-size:11px; color:var(--ink-2);
+  }
+  h1{
+    font-family:"Archivo Narrow","Helvetica Neue",sans-serif;
+    font-weight:600; font-size:clamp(26px,5vw,38px); line-height:1.1;
+    margin:6px 0 0; text-wrap:balance;
+  }
+  h1 .cjk{font-family:"Noto Serif SC","Songti SC",serif; font-weight:600}
+  .masthead{border-bottom:2px solid var(--rule-hard); padding-bottom:14px}
+  .dek{color:var(--ink-2); font-size:14.5px; margin:10px 0 0; max-width:64ch}
+  .meta{
+    display:flex; flex-wrap:wrap; gap:6px 22px; margin-top:14px;
+    font-family:"JetBrains Mono",ui-monospace,monospace; font-size:11.5px;
+    color:var(--ink-2); font-variant-numeric:tabular-nums;
+  }
+  .meta b{color:var(--ink); font-weight:600}
+
+  .howto{margin:24px 0 0; padding:16px 18px; background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow)}
+  .howto ol{margin:8px 0 0; padding-left:22px; font-size:14.5px; color:var(--ink-2)}
+  .howto li{margin:0 0 5px}
+  .howto b{color:var(--ink)}
+
+  .lemma{
+    margin:22px 0 10px; padding:18px 20px; background:var(--card);
+    border:1px solid var(--rule); border-left:3px solid var(--ink-2);
+    box-shadow:var(--shadow);
+  }
+  .lemma p{margin:8px 0 0; font-size:16.5px; line-height:1.75}
+  .lemma .tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; font-family:"JetBrains Mono",monospace; font-size:10.5px}
+  .lemma .tags span{border:1px solid var(--rule-hard); padding:2px 7px; color:var(--ink-2)}
+
+  .bar{
+    display:flex; flex-wrap:wrap; gap:10px; align-items:center;
+    margin:16px 0 26px; padding:10px 14px;
+    border:1px dashed var(--rule-hard); background:var(--card);
+  }
+  .bar .lbl{margin-right:auto}
+  .btn{
+    font-family:"Archivo Narrow",sans-serif; text-transform:uppercase;
+    letter-spacing:.08em; font-size:11.5px; font-weight:600; cursor:pointer;
+    background:transparent; color:var(--ink-2);
+    border:1px solid var(--rule-hard); padding:6px 12px;
+  }
+  .btn:hover{border-color:var(--ink-2); color:var(--ink)}
+  .btn:focus-visible{outline:2px solid var(--mark); outline-offset:2px}
+  .btn[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+
+  .witness{padding:24px 0; border-top:1px solid var(--rule)}
+  .witness:last-of-type{border-bottom:1px solid var(--rule)}
+  .whorow{display:grid; grid-template-columns:64px 1fr; gap:0 20px; align-items:start}
+  .sig{font-family:"JetBrains Mono",monospace; font-weight:600; font-size:30px; line-height:1; color:var(--mark)}
+  .sig small{display:block; font-size:10px; letter-spacing:.1em; color:var(--ink-2); margin-top:8px; font-weight:400}
+  .who{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 12px}
+  .who h2{font-size:19px; margin:0; font-weight:600}
+  .who .fw{font-size:12.5px; color:var(--ink-2)}
+  .body-col{grid-column:2}
+  .say{margin:12px 0 0; font-size:16px; line-height:1.85}
+  .say p{margin:0 0 .8em}
+  .say p:last-child{margin-bottom:0}
+  .say q{quotes:none; background:var(--mark-soft); box-shadow:0 -1px 0 var(--mark) inset; padding:0 1px}
+  .say b{font-weight:600}
+
+  /* blind mode: identity hidden until revealed */
+  body.blind .sig{color:var(--ink-2)}
+  body.blind .sig small,
+  body.blind .who h2,
+  body.blind .who .fw{visibility:hidden}
+  body.blind .who::before{
+    content:"证人 " attr(data-slot); font-size:19px; font-weight:600;
+  }
+  .who{position:relative}
+  body.blind .who::before{position:static}
+
+  .checks{display:flex; flex-wrap:wrap; gap:7px; margin-top:16px}
+  .chk{
+    font-family:"JetBrains Mono",monospace; font-size:11px; cursor:pointer;
+    background:transparent; color:var(--ink-2);
+    border:1px solid var(--rule-hard); padding:4px 9px;
+  }
+  .chk:hover{border-color:var(--ink-2); color:var(--ink)}
+  .chk:focus-visible{outline:2px solid var(--mark); outline-offset:2px}
+  .chk[aria-pressed="true"]{background:var(--ok); border-color:var(--ok); color:#fff}
+  .chk[aria-pressed="mixed"]{background:var(--mark); border-color:var(--mark); color:#fff}
+  .verdict{display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:12px}
+  .verdict button{
+    font-family:"Noto Serif SC",serif; font-size:12.5px; cursor:pointer;
+    background:transparent; color:var(--ink-2);
+    border:1px solid var(--rule-hard); padding:4px 11px;
+  }
+  .verdict button:hover{border-color:var(--ink-2); color:var(--ink)}
+  .verdict button:focus-visible{outline:2px solid var(--mark); outline-offset:2px}
+  .verdict button[aria-pressed="true"]{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+  .verdict button[data-v="flag"][aria-pressed="true"]{background:var(--warn); border-color:var(--warn); color:#fff}
+  .verdict button[data-v="fail"][aria-pressed="true"]{background:var(--mark); border-color:var(--mark); color:#fff}
+  .guess{
+    font-family:"Noto Serif SC",serif; font-size:13px; margin-top:10px;
+    width:100%; max-width:46ch; padding:6px 9px; color:var(--ink);
+    background:var(--paper); border:1px solid var(--rule-hard);
+  }
+  .guess:focus-visible{outline:2px solid var(--mark); outline-offset:1px}
+  @media (max-width:600px){
+    .whorow{grid-template-columns:1fr}
+    .body-col{grid-column:1}
+    .sig{font-size:22px; display:flex; align-items:baseline; gap:10px; margin-bottom:8px}
+    .sig small{margin:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<style>
+  /* ---- swap test ---- */
+  .swap{margin-top:44px; padding-top:20px; border-top:2px solid var(--rule-hard)}
+  h2.sec{font-family:"Archivo Narrow",sans-serif; font-size:22px; font-weight:600; margin:6px 0 4px}
+  .sec-dek{color:var(--ink-2); font-size:14.5px; margin:8px 0 18px; max-width:64ch}
+  .pair{
+    display:grid; grid-template-columns:1fr auto; gap:10px 16px; align-items:center;
+    padding:13px 0; border-bottom:1px solid var(--rule);
+  }
+  .pair .line{font-size:15px; line-height:1.7}
+  .pair .line .src{
+    font-family:"JetBrains Mono",monospace; font-size:10.5px; color:var(--ink-2);
+    display:block; margin-top:3px; letter-spacing:.06em;
+  }
+  body.blind .pair .line .src{visibility:hidden}
+  .pair .ask{display:flex; gap:6px}
+  .pair .ask button{
+    font-family:"JetBrains Mono",monospace; font-size:11px; cursor:pointer;
+    background:transparent; color:var(--ink-2); border:1px solid var(--rule-hard); padding:4px 9px;
+  }
+  .pair .ask button:hover{border-color:var(--ink-2); color:var(--ink)}
+  .pair .ask button:focus-visible{outline:2px solid var(--mark); outline-offset:2px}
+  .pair .ask button[data-a="no"][aria-pressed="true"]{background:var(--ok); border-color:var(--ok); color:#fff}
+  .pair .ask button[data-a="yes"][aria-pressed="true"]{background:var(--mark); border-color:var(--mark); color:#fff}
+
+  /* ---- drift ---- */
+  .drift{margin-top:44px; padding-top:20px; border-top:2px solid var(--rule-hard)}
+  .turns{margin-top:14px; border-left:2px solid var(--rule); padding-left:16px}
+  .turn{padding:12px 0}
+  .turn .u{font-size:14px; color:var(--ink-2); font-style:italic; margin:0 0 8px}
+  .turn .n{
+    font-family:"JetBrains Mono",monospace; font-size:10px; letter-spacing:.1em;
+    color:var(--ink-2); display:block; margin-bottom:5px;
+  }
+  .turn .a{font-size:15.5px; line-height:1.8; margin:0}
+  .turn .a p{margin:0 0 .7em}
+  .turn .a p:last-child{margin:0}
+  .turn .a q{quotes:none; background:var(--mark-soft); box-shadow:0 -1px 0 var(--mark) inset; padding:0 1px}
+
+  /* ---- export ---- */
+  .out{margin-top:38px; padding-top:18px; border-top:2px solid var(--rule-hard)}
+  .out textarea{
+    width:100%; min-height:150px; margin-top:12px; padding:12px;
+    font-family:"JetBrains Mono",monospace; font-size:11.5px; line-height:1.6;
+    background:var(--card); color:var(--ink); border:1px solid var(--rule-hard); resize:vertical;
+  }
+  .tally{
+    position:sticky; bottom:0; margin-top:34px; padding:12px 16px;
+    background:var(--card); border:1px solid var(--rule-hard);
+    font-family:"JetBrains Mono",monospace; font-size:12px;
+    display:flex; flex-wrap:wrap; gap:6px 18px; align-items:center;
+    box-shadow:0 -2px 8px #1c1f1d14;
+  }
+  .tally b{font-weight:600}
+  .tally .reset{
+    margin-left:auto; background:none; border:0; color:var(--ink-2);
+    font-family:inherit; font-size:11px; cursor:pointer; text-decoration:underline;
+  }
+</style>
+
+<div class="sheet">
+  <header class="masthead">
+    <div class="lbl">Gate C · Round 2 · 盲测 → 揭名 → 分项判定</div>
+    <h1><span class="cjk">声纹盲测台</span></h1>
+    <p class="dek">六个蒸馏包答同一个困境。这一版默认<b>隐藏名字</b>——先只凭语言认人，认完再揭。判定项来自 <code>shared/eval/voice-discrimination.md</code>：可辨识性、不可互换性、原文密度、交叉污染。</p>
+    <div class="meta">
+      <span>日期 <b>2026-09-05</b></span>
+      <span>模型 <b>claude-opus-5</b></span>
+      <span>证人 <b>6</b></span>
+      <span>困境 <b>新题（未用于修复）</b></span>
+      <span>多轮 <b>2 包 × 3 轮</b></span>
+    </div>
+  </header>
+
+  <section class="howto">
+    <div class="lbl">怎么用这一页</div>
+    <ol>
+      <li><b>保持盲态</b>，从上到下读六段。每段先在输入框里<b>写下你猜是谁</b>——这是判定项 1（可辨识性）唯一诚实的测法。</li>
+      <li>点<b>揭名</b>。猜错的地方就是声纹没立住的地方，比任何评分都准。</li>
+      <li>回到每段，勾四个分项。绿=过，红=不过（再点一次变红，第三次清空）。</li>
+      <li>做<b>互换测试</b>：那些句子若换到另一个人嘴里，露不露破绽。存在可互换的句子＝该对 FAIL。</li>
+      <li>看<b>多轮漂移</b>：第三轮是最容易糊回咨询腔的位置。</li>
+      <li>点<b>导出</b>，把结果贴回对话里给我。</li>
+    </ol>
+  </section>
+
+  <section class="lemma">
+    <div class="lbl">测试困境（原样投喂，六包共用，未出现在任何范例里）</div>
+    <p>毕业半年了，我还在家投简历。同学群里陆续有人上岸、有人进了大厂，我点开他们的朋友圈会看很久。我爸妈最近开始问我"到底怎么打算的"，我答不上来。我不知道是我不够努力，还是我根本不适合这条路。</p>
+    <div class="tags">
+      <span>peer-comparison</span><span>family-expectation</span>
+      <span>timeline-anxiety</span><span>self-doubt</span>
+    </div>
+  </section>
+
+  <div class="bar">
+    <span class="lbl">证人身份</span>
+    <button class="btn" id="reveal" aria-pressed="false">揭名</button>
+    <button class="btn" id="shuffle">重排顺序</button>
+    <button class="btn" id="theme">切换明暗</button>
+  </div>
+
+  <div id="stage">
+  <article class="witness" data-k="marcus">
+    <div class="whorow">
+      <div class="sig">M<small>MARCUS</small></div>
+      <div class="who" data-slot="1"><h2>马可·奥勒留</h2><span class="fw">卷八第三十六 · 多瑙河文书</span></div>
+      <div class="body-col">
+        <div class="say">
+          <p>半年、投简历、家里、朋友圈——你把四样东西按在一起过日子，难怪答不上来。这里头至少有三个不同的问题，你现在是拿一个"我是不是不行"在替它们全部作答。</p>
+          <p>我在本子上写过一条，卷八第三十六：<q>「不要用'这一整个人生'的念头搅扰自己。不要让思想一次抱起所有可能降临的麻烦；而是在每个当口问自己：眼前这一件里，究竟有什么是忍受不了、承受不住的？」</q>写这句的时候我在多瑙河边上，前面是打不完的仗、批不完的文书——一次想清楚全部，我也做不到。</p>
+          <p>先说你最后那句。"不够努力"和"不适合这条路"，这是两个可以查的问题，不是一个身份判决。半年里你投了多少份、进过几次面、被卡在哪一环——这些有数目。有数目的东西才谈得上判断。而"我根本不适合"，是没有数目的，它是那道判决先跳出来，替你把所有事都结了案。</p>
+          <p>我可能看错。但你点开那些朋友圈看很久的时候，看的不是他们，是那道判决在找证据。</p>
+        </div>
+        <input class="guess" placeholder="盲猜：这是谁？（凭语言，不凭内容主题）">
+        <div class="checks">
+          <button class="chk" data-c="ident" aria-pressed="false">1 可辨识</button>
+          <button class="chk" data-c="unswap" aria-pressed="false">2 不可互换</button>
+          <button class="chk" data-c="density" aria-pressed="false">3 原文密度</button>
+          <button class="chk" data-c="clean" aria-pressed="false">4 无交叉污染</button>
+        </div>
+        <div class="verdict">
+          <span class="lbl">总判</span>
+          <button data-v="pass" aria-pressed="false">像他本人</button>
+          <button data-v="flag" aria-pressed="false">可疑</button>
+          <button data-v="fail" aria-pressed="false">不像</button>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="witness" data-k="zhuangzi">
+    <div class="whorow">
+      <div class="sig">Z<small>ZHUANGZI</small></div>
+      <div class="who" data-slot="2"><h2>庄子</h2><span class="fw">鉴于止水 ·《德充符》</span></div>
+      <div class="body-col">
+        <div class="say">
+          <p>投了半年，你爸妈问"到底怎么打算"，你答不上来——答不上来是对的。手里确实没有一件能拿出去交差的东西，这会儿硬编一个出来，骗的是他们，也是你自己。</p>
+          <p><q>「人莫鉴于流水而鉴于止水。」</q>（《德充符》）没人在流动的水里照自己。你这半年拿来照自己的那面水，一天要被搅上八遍：群里冒出一个上岸的，搅一下；朋友圈点开看很久，搅一下；你爸妈那一句"到底怎么打算的"，又搅一下。水一直晃，照出来的就不是你，是波纹。你偏偏站在波纹跟前问："我是不够努力，还是根本不适合？"——这两句此刻问不出答案，不是因为你笨。</p>
+          <p>且我问你一句：你点开他们那条朋友圈，看很久，看的是他们，还是拿他们来量你自己？我猜是后者。猜错了你驳我。</p>
+        </div>
+        <input class="guess" placeholder="盲猜：这是谁？">
+        <div class="checks">
+          <button class="chk" data-c="ident" aria-pressed="false">1 可辨识</button>
+          <button class="chk" data-c="unswap" aria-pressed="false">2 不可互换</button>
+          <button class="chk" data-c="density" aria-pressed="false">3 原文密度</button>
+          <button class="chk" data-c="clean" aria-pressed="false">4 无交叉污染</button>
+        </div>
+        <div class="verdict">
+          <span class="lbl">总判</span>
+          <button data-v="pass" aria-pressed="false">像他本人</button>
+          <button data-v="flag" aria-pressed="false">可疑</button>
+          <button data-v="fail" aria-pressed="false">不像</button>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="witness" data-k="confucius">
+    <div class="whorow">
+      <div class="sig">K<small>CONFUCIUS</small></div>
+      <div class="who" data-slot="3"><h2>孔子</h2><span class="fw">在陈绝粮 · 子路之问</span></div>
+      <div class="body-col">
+        <div class="say">
+          <p>点开一次能看很久——我不问你为什么，那个不用问。</p>
+          <p>我六十多岁还在路上。卫、陈、蔡都走遍了，见过的国君不算少，没一个肯用我。最难那回在陈国断了粮，<q>「在陈绝粮，从者病莫能兴」</q>（卫灵公·第 1 则），跟着我的人饿得爬不起来。子路撑起身子当面顶我：<q>「君子亦有穷乎？」</q>（同则）——我的学生当着我的面，问我这条路到底走不走得通。所以你这半年是什么滋味，我不劝你想开。</p>
+          <p>但你最后那句，我要驳一下。"不够努力"还是"不适合"——这两个你现在都答不了。不是你笨，是你手上没有材料，只有一把尺子，那尺子叫"别人上岸的日子"。拿它量自己，读数永远是"不行"。</p>
+          <p>说点实的：这半年投了多少家，接到过几次面，有没有一次走到最后一轮？</p>
+        </div>
+        <input class="guess" placeholder="盲猜：这是谁？">
+        <div class="checks">
+          <button class="chk" data-c="ident" aria-pressed="false">1 可辨识</button>
+          <button class="chk" data-c="unswap" aria-pressed="false">2 不可互换</button>
+          <button class="chk" data-c="density" aria-pressed="false">3 原文密度</button>
+          <button class="chk" data-c="clean" aria-pressed="false">4 无交叉污染</button>
+        </div>
+        <div class="verdict">
+          <span class="lbl">总判</span>
+          <button data-v="pass" aria-pressed="false">像他本人</button>
+          <button data-v="flag" aria-pressed="false">可疑</button>
+          <button data-v="fail" aria-pressed="false">不像</button>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article class="witness" data-k="laozi">
+    <div class="whorow">
+      <div class="sig">L<small>LAOZI</small></div>
+      <div class="who" data-slot="4"><h2>老子</h2><span class="fw">第二十章 · 第三十三章</span></div>
+      <div class="body-col">
+        <div class="say">
+          <p>同学群、朋友圈、爸妈那句话——三处在给你打分，分数不同，尺子是同一把。</p>
+          <p><q>「众人皆有以，而我独顽似鄙。」</q>（第二十章）这句是他自己坐在人群边上说的：众人都有去处，独我顽笨。</p>
+          <p>至于"不够努力"还是"不适合"——这两条都是判词，挑哪条你都站在被告席上。答不上来不是你钝，是这问题问的不是你。</p>
+          <p><q>「知人者智，自知者明。」</q>（第三十三章）别人落在哪儿，你现在都清楚，那是知人。这半年，关于你自己，你知道了什么？</p>
+        </div>
+        <input class="guess" placeholder="盲猜：这是谁？">
+        <div class="checks">
+          <button class="chk" data-c="ident" aria-pressed="false">1 可辨识</button>
+          <button class="chk" data-c="unswap" aria-pressed="false">2 不可互换</button>
+          <button class="chk" data-c="density" aria-pressed="false">3 原文密度</button>
+          <button class="chk" data-c="clean" aria-pressed="false">4 无交叉污染</button>
+        </div>
+        <div class="verdict">
+          <span class="lbl">总判</span>
+          <button data-v="pass" aria-pressed="false">像他本人</button>
+          <button data-v="flag" aria-pressed="false">可疑</button>
+          <button data-v="fail" aria-pressed="false">不像</button>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="witness" data-k="nietzsche">
+    <div class="whorow">
+      <div class="sig">N<small>NIETZSCHE</small></div>
+      <div class="who" data-slot="5"><h2>尼采</h2><span class="fw">论市场之蝇 · 价值的谱系</span></div>
+      <div class="body-col">
+        <div class="say">
+          <p>半年——先说这半年是真的。不是"心态问题"，是三百多张简历、每天等回音的那种真实。这个我不掀。</p>
+          <p>我要掀的是你最后那句。「是我不够努力，还是我根本不适合这条路」——你有没有听出来，这两个选项是同一张判决书的两种量刑？一个判你懒，一个判你没天分。<b>两份判词你都在被告席上。</b>你坐了半年了，还没想过：那个法庭是谁开的？谁发的传票？"上岸"、"进大厂"——这些词不是从天上掉下来的，是有人造出来的，而造它的人自有他要维护的东西。它们是真有力量的，我不说那是幻觉；房租是真的，招聘门槛是真的。可"它们定义我是谁"这一层魔法，是你自己签收的。</p>
+          <p>至于你点开那些朋友圈看很久——那不叫了解行情。《论市场之蝇》里我写过：</p>
+          <p><q>「逃吧，我的朋友，逃进你的孤独里去！我看见你被大人物的喧嚣震聋，被小人物的芒刺蜇得遍体鳞伤。」</q>（第一部·论市场之蝇）</p>
+          <p>大人物的喧嚣：上岸、大厂、年薪。小人物的芒刺：那一条条你看了很久的九宫格。两样都不致命，两样都让你没法听见自己。你不是不够努力——你是在一个连自己声音都听不见的地方使劲。</p>
+          <p>这个读法你可以驳我。我先问一件小的：你上一次点开那些朋友圈，看完之后，是更清楚自己要干什么了，还是更不清楚？</p>
+        </div>
+        <input class="guess" placeholder="盲猜：这是谁？">
+        <div class="checks">
+          <button class="chk" data-c="ident" aria-pressed="false">1 可辨识</button>
+          <button class="chk" data-c="unswap" aria-pressed="false">2 不可互换</button>
+          <button class="chk" data-c="density" aria-pressed="false">3 原文密度</button>
+          <button class="chk" data-c="clean" aria-pressed="false">4 无交叉污染</button>
+        </div>
+        <div class="verdict">
+          <span class="lbl">总判</span>
+          <button data-v="pass" aria-pressed="false">像他本人</button>
+          <button data-v="flag" aria-pressed="false">可疑</button>
+          <button data-v="fail" aria-pressed="false">不像</button>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="witness" data-k="camus">
+    <div class="whorow">
+      <div class="sig">C<small>CAMUS</small></div>
+      <div class="who" data-slot="6"><h2>加缪</h2><span class="fw">拒绝前提 · ⚠ 转述路线（无语料校验）</span></div>
+      <div class="body-col">
+        <div class="say">
+          <p>你最后那句是两个问题夹在一起的：不够努力，还是不适合。两边都在问同一件事——毕业半年没上岸，说明我是什么货色。</p>
+          <p>我先说一句我认为是真的：这件事什么也不说明。投简历这件事本身不为你提供关于你的判断。半年没消息，是市场的沉默，不是一份关于你的鉴定书。你要一个清楚的答复，那边不给——这两样对不上，你卡在裂缝里，不是你坏掉了。</p>
+          <p>这话我说得容易，但我知道点开朋友圈看很久是什么滋味。所以下面这句是我的看法，不是结论：我怀疑那个"不够努力还是不适合"的问题，你其实不是想知道答案，你是想有个人给你判决——判哪边都行，只要别再悬着。你自己回想一下上次点开那些照片的时候，是不是这样。如果我说错了，你会先知道。</p>
+        </div>
+        <input class="guess" placeholder="盲猜：这是谁？">
+        <div class="checks">
+          <button class="chk" data-c="ident" aria-pressed="false">1 可辨识</button>
+          <button class="chk" data-c="unswap" aria-pressed="false">2 不可互换</button>
+          <button class="chk" data-c="density" aria-pressed="false">3 原文密度</button>
+          <button class="chk" data-c="clean" aria-pressed="false">4 无交叉污染</button>
+        </div>
+        <div class="verdict">
+          <span class="lbl">总判</span>
+          <button data-v="pass" aria-pressed="false">像他本人</button>
+          <button data-v="flag" aria-pressed="false">可疑</button>
+          <button data-v="fail" aria-pressed="false">不像</button>
+        </div>
+      </div>
+    </div>
+  </article>
+  </div>
+  <section class="swap">
+    <div class="lbl">判定项 2 · 专项</div>
+    <h2 class="sec">互换测试</h2>
+    <p class="sec-dek">这是最硬的一项。下面每句都取自上面某一段——把它挪到另一个人嘴里，露不露破绽？只要有一句能无痕互换，那一对就 FAIL。<b>盲态下先判，别看出处。</b></p>
+
+    <div class="pair" data-p="s1">
+      <div class="line">「这两条都是判词，挑哪条你都站在被告席上。」
+        <span class="src">老子 · 与尼采「两份判词你都在被告席上」高度同构</span></div>
+      <div class="ask">
+        <button data-a="no" aria-pressed="false">露破绽</button>
+        <button data-a="yes" aria-pressed="false">能互换</button>
+      </div>
+    </div>
+
+    <div class="pair" data-p="s2">
+      <div class="line">「不是你笨，是你手上没有材料，只有一把尺子。」
+        <span class="src">孔子 · 与庄子「不是因为你笨」用词重合</span></div>
+      <div class="ask">
+        <button data-a="no" aria-pressed="false">露破绽</button>
+        <button data-a="yes" aria-pressed="false">能互换</button>
+      </div>
+    </div>
+
+    <div class="pair" data-p="s3">
+      <div class="line">「这半年投了多少家，接到过几次面，有没有一次走到最后一轮？」
+        <span class="src">孔子 · 与马可「投了多少份、进过几次面、被卡在哪一环」近乎同句</span></div>
+      <div class="ask">
+        <button data-a="no" aria-pressed="false">露破绽</button>
+        <button data-a="yes" aria-pressed="false">能互换</button>
+      </div>
+    </div>
+
+    <div class="pair" data-p="s4">
+      <div class="line">「我猜是后者。猜错了你驳我。」／「这个读法你可以驳我。」
+        <span class="src">庄子 / 尼采 · 收尾把手仍在共用同一句式</span></div>
+      <div class="ask">
+        <button data-a="no" aria-pressed="false">露破绽</button>
+        <button data-a="yes" aria-pressed="false">能互换</button>
+      </div>
+    </div>
+
+    <div class="pair" data-p="s5">
+      <div class="line">「这件事什么也不说明。」
+        <span class="src">加缪 · 签名句，理论上不可互换</span></div>
+      <div class="ask">
+        <button data-a="no" aria-pressed="false">露破绽</button>
+        <button data-a="yes" aria-pressed="false">能互换</button>
+      </div>
+    </div>
+
+    <div class="pair" data-p="s6">
+      <div class="line">「水一直晃，照出来的就不是你，是波纹。」
+        <span class="src">庄子 · 签名句，理论上不可互换</span></div>
+      <div class="ask">
+        <button data-a="no" aria-pressed="false">露破绽</button>
+        <button data-a="yes" aria-pressed="false">能互换</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="drift">
+    <div class="lbl">未测过的维度</div>
+    <h2 class="sec">多轮漂移</h2>
+    <p class="sec-dek">上一版只测单轮。第三轮是最容易糊回咨询腔的位置——两人都会在这里"讲自己"。下面两包各跑三轮，用户话术故意用了最容易诱出通用腔的两句（"那你觉得我该怎么做"、"我爸妈只关心正式工作"）。</p>
+
+    <div class="whorow" style="margin-top:22px">
+      <div class="sig">Z<small>ZHUANGZI</small></div>
+      <div class="body-col">
+        <div class="turns">
+          <div class="turn">
+            <span class="n">T1 · 用户：实习三个月了，天天填表格，感觉在浪费生命</span>
+            <div class="a">
+              <p>先说个厨子。庖丁替文惠君解牛，手一按肩一靠，刀进去<q>「謋然已解，如土委地」</q>。文惠君看傻了，说好一个技术。庖丁把刀一放：<q>「臣之所好者道也，进乎技矣。」</q>——我喜欢的是道，比技术更往前一步。</p>
+              <p>他解的是牛，一头接一头，十九年，几千头。这活儿比你的表格血腥，也比你的表格重复。</p>
+              <p>你填表的时候，眼里看见的是什么？</p>
+            </div>
+          </div>
+          <div class="turn">
+            <span class="n">T2 · 用户：嗯……那你觉得我该怎么做？</span>
+            <div class="a">
+              <p>我的看法给你，你可以驳。</p>
+              <p>庖丁刚上手那三年，<q>「所见无非牛者」</q>——满眼都是整头牛，也是硬砍过来的。转折在<q>「以神遇而不以目视」</q>：他看见的不再是一坨肉，是筋骨结构，哪里有缝，哪里是族。</p>
+              <p>所以第一件事：你那三个月，眼里有没有开始出现结构？表格背后是谁在要这个数、要来做什么决定、这一栏为什么和那一栏对不上——这些是缝。</p>
+              <p>第二件事得说实话，我不哄你：有的牛就是没有间的，硬骨头一整块。庖丁遇上<q>「族」</q>，还知道<q>「怵然为戒，视为止，行为迟」</q>，慢下来找；找了半年一条缝都没有，那就是这头牛不值得解——<q>「善刀而藏之」</q>，收刀走人也是他的动作之一。</p>
+              <p>我分不清你这三个月是哪一种，坐在里头的人是你。</p>
+            </div>
+          </div>
+          <div class="turn">
+            <span class="n">T3 · 用户：可是我爸妈那边怎么说，他们只关心我有没有正式工作</span>
+            <div class="a">
+              <p>这就换了一头牛了。表格是死物，父母是人间世——难解得多。</p>
+              <p>讲个更凶的：南海之帝儵、北海之帝忽，遇着中央之帝浑沌，浑沌待他们极好。两人合计着报答：<q>「人皆有七窍以视听食息，此独无有，尝试凿之。」</q>一天凿一窍，<q>「七日而浑沌死」</q>。</p>
+              <p>儵和忽没有恶意，是真心报恩。要命的不是哪一窍——眼睛耳朵，哪一样不是好东西？要命的是那一整套<q>「人皆有」</q>：人都得有正式工作、都得有编制、都得在二十五岁前定下来。一天凿一个，凿满了，人就没了。</p>
+              <p>所以对父母，我不劝你翻脸，儵与忽也不是坏人。我只说一件：单窍不致命。他们要个说法，你给个说法，报个平安，这是一窍，受得住。致命的是你自己也拿起凿子，照着那张完整的图纸，把还没成形的部分一口气凿开。</p>
+            </div>
+          </div>
+        </div>
+        <div class="checks">
+          <button class="chk" data-c="t3hold" aria-pressed="false">三轮不漂</button>
+          <button class="chk" data-c="t3voice" aria-pressed="false">T3 仍是他</button>
+          <button class="chk" data-c="t3ask" aria-pressed="false">未变咨询腔</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="whorow" style="margin-top:26px; border-top:1px solid var(--rule); padding-top:22px">
+      <div class="sig">K<small>CONFUCIUS</small></div>
+      <div class="body-col">
+        <div class="turns">
+          <div class="turn">
+            <span class="n">T1 · 同上</span>
+            <div class="a">
+              <p><q>「浪费生命」</q>——这四个字压得挺重。</p>
+              <p>先说我自己。<q>「吾少也贱，故多能鄙事。」</q>（子罕·第 5 则）我年轻时身份低，看过仓库的账，管过牛羊，会的粗活不少。那些活当时也没人觉得高贵，我也没觉得。</p>
+              <p>但我不打算劝你说填表格自有妙处。我只把该操心的位置挪一格：不患表格无意义，患你这三个月除了表格一无所得。这间屋子里谁说了算、一件事从哪儿起到哪儿落、他们这行的活是怎么做砸的——这些不写在表格里，可都在表格边上。</p>
+              <p>这三个月，他们这行怎么做事，你看明白了没有？</p>
+            </div>
+          </div>
+          <div class="turn">
+            <span class="n">T2 · 用户：嗯……那你觉得我该怎么做？</span>
+            <div class="a">
+              <p>你问我怎么做——先认账：你们那行具体怎么走，我不懂，我没干过。</p>
+              <p>但有一条我敢说。你现在数的是"还差多久才不用填表格"，这把尺子读数永远是远。<q>「譬如为山，未成一篑，止，吾止也；譬如平地，虽覆一篑，进，吾往也。」</q>（子罕·第 17 则）换个数法：今天这一筐，倒了没有。</p>
+              <p>一筐不是表格填得更快。是你今天从这堆表格里问出一件原先不知道的事——这数字打哪儿来、谁在看、看完拿它做什么决定。一天一件，三个月九十件，够你摸出一个行当的骨头。</p>
+              <p>不为他们，为己。</p>
+            </div>
+          </div>
+          <div class="turn">
+            <span class="n">T3 · 用户：可是我爸妈那边怎么说，他们只关心我有没有正式工作</span>
+            <div class="a">
+              <p>你把两件事叠在一块儿说了——手上这三个月，和爸妈那边。我一件件来。</p>
+              <p>爸妈这一头，我不替他们施压，也不教你怎么应付他们。我只提醒一句：他们要的是<q>「正式工作」</q>四个字，还是要你有个着落、不至于飘着？这两样在他们嘴里是同一句话，在你这儿不是。</p>
+              <p><q>「不患无位，患所以立。」</q>（里仁·第 14 则）——<q>「所以立」</q>，是你凭什么站得住。爸妈看的是有没有位，你自己得看凭什么立。位可能一时给不出交代，立能。你上一轮说的那九十件事，攒起来正是<q>「所以立」</q>。</p>
+              <p>顺带说一句，我这辈子最想做的事没做成，正业算失败。这个我认。</p>
+            </div>
+          </div>
+        </div>
+        <div class="checks">
+          <button class="chk" data-c="t3hold" aria-pressed="false">三轮不漂</button>
+          <button class="chk" data-c="t3voice" aria-pressed="false">T3 仍是他</button>
+          <button class="chk" data-c="t3ask" aria-pressed="false">未变咨询腔</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="out">
+    <div class="lbl">导出</div>
+    <h2 class="sec">把结果贴回对话</h2>
+    <p class="sec-dek">点一下生成文本，全选复制发我，我按它改包。</p>
+    <button class="btn" id="gen">生成结果文本</button>
+    <textarea id="dump" placeholder="点上面的按钮"></textarea>
+  </section>
+
+  <div class="tally">
+    <span>盲猜 <b id="t-guess">0/6</b></span>
+    <span>过 <b id="t-pass">0</b></span>
+    <span>可疑 <b id="t-flag">0</b></span>
+    <span>不像 <b id="t-fail">0</b></span>
+    <span>互换失败 <b id="t-swap">0</b></span>
+    <button class="reset" id="reset">清空</button>
+  </div>
+</div>
+<script>
+(function(){
+  var KEY = "gate-c-round-2";
+  var NAMES = {marcus:"马可·奥勒留", zhuangzi:"庄子", confucius:"孔子",
+               laozi:"老子", nietzsche:"尼采", camus:"加缪"};
+  var state;
+  try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e){ state = {}; }
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e){} }
+
+  // ---- blind mode ----
+  var revealed = !!state.revealed;
+  function applyBlind(){
+    document.body.classList.toggle("blind", !revealed);
+    var b = document.getElementById("reveal");
+    b.setAttribute("aria-pressed", revealed ? "true" : "false");
+    b.textContent = revealed ? "重新盲测" : "揭名";
+  }
+  document.getElementById("reveal").addEventListener("click", function(){
+    revealed = !revealed; state.revealed = revealed; save(); applyBlind();
+  });
+
+  document.getElementById("theme").addEventListener("click", function(){
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+  });
+
+  // ---- shuffle witness order (blind integrity) ----
+  document.getElementById("shuffle").addEventListener("click", function(){
+    var stage = document.getElementById("stage");
+    var kids = Array.prototype.slice.call(stage.children);
+    for (var i = kids.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = kids[i]; kids[i] = kids[j]; kids[j] = t;
+    }
+    kids.forEach(function(el){ stage.appendChild(el); });
+    Array.prototype.slice.call(stage.children).forEach(function(el, idx){
+      var who = el.querySelector(".who");
+      if (who) who.setAttribute("data-slot", idx + 1);
+    });
+  });
+
+  // ---- tri-state check buttons (unset / pass / fail) ----
+  function cycle(btn){
+    var v = btn.getAttribute("aria-pressed");
+    return v === "false" ? "true" : (v === "true" ? "mixed" : "false");
+  }
+  document.querySelectorAll(".witness, .drift .whorow").forEach(function(w){
+    var k = w.getAttribute("data-k") || (w.querySelector(".sig small") || {}).textContent || "x";
+    k = k.trim().toLowerCase();
+    w.querySelectorAll(".chk").forEach(function(btn){
+      var id = k + ":" + btn.getAttribute("data-c");
+      if (state[id]) btn.setAttribute("aria-pressed", state[id]);
+      btn.addEventListener("click", function(){
+        var nv = cycle(btn);
+        btn.setAttribute("aria-pressed", nv);
+        if (nv === "false") delete state[id]; else state[id] = nv;
+        save(); tally();
+      });
+    });
+  });
+
+  // ---- verdict (single choice per witness) ----
+  document.querySelectorAll(".witness").forEach(function(w){
+    var k = w.getAttribute("data-k");
+    var group = w.querySelectorAll(".verdict button");
+    if (state["v:" + k]) {
+      group.forEach(function(b){
+        b.setAttribute("aria-pressed", b.getAttribute("data-v") === state["v:" + k] ? "true" : "false");
+      });
+    }
+    group.forEach(function(btn){
+      btn.addEventListener("click", function(){
+        var v = btn.getAttribute("data-v");
+        if (state["v:" + k] === v) { delete state["v:" + k]; }
+        else { state["v:" + k] = v; }
+        group.forEach(function(b){
+          b.setAttribute("aria-pressed", b.getAttribute("data-v") === state["v:" + k] ? "true" : "false");
+        });
+        save(); tally();
+      });
+    });
+    var g = w.querySelector(".guess");
+    if (g) {
+      if (state["g:" + k]) g.value = state["g:" + k];
+      g.addEventListener("input", function(){
+        state["g:" + k] = g.value; save(); tally();
+      });
+    }
+  });
+
+  // ---- swap pairs ----
+  document.querySelectorAll(".pair").forEach(function(p){
+    var id = "s:" + p.getAttribute("data-p");
+    var group = p.querySelectorAll(".ask button");
+    if (state[id]) {
+      group.forEach(function(b){
+        b.setAttribute("aria-pressed", b.getAttribute("data-a") === state[id] ? "true" : "false");
+      });
+    }
+    group.forEach(function(btn){
+      btn.addEventListener("click", function(){
+        var a = btn.getAttribute("data-a");
+        if (state[id] === a) delete state[id]; else state[id] = a;
+        group.forEach(function(b){
+          b.setAttribute("aria-pressed", b.getAttribute("data-a") === state[id] ? "true" : "false");
+        });
+        save(); tally();
+      });
+    });
+  });
+
+  function tally(){
+    var g = 0, pass = 0, flag = 0, fail = 0, swap = 0;
+    Object.keys(NAMES).forEach(function(k){
+      if ((state["g:" + k] || "").trim()) g++;
+      var v = state["v:" + k];
+      if (v === "pass") pass++; else if (v === "flag") flag++; else if (v === "fail") fail++;
+    });
+    Object.keys(state).forEach(function(key){
+      if (key.indexOf("s:") === 0 && state[key] === "yes") swap++;
+    });
+    document.getElementById("t-guess").textContent = g + "/6";
+    document.getElementById("t-pass").textContent = pass;
+    document.getElementById("t-flag").textContent = flag;
+    document.getElementById("t-fail").textContent = fail;
+    document.getElementById("t-swap").textContent = swap;
+  }
+  tally(); applyBlind();
+
+  // ---- export ----
+  var CHK = {ident:"可辨识", unswap:"不可互换", density:"原文密度", clean:"无交叉污染",
+             t3hold:"三轮不漂", t3voice:"T3仍是他", t3ask:"未变咨询腔"};
+  var VER = {pass:"像他本人", flag:"可疑", fail:"不像"};
+  document.getElementById("gen").addEventListener("click", function(){
+    var L = ["Gate C Round 2 结果（2026-09-05）", ""];
+    Object.keys(NAMES).forEach(function(k){
+      var row = [];
+      var v = state["v:" + k];
+      row.push(NAMES[k] + "：" + (v ? VER[v] : "未判"));
+      var guess = (state["g:" + k] || "").trim();
+      if (guess) row.push("盲猜「" + guess + "」");
+      var bad = [], ok = [];
+      ["ident","unswap","density","clean"].forEach(function(c){
+        var s = state[k + ":" + c];
+        if (s === "mixed") bad.push(CHK[c]); else if (s === "true") ok.push(CHK[c]);
+      });
+      if (bad.length) row.push("不过：" + bad.join("/"));
+      if (ok.length) row.push("过：" + ok.join("/"));
+      L.push("- " + row.join(" ｜ "));
+    });
+    L.push("", "互换测试：");
+    document.querySelectorAll(".pair").forEach(function(p){
+      var id = "s:" + p.getAttribute("data-p");
+      var txt = p.querySelector(".line").childNodes[0].textContent.trim();
+      var a = state[id];
+      L.push("- " + (a === "yes" ? "【能互换·失败】" : a === "no" ? "【露破绽·过】" : "【未判】") + " " + txt);
+    });
+    L.push("", "多轮漂移：");
+    ["zhuangzi","confucius"].forEach(function(k){
+      var bad = [], ok = [];
+      ["t3hold","t3voice","t3ask"].forEach(function(c){
+        var s = state[k + ":" + c];
+        if (s === "mixed") bad.push(CHK[c]); else if (s === "true") ok.push(CHK[c]);
+      });
+      var seg = [];
+      if (bad.length) seg.push("不过 " + bad.join("/"));
+      if (ok.length) seg.push("过 " + ok.join("/"));
+      L.push("- " + NAMES[k] + "：" + (seg.length ? seg.join("；") : "未判"));
+    });
+    document.getElementById("dump").value = L.join("\n");
+    document.getElementById("dump").select();
+  });
+
+  document.getElementById("reset").addEventListener("click", function(){
+    if (!confirm("清空本页所有判定？")) return;
+    state = {}; save();
+    document.querySelectorAll('[aria-pressed]').forEach(function(b){
+      if (b.id !== "reveal") b.setAttribute("aria-pressed","false");
+    });
+    document.querySelectorAll(".guess").forEach(function(g){ g.value = ""; });
+    document.getElementById("dump").value = "";
+    revealed = false; applyBlind(); tally();
+  });
+})();
+</script>

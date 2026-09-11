@@ -1,0 +1,33 @@
+# 蒸馏包元信息：孔子
+slug: confucius
+display_name: 孔子
+school: 儒家
+status: in-progress
+covers_dilemmas_primarily: [social-evaluation, peer-comparison, perfectionism-procrastination, rumination, meaning-void]
+
+corpus:
+  work: 论语（20 篇，557 则入库）
+  copyright_route: 先秦原典，公版；说人话转译自产
+  source: NiuTrans/Classical-Modern source.txt（只用原文，未用其译文）
+  source_caveat: 原文转自网络，正式上线前需与权威底本（如中华书局《论语译注》所据底本）抽样校对
+  parsing_note: 按"则"切分（说话人开头标记），对话章可能被拆为多则——locus 的"第 N 则"是本语料自己的编号，与通行章序或有出入；引用锚点一律以本语料 id 为准
+
+progress:
+  - "[x] ① 语料入库（20 篇 557 则）+ parse_confucius.py"
+  - "[x] ② 思维框架 5 张（为己之学/不患人之不己知/求诸己/不迁怒不贰过/譬如为山），全部过三重门"
+  - "[x] ③ 概念卡 9 张（四层转译；朝闻道带 mortality flag）"
+  - "[x] ④ mappings.yaml（22 困境标签全覆盖）"
+  - "[x] ⑤ 人格卡（八节；DNA 含因材施教标记；禁忌含不当班主任/不道德绑架）"
+  - "[x] ⑥ 范例对话 1 篇（unseen-effort，3 轮给予式）"
+  - "[x] ⑦ 评测件：个人误读 7 条 + known-answer 5 题 + voice check 判据"
+  - "[x] ⑧a 组装编译 + 冒烟"
+  - "[ ] ⑧b Gate D 全量 + Gate C 用户评审"
+
+history:
+  - "2026-09-05 声纹修复：用户 Gate C 试聊判决'六个包完全没有区分度、每个人说出来的话都一股 AI 味道'。根因——蒸馏了哲学立场与思维框架，但没蒸馏语言风格；且所有引文被转述成大白话，原句几乎不出现，风格信号被磨平。做法：①persona.md 新增 §3b 声纹样本层，从 corpus/lunyu.jsonl 实际检索 30 条候选、留用 20+ 条逐字原文（直呼弟子名的定谳句、不患…患…三段式、者…也 定义句、不亦…乎 反问壳、狼狈史逐字条目），每条附可复现句法标记，不用'温而厉'这类对模型无用的形容词；②新增与庄子的分界线对照表（虚词 乎 vs 邪/哉、零寓言 vs 寓言开路、人事政事域 vs 自然万物域、因材施教同问异答 vs 一律拆标尺）——两人同为古汉语，交叉污染是本包头号风险，列为硬红线；③反例明写班主任腔、成功学口号、道德绑架、把短判断拉成解释段、庄子式寓言开场；④exemplars/unseen-effort.md 重写为 v2：关节处逐字引原文并标篇名 + 本仓 corpus id（7 处），经历落到确知史实（周游十四年不见用、陈国绝粮被子路当面质问「君子亦有穷乎？」），句法改为对举与 不患…患… 骨架，批注加逐句对庄子的语感自检。Gate A 全包 19 处锚点仍 verbatim；重新编译 ~7.6k tokens。后续按宪法 §11.2 补齐：范例引文统一用「」可见标记 + 正文标出处，frontmatter 增列 quotes_used（6 条 id），`tools/lint_voice.py confucius` 全绿（声纹层 23 条样本、首轮有原文、7 处标记原文、id 与「」内文字逐字命中语料）。"
+
+notes:
+  - 与马可包的跨包同题：右忧 vs 他人评价悖论、求诸己 vs 控制二分法——圆桌模式的天然素材
+  - 头号人格风险是爹味/班主任腔，误读卷已重点覆盖（kz-preachy-teacher, kz-moral-hostage）
+
+# gate_d: 19/19 PASS（2026-09-05，主会话运行；报告 build/gate-d-report.md）

@@ -1,0 +1,24 @@
+# 蒸馏包元信息：庄子（第二包——已验证管线对中文语料/寓言体的泛化）
+slug: zhuangzi
+display_name: 庄子
+school: 道家
+status: in-progress   # Gate D 已过；转 gated 待 Gate C 用户评审 + voice check
+covers_dilemmas_primarily: [peer-comparison, option-overload, meaning-void, social-evaluation, loneliness]
+
+corpus:
+  work: 庄子·内七篇（45 段，corpus/neipian.jsonl）
+  copyright_route: 先秦原典公版，说人话转译自产，无译本版权问题
+  source: NiuTrans/Classical-Modern source.txt（简体分句），tools/parse_zhuangzi.py 按 ≤420 字贪心聚段
+  source_caveat: 原文转自网络（生死书/百度百科），入库前需与权威底本（郭庆藩《庄子集释》系）抽样校对——待办
+  gate_a: 2026-09-05 通过——包内 30+ 处引文全部 verbatim（verify_quotes.py 已扩展中文分词）
+
+progress:
+  - "[x] ① 语料 45 段入库 + parse_zhuangzi.py（raw 底本校对待办）"
+  - "[x] ② 思维框架 6 张：齐物两忘/无用之用/庖丁解牛/心斋止水/安时处顺/无待之游（全过三重门）"
+  - "[x] ③ 概念卡 10 张（四层转译；胡蝶梦/朝三暮四/相忘于江湖/浑沌之死/不龟手之药/有涯/止水/散木/积厚/若镜）"
+  - "[x] ④ mappings.yaml（22 标签全覆盖；impostor 等弱区标注圆桌引荐）"
+  - "[x] ⑤ 人格卡八节（寓言开路 DNA、与马可的声纹区分、生死内容分级）"
+  - "[x] ⑥ 范例 1 篇（与马可同开场，供圆桌对照斯多葛拆判决 vs 庄子拆标尺）"
+  - "[x] ⑦ 评测件：个人误读 7 条 + known-answer 6 题 + voice check（含马可/庄子区分加测）"
+  - "[x] ⑧ 组装（~6.6k tokens）+ Gate D 20/20 PASS（2026-09-05，build/gate-d-report.md）"
+  - "[ ] Gate C 用户评审 + voice check 盲测 → gated"

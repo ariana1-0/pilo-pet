@@ -1,0 +1,63 @@
+[
+  {
+    "person": "Marcus Aurelius",
+    "source_page": "https://www.metmuseum.org/art/collection/search/195735",
+    "image_url": "https://images.metmuseum.org/CRDImages/es/original/DP-615-001.jpg",
+    "credit": "Marcus Aurelius, Italian, late 16th century. Bronze with brass base. Gift of Ogden Mills, 1927. The Metropolitan Museum of Art, object 27.36.10.",
+    "license": "Public domain; The Met Open Access. Unrestricted commercial and noncommercial use.",
+    "recommended": "Recommended clear-rights portrait bust. Original downloaded without editing.",
+    "alternative_page": "https://commons.wikimedia.org/wiki/File:Roma,_busto_di_marco_aurelio,_170-180_dc_ca.jpg",
+    "alternative_license": "Sailko, CC BY 3.0; download timed out.",
+    "bytes": 1733855,
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "person": "Zhuangzi",
+    "source_page": "https://terakoya-juku.com/blog/detail/20240325/",
+    "image_url": "https://terakoya-juku.com/common/upload_data/terakoya-jukucom/images/%E8%8D%98%E5%AD%90%E3%80%80%E8%82%96%E5%83%8F%E7%94%BB.png",
+    "credit": "Historic line portrait of Zhuangzi, reproduced by Terakoya Juku",
+    "license": "Original historic print appears public domain; exact print attribution not independently verified on this mirror.",
+    "alternative_page": "https://commons.wikimedia.org/wiki/File:Zhuangzi.png",
+    "alternative_license": "Wikimedia source painting marked public domain; original download timed out.",
+    "bytes": 524583
+  },
+  {
+    "person": "Laozi",
+    "source_page": "https://pressbooks.ulib.csuohio.edu/intro-to-chinese-calligraphy/chapter/early-forms-of-calligraphy/",
+    "image_url": "https://pressbooks.ulib.csuohio.edu/intro-to-chinese-calligraphy/wp-content/uploads/sites/27/2018/05/%E8%80%81%E5%AD%90.jpg",
+    "credit": "Wen Zhengming (1470–1559), portrait of Laozi; reproduction from Cleveland State University Pressbooks",
+    "license": "Historic 2D painting by artist deceased 1559 is public domain; textbook overall CC BY-NC-ND 4.0 (do not attribute a free commercial license to the textbook).",
+    "bytes": 56196
+  },
+  {
+    "person": "Confucius",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Great_Confucian_Figures_-_Painting_of_Kongzi_by_Kan%C5%8D_Sansetsu.jpg",
+    "mirror_page": "https://godsmap.com/p/kong-zi/",
+    "image_url": "https://godsmap.com/images/people/kong-zi-kano-sansetsu.webp",
+    "credit": "Kanō Sansetsu, 1632. ColBase: Integrated Collections Database of the National Museums, Japan / Tokyo National Museum.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Mirror is resized webp reproduction of Commons image. Artist attribution and image match verified.",
+    "bytes": 80360
+  },
+  {
+    "person": "Friedrich Nietzsche",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg",
+    "mirror_page": "https://www.lifeweek.com.cn/h5/article/detail?artId=10130",
+    "image_url": "https://zdimg.lifeweek.com.cn/bg/20171108/1510141104642ndbzo.jpg",
+    "credit": "Gustav-Adolf Schultze, Friedrich Nietzsche, September 1882",
+    "license": "Public domain (PD old / scan); mirror displays same historical profile photograph.",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "bytes": 81897
+  },
+  {
+    "person": "Albert Camus",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Albert_Camus.png",
+    "mirror_page": "https://edea.juntadeandalucia.es/bancorecursos/file/8a16d818-531d-4603-a9de-8a00525569d6/1/es-an_2021050712_9124410.zip/1_novela_existencial.html",
+    "image_url": "https://edea.juntadeandalucia.es/bancorecursos/file/8a16d818-531d-4603-a9de-8a00525569d6/1/es-an_2021050712_9124410.zip/Albert_Camus.png",
+    "credit": "Albert Camus, sketch by Petr Vorel (2005)",
+    "license": "Attribution-only free use: any use, redistribution, derivative work and commercial use allowed when Petr Vorel is properly attributed.",
+    "notes": "Mirror resolution 277×360; visual match and named author verified.",
+    "bytes": 50269
+  }
+]

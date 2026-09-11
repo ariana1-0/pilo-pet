@@ -1,0 +1,34 @@
+[
+  {
+    "person": "Marcus Aurelius",
+    "source_page": "https://www.metmuseum.org/art/collection/search/195735",
+    "image_url": "https://images.metmuseum.org/CRDImages/es/original/DP-615-001.jpg",
+    "credit": "Marcus Aurelius, Italian, late 16th century. Bronze with brass base. Gift of Ogden Mills, 1927. The Metropolitan Museum of Art, object 27.36.10.",
+    "license": "Public domain; The Met Open Access. Unrestricted commercial and noncommercial use.",
+    "recommended": "Recommended clear-rights portrait bust. Original downloaded without editing.",
+    "alternative_page": "https://commons.wikimedia.org/wiki/File:Roma,_busto_di_marco_aurelio,_170-180_dc_ca.jpg",
+    "alternative_license": "Sailko, CC BY 3.0; download timed out.",
+    "bytes": 1733855,
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "person": "Zhuangzi",
+    "source_page": "https://terakoya-juku.com/blog/detail/20240325/",
+    "image_url": "https://terakoya-juku.com/common/upload_data/terakoya-jukucom/images/%E8%8D%98%E5%AD%90%E3%80%80%E8%82%96%E5%83%8F%E7%94%BB.png",
+    "credit": "Historic line portrait of Zhuangzi, reproduced by Terakoya Juku",
+    "license": "Original historic print appears public domain; exact print attribution not independently verified on this mirror.",
+    "alternative_page": "https://commons.wikimedia.org/wiki/File:Zhuangzi.png",
+    "alternative_license": "Wikimedia source painting marked public domain; original download timed out.",
+    "bytes": 524583
+  },
+  {
+    "person": "Friedrich Nietzsche",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg",
+    "mirror_page": "https://www.lifeweek.com.cn/h5/article/detail?artId=10130",
+    "image_url": "https://zdimg.lifeweek.com.cn/bg/20171108/1510141104642ndbzo.jpg",
+    "credit": "Gustav-Adolf Schultze, Friedrich Nietzsche, September 1882",
+    "license": "Public domain (PD old / scan); mirror displays same historical profile photograph.",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "bytes": 81897
+  }
+]

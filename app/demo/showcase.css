@@ -1,0 +1,27 @@
+/* Only presentation playback overrides; the underlying layout is the web app's CSS. */
+html,body{height:100%;overflow:hidden}
+.conversation{min-height:0!important}
+.msg{animation:none}
+.more-menu{visibility:hidden}
+.page-footer{margin-top:12px}
+.stream{scroll-behavior:auto!important}
+.mode-nav a{cursor:pointer}
+textarea[readonly]{cursor:default}
+#rt-choose:disabled,#rt-menu-new:disabled{opacity:1;cursor:default}
+#rt-status{font-size:13px}
+.roundtable .composer{padding-bottom:15px}
+.roundtable-controls .conversation-actions{display:none}
+.deep-chat .stream{justify-content:flex-start}
+.showcase-outgoing{position:fixed;inset:0;z-index:2;isolation:isolate;pointer-events:none;overflow:hidden;will-change:opacity}
+.topbar,body>.page-footer{position:relative;z-index:3}
+.page-frame{z-index:3}
+.showcase-outgoing [data-showcase-part="input"]{display:block;flex:1;min-width:0;padding:0;min-height:27px;max-height:112px;resize:none;border:0;outline:none;background:transparent;color:var(--ink);font:16px/1.65 var(--sans)}
+.showcase-outgoing [data-showcase-part="input"]::placeholder{color:#918979;font-family:var(--serif);letter-spacing:.03em}
+@media(max-height:680px){.philosopher-header{padding-top:16px!important}.portrait-frame{width:82px!important;height:96px!important;margin-bottom:9px!important}.topbar{height:65px}.conversation{height:calc(100svh - 104px)}.stream{padding-top:16px!important}.philosopher-title h1{font-size:26px}}
+@media(max-width:600px){.topbar{grid-template-columns:1fr auto;margin:0 22px}.more-menu{display:none}.conversation{height:calc(100svh - 101px)}.msg.opening .speaker-text{font-size:18px!important}.roundtable .composer{padding-bottom:10px}.page-footer{margin-top:8px}.page-footer span:last-child{display:none}}
+
+/* Reserve breathing room for the two floating demo actions. */
+body>.page-footer{display:none}
+.conversation{height:calc(100svh - 175px)}
+@media(max-height:680px){.conversation{height:calc(100svh - 150px)}}
+@media(max-width:600px){.conversation{height:calc(100svh - 155px)}}

@@ -1,0 +1,126 @@
+/* 桌宠渲染层：透明背景，手绘纸片气泡 + 右下角色 */
+@font-face {
+  font-family: "Xiaolai";
+  src: url("../assets/fonts/Xiaolai-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: transparent; overflow: hidden; user-select: none;
+  font: 14px/1.6 -apple-system, "PingFang SC", system-ui, sans-serif; color: #2b2824; }
+#pet-root { --ui-scale: 1; display: flex; flex-direction: column; align-items: flex-end;
+  justify-content: flex-end; width: 100%; height: 100vh;
+  padding: calc(9px * var(--ui-scale)) calc(12px * var(--ui-scale)) calc(8px * var(--ui-scale));
+  gap: calc(2px * var(--ui-scale)); }
+
+/* 角色 */
+.pet { -webkit-app-region: no-drag; cursor: pointer;
+  flex: 0 0 auto;
+  width: calc(140px * var(--ui-scale)); height: calc(149px * var(--ui-scale));
+  display: flex; align-items: center; justify-content: center; transition: transform .15s;
+  filter: drop-shadow(0 calc(7px * var(--ui-scale)) calc(8px * var(--ui-scale)) rgba(35, 27, 18, .25));
+  touch-action: none; }
+.pet:hover { transform: translateY(calc(-3px * var(--ui-scale))) scale(1.04); }
+.pet.long-press { cursor: grab; }
+.pet.dragging { cursor: grabbing; transform: scale(1.03); }
+.pet-sprite {
+  /* 原图是 8 × 11 格，单格 192 × 208；这里等比显示成 132 × 143。 */
+  width: calc(132px * var(--ui-scale));
+  height: calc(143px * var(--ui-scale));
+  background-image: url("../assets/spritesheet-extended.png");
+  background-repeat: no-repeat;
+  background-size: calc(1056px * var(--ui-scale)) calc(1573px * var(--ui-scale));
+  background-position: 0 0;
+  -webkit-app-region: no-drag;
+  pointer-events: none;
+  will-change: background-position;
+}
+
+/* 气泡（弹语 / 说人话 / 回复）：SVG 轮廓随内容拉伸，保留手绘纸片感。 */
+.bubble { -webkit-app-region: no-drag; position: relative; align-self: flex-start;
+  flex: 0 0 auto;
+  cursor: pointer;
+  width: calc(356px * var(--ui-scale)); min-height: calc(170px * var(--ui-scale));
+  margin: 0 0 0 calc(6px * var(--ui-scale));
+  padding: calc(25px * var(--ui-scale)) calc(31px * var(--ui-scale)) calc(31px * var(--ui-scale));
+  color: #292929; font-family: "Xiaolai", "LXGW WenKai", "PingFang SC", sans-serif;
+  filter: drop-shadow(calc(3px * var(--ui-scale)) calc(6px * var(--ui-scale)) calc(4px * var(--ui-scale)) rgba(51, 42, 30, .16));
+  animation: paper-in .22s cubic-bezier(.2,.8,.25,1) both; }
+@keyframes paper-in {
+  from { opacity: 0; transform: translateY(calc(8px * var(--ui-scale))) scale(.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.bubble-paper { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%;
+  overflow: visible; pointer-events: none; }
+.paper-shadow { fill: rgba(196, 184, 162, .26); stroke: none; }
+.paper-fill { fill: #fffdf7; stroke: #292929; stroke-width: 3.2;
+  stroke-linecap: round; stroke-linejoin: round; }
+.paper-sketch { fill: none; stroke: rgba(41, 41, 41, .38); stroke-width: 1.15;
+  stroke-linecap: round; stroke-linejoin: round; }
+.paper-fold { fill: none; stroke: #292929; stroke-width: 2.5; stroke-linecap: round;
+  stroke-linejoin: round; }
+.bubble-content { position: relative; z-index: 1; display: flex; flex-direction: column;
+  min-width: 0; }
+.bubble-body { overflow: visible; white-space: pre-wrap; word-break: break-word; user-select: text;
+  flex: 0 0 auto;
+  font-size: calc(17px * var(--ui-scale)); line-height: 1.46; scrollbar-width: thin; }
+.bubble.quote .bubble-body { font-size: calc(22px * var(--ui-scale)); line-height: 1.34;
+  letter-spacing: 0; padding: calc(3px * var(--ui-scale)) calc(10px * var(--ui-scale)) 0 calc(2px * var(--ui-scale)); }
+.bubble.quote .bubble-body::after { content: ""; display: block;
+  width: calc(58px * var(--ui-scale)); height: calc(3px * var(--ui-scale));
+  margin: calc(7px * var(--ui-scale)) 0 0 38%;
+  border-radius: 52% 40% 55% 45%; background: #a62d2b;
+  transform: rotate(-1.5deg); opacity: .96; }
+.bubble-body.streaming::after { content: "▍"; color: #7c6f5b; animation: blink 1s step-start infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.bubble-attribution { margin: calc(7px * var(--ui-scale)) calc(12px * var(--ui-scale)) 0 0;
+  flex: 0 0 auto;
+  text-align: right; color: rgba(41,41,41,.78);
+  font-size: calc(15px * var(--ui-scale)); line-height: 1.3; }
+.bubble-src { -webkit-app-region: no-drag; flex: 0 1 auto;
+  cursor: text;
+  max-height: calc(112px * var(--ui-scale)); overflow-x: hidden; overflow-y: auto;
+  overscroll-behavior: contain; touch-action: pan-y;
+  margin-top: calc(9px * var(--ui-scale));
+  padding-top: calc(7px * var(--ui-scale));
+  padding-right: calc(6px * var(--ui-scale));
+  border-top: calc(1.5px * var(--ui-scale)) dashed rgba(166,45,43,.35);
+  font-size: calc(12px * var(--ui-scale)); line-height: 1.4;
+  color: #655d52; user-select: text; }
+.bubble-src::-webkit-scrollbar { width: calc(5px * var(--ui-scale)); }
+.bubble-src::-webkit-scrollbar-track { background: transparent; }
+.bubble-src::-webkit-scrollbar-thumb { background: rgba(143,45,43,.3); border-radius: 999px; }
+.bubble-src .locus { color: #a62d2b; }
+.bubble-actions { -webkit-app-region: no-drag; z-index: 3; align-self: flex-start;
+  flex: 0 0 auto;
+  display: flex; flex-wrap: wrap; gap: calc(15px * var(--ui-scale));
+  min-height: calc(23px * var(--ui-scale));
+  margin: calc(4px * var(--ui-scale)) 0 calc(2px * var(--ui-scale)) calc(48px * var(--ui-scale)); }
+.bubble-actions[hidden] { display: none; }
+.bubble-actions:empty { display: none; }
+.bubble-actions button { -webkit-app-region: no-drag; border: 0;
+  border-bottom: calc(1.5px * var(--ui-scale)) solid transparent;
+  background: rgba(255,253,247,.9); color: #8f2d2b;
+  font: calc(14px * var(--ui-scale))/1.3 "Xiaolai", "PingFang SC", sans-serif;
+  padding: calc(1px * var(--ui-scale)) calc(3px * var(--ui-scale)); cursor: pointer; }
+.bubble-actions button:hover { color: #b22e2b; border-bottom-color: #b22e2b;
+  transform: translateY(-1px) rotate(-1deg); }
+.bubble-actions button:focus-visible { outline: calc(2px * var(--ui-scale)) solid #e2b62f;
+  outline-offset: calc(2px * var(--ui-scale)); }
+.bubble-spark { position: absolute; z-index: 2; right: calc(-13px * var(--ui-scale));
+  bottom: calc(19px * var(--ui-scale)); width: calc(18px * var(--ui-scale));
+  height: calc(18px * var(--ui-scale)); background: #f2bf27;
+  border: calc(2.5px * var(--ui-scale)) solid #292929; transform: rotate(45deg);
+  clip-path: polygon(50% 0, 63% 36%, 100% 50%, 63% 64%, 50% 100%, 37% 64%, 0 50%, 37% 36%); }
+.bubble-spark::after { content: ""; position: absolute; width: calc(6px * var(--ui-scale));
+  height: calc(2px * var(--ui-scale)); right: calc(-11px * var(--ui-scale));
+  top: calc(-5px * var(--ui-scale)); border-radius: 50%; background: #292929;
+  transform: rotate(-70deg); }
+
+/* 危机气泡（产品身份） */
+.bubble.crisis { color: #7b302a; }
+.bubble.crisis .paper-fill { fill: #fff5ef; stroke: #8a4433; }
+.bubble.crisis .paper-sketch, .bubble.crisis .paper-fold { stroke: rgba(138,68,51,.56); }
+.bubble.crisis .bubble-spark { display: none; }

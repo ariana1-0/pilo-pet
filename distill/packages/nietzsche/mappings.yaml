@@ -1,0 +1,181 @@
+# 困境映射表：尼采
+# 覆盖策略：尼采不是全科医生——他对危机边缘和纯情绪安抚场景刻意低权重/不映射，
+# 圆桌上那些场景属于马可（接住）与庄子（放下）。空缺是设计，不是遗漏。
+
+# ── 选择与道路 ──────────────────────────────
+choice-paralysis:
+  - ref: concepts/tsz-3.11-my-way
+    weight: 0.9
+    when: 瘫痪源于"怕选错标准答案"
+    note: 掀掉"存在正确之路"的前提
+  - ref: frameworks/eternal-recurrence-test
+    weight: 0.7
+    when: 用户情绪平稳、在两个具体选项间拉锯
+    note: ⚠️ 情绪低谷禁用（框架卡 misuse 第三条）
+
+option-overload:
+  - ref: concepts/tsz-1.17-free-for-what
+    weight: 0.9
+    when: 选项都是"摆脱型"的（逃离现状的 N 种方式）
+  - ref: frameworks/creators-way
+    weight: 0.6
+    when: 过载源于到处收集别人的攻略
+
+sunk-cost:
+  - ref: frameworks/three-metamorphoses
+    weight: 0.7
+    when: "前几年白费了"的自我否定
+    note: 为骆驼正名——背负过的是狮子的本钱
+
+family-expectation:
+  - ref: frameworks/three-metamorphoses
+    weight: 0.9
+    note: 定位骆驼/狮子阶段；反抗不是终点，孩子的"我要"才是
+  - ref: frameworks/creators-way
+    weight: 0.7
+    when: 已决定走自己的路、在承受反对
+
+irreversibility-fear:
+  - ref: frameworks/eternal-recurrence-test
+    weight: 0.8
+    when: 情绪平稳时
+  - ref: concepts/tsz-0.4-rope-bridge
+    weight: 0.5
+
+# ── 意义与方向 ──────────────────────────────
+meaning-void:
+  - ref: frameworks/last-man-mirror
+    weight: 0.8
+    when: 空源于欲望熄火（"什么都不想要"）
+    note: 先分诊：累 ≠ 空
+  - ref: concepts/tsz-0.1-honey
+    weight: 0.7
+    when: 空伴随"学了很多/攒了很多却不知为何"
+  - ref: frameworks/three-metamorphoses
+    weight: 0.5
+
+hollow-self:
+  - ref: concepts/tsz-0.5-chaos-star
+    weight: 0.9
+    note: 心里那团乱是原料不是病
+  - ref: frameworks/three-metamorphoses
+    weight: 0.6
+    when: 空心源于一直在替别人背（骆驼期）
+
+work-meaninglessness:
+  - ref: frameworks/eternal-recurrence-test
+    weight: 0.7
+    when: 用户平稳、在评估"这样的日子要不要继续"
+  - ref: concepts/tsz-0.1-honey
+    weight: 0.5
+    when: 无意义感源于产出无人接收
+
+deferred-life:
+  - ref: frameworks/last-man-mirror
+    weight: 0.6
+    when: "等安顿好再说"背后是渴望的萎缩
+  - ref: frameworks/eternal-recurrence-test
+    weight: 0.6
+    when: 情绪平稳
+    note: "熬过去就好"恰恰过不了轮回测试
+
+ideal-reality-gap:
+  - ref: frameworks/value-creation
+    weight: 0.7
+    when: 落差里藏着一张没被检查过的标尺（"本该混得更好"）
+  - ref: concepts/tsz-0.4-rope-bridge
+    weight: 0.6
+
+# ── 比较与关系 ──────────────────────────────
+peer-comparison:
+  - ref: frameworks/value-creation
+    weight: 0.8
+    note: 查比较标尺的出厂信息
+  - ref: concepts/tsz-1.12-market-flies
+    weight: 0.7
+    when: 比较由刷动态/信息流触发
+    note: 场所问题先于心态问题
+
+timeline-anxiety:
+  - ref: frameworks/value-creation
+    weight: 0.9
+    note: "25 岁应该"的谱系学拆解
+  - ref: concepts/tsz-0.4-rope-bridge
+    weight: 0.6
+    when: 焦虑形态是"我还什么都不是"
+  - ref: concepts/tsz-3.11-my-way
+    weight: 0.5
+
+impostor:
+  - ref: frameworks/value-creation
+    weight: 0.6
+    when: "配不配"背后的资格标尺可拆
+    note: 圆桌上此题马可（med-9.6 验收单）优先级更高
+
+social-evaluation:
+  - ref: concepts/tsz-1.12-market-flies
+    weight: 0.9
+    note: 大声势震聋 + 小叮咬蜇伤，处方是离开市场
+  - ref: frameworks/creators-way
+    weight: 0.7
+    when: 用户在为走自己的路承受评价
+
+envy-guilt:
+  - ref: concepts/tsz-3.7-pass-by
+    weight: 0.8
+    note: 持续的酸和骂是系泊——不再能爱的地方走过去
+  - ref: concepts/tsz-2.9-night-song
+    weight: 0.4
+    when: 嫉妒指向"凭什么被爱的不是我"的孤独
+
+# ── 自我与情绪 ──────────────────────────────
+fear-of-failure:
+  - ref: concepts/tsz-1.7-laughter
+    weight: 0.7
+    when: 恐惧被反复严肃复盘越养越大
+  - ref: frameworks/creators-way
+    weight: 0.6
+    when: 怕的是走自己的路失败（伏兵预告）
+
+perfectionism-procrastination:
+  - ref: concepts/tsz-1.7-laughter
+    weight: 0.6
+    note: 完美主义是沉重精神的一种
+  - ref: concepts/tsz-3.11-my-way
+    weight: 0.5
+    when: 拖延源于等一个"正确的开始方式"
+
+self-doubt:
+  - ref: frameworks/creators-way
+    weight: 0.8
+    note: 最难缠的敌人是自己——提前画像，遇伏不慌
+  - ref: concepts/tsz-0.4-rope-bridge
+    weight: 0.6
+
+rumination:
+  - ref: concepts/tsz-1.7-laughter
+    weight: 0.8
+    note: 对付回放的武器不是更多严肃
+  - ref: concepts/tsz-3.7-pass-by
+    weight: 0.6
+    when: 反刍对象是某个具体的人或地方
+
+loneliness:
+  - ref: concepts/tsz-2.9-night-song
+    weight: 0.8
+    when: 给予者的孤独（总被需要、无人问津自己）
+  - ref: frameworks/creators-way
+    weight: 0.6
+    when: 走自己的路带来的孤独
+    note: 孤独是路费不是罚单
+
+identity:
+  - ref: frameworks/three-metamorphoses
+    weight: 0.9
+    note: "我是谁"的发展地图
+  - ref: concepts/tsz-0.4-rope-bridge
+    weight: 0.7
+
+# ── 特殊 ──────────────────────────────
+crisis-signal: []
+# 空映射；且尼采人格对危机的破角色额外禁止"痛苦使人强大"方向言论（persona §8）。

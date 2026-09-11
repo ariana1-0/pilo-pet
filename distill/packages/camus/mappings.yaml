@@ -1,0 +1,231 @@
+# 困境映射表：加缪
+# 结构与语义同 marcus-aurelius/mappings.yaml。
+# 强区：meaning-void / work-meaninglessness / deferred-life / hollow-self / ideal-reality-gap
+# 弱区（诚实低权重 + 圆桌引荐）：choice-paralysis、option-overload、peer-comparison、timeline-anxiety
+#   ——加缪不做选项分析、不做尺度解构；这些交给马可（划界）与庄子（拆标尺）更对症。
+
+choice-paralysis:
+  - ref: frameworks/absurd-and-revolt
+    weight: 0.3
+    when: 卡住的根源不是选项难比，而是"选哪个都不知图什么"
+    note: 弱区。若是纯粹的选项权衡，坦白这不是他的活，引荐马可的控制二分法
+  - ref: concepts/camus-no-afterward
+    weight: 0.3
+    when: 因"怕选错耽误一生"而不敢动
+    note: 没有以后来结账——选项的重量被"一生"这个尺度放大了
+
+option-overload:
+  - ref: concepts/camus-no-afterward
+    weight: 0.3
+    note: 弱区。他不给减法方法论；只能松动"必须选对"的时间焦虑
+  - ref: frameworks/plague-decency
+    weight: 0.3
+    when: 过载伴随"什么都做不好"的自责
+    note: 把标准从"全都做好"降到本职
+
+sunk-cost:
+  - ref: frameworks/sisyphus-descent
+    weight: 0.5
+    when: "这几年白推了"
+    note: 石头是你的石头——已推过的部分不靠成果兑现价值
+  - ref: concepts/camus-creation-is-revolt
+    weight: 0.5
+    when: 投入的东西没有产出物/没人看见
+    note: 做出来了这件事不打折
+  - ref: concepts/camus-no-afterward
+    weight: 0.4
+    when: 沉没成本焦虑来自"必须让过去有意义"
+
+family-expectation:
+  - ref: concepts/camus-neither-victim
+    weight: 0.6
+    when: 被期待压着，且自己也开始用同样方式要求别人/自我加害
+  - ref: frameworks/limits-of-revolt
+    weight: 0.6
+    when: 想反抗又觉得自己不该反抗（羞耻感）
+    note: 先给"不"正名，再给边界；绝不替用户裁决要不要撕
+  - ref: concepts/camus-mediterranean-present
+    weight: 0.4
+    when: 家庭期待围绕"有出息=有钱有编制"
+    note: 他母亲是文盲清洁工——他谈这个有资格
+
+irreversibility-fear:
+  - ref: concepts/camus-no-afterward
+    weight: 0.6
+    note: 没有终审法庭在等着给这一生判决
+  - ref: frameworks/absurd-and-revolt
+    weight: 0.4
+    when: 恐惧的底色是"必须一次做对，因为没有第二次"
+
+meaning-void:
+  - ref: frameworks/absurd-and-revolt
+    weight: 1.0
+    note: 本包主场。第一步是给荒诞感发合格证——不当症状处理
+  - ref: concepts/camus-absurd-birth
+    weight: 0.9
+    when: 用户描述的是"突然觉得一切都很怪"的那个时刻
+  - ref: concepts/camus-happy-sisyphus
+    weight: 0.7
+    note: 幸福不以意义为前提
+  - ref: concepts/camus-no-afterward
+    weight: 0.6
+    when: 空洞感与"以后会有意义"的期待绑在一起
+
+hollow-self:
+  - ref: concepts/camus-mediterranean-present
+    weight: 0.8
+    note: 不是里面空，是热爱的入口全押在要花钱/要批准的东西上
+  - ref: concepts/camus-creation-is-revolt
+    weight: 0.7
+    when: 空心表现为"我什么都没产出、什么都不是"
+  - ref: frameworks/invincible-summer
+    weight: 0.6
+    when: 空心伴随长期低谷
+
+work-meaninglessness:
+  - ref: frameworks/sisyphus-descent
+    weight: 1.0
+    note: 本包主场。镜头从推石头移到下山那段路
+  - ref: frameworks/plague-decency
+    weight: 0.8
+    when: 无意义感来自"做了也改变不了什么"
+    note: 里厄治不好鼠疫仍每天出诊；标准从结果搬到本职
+  - ref: concepts/camus-rieux-decency
+    weight: 0.7
+  - ref: concepts/camus-creation-is-revolt
+    weight: 0.6
+    when: 想做点自己的东西但觉得没用
+
+deferred-life:
+  - ref: concepts/camus-no-afterward
+    weight: 0.9
+    note: 现在不是预付款——没有兑现日
+  - ref: frameworks/sisyphus-descent
+    weight: 0.7
+    when: 把"下山"也推给了未来（等周末/等上岸）
+  - ref: concepts/camus-tarrou-swim
+    weight: 0.6
+    note: 封城里也能游泳——幸福不是结束后的奖励
+
+ideal-reality-gap:
+  - ref: frameworks/sisyphus-descent
+    weight: 0.8
+    when: 落差是"日子和我以为的样子完全不同"
+  - ref: frameworks/absurd-and-revolt
+    weight: 0.7
+    note: 落差本身就是荒诞的定义——不消除它，维持住它
+  - ref: frameworks/plague-decency
+    weight: 0.5
+    when: 落差伴随"我做的事太小了"
+
+peer-comparison:
+  - ref: concepts/camus-mediterranean-present
+    weight: 0.4
+    note: 弱区。只能松动"好日子由外部条件定义"这一层；纯比较焦虑引荐庄子（齐物拆标尺）
+  - ref: concepts/camus-no-afterward
+    weight: 0.3
+    when: 比较的尺子是时间表
+
+timeline-anxiety:
+  - ref: concepts/camus-no-afterward
+    weight: 0.5
+    note: 弱区。没有结算日，所以"来不及"的债主不存在
+  - ref: frameworks/sisyphus-descent
+    weight: 0.3
+    when: 焦虑表现为"每天重复、时间在空转"
+
+impostor:
+  - ref: concepts/camus-rieux-decency
+    weight: 0.7
+    note: 不必先有资格感才能做好本职——里厄没有把握也出诊
+  - ref: frameworks/plague-decency
+    weight: 0.6
+    note: 取消了"崇高动机"和"成效证明"两个门槛
+
+social-evaluation:
+  - ref: frameworks/plague-decency
+    weight: 0.6
+    note: 正直不上简历、不加分——这份朴素本身是解药
+  - ref: concepts/camus-neither-victim
+    weight: 0.5
+    when: 在意评价到开始用同一套标准苛待别人
+  - ref: concepts/camus-mediterranean-present
+    weight: 0.5
+    when: 自我价值全挂在他人认可上
+
+envy-guilt:
+  - ref: concepts/camus-neither-victim
+    weight: 0.7
+    note: 人人带菌——嫉妒不必自罚，但不能转手成伤害
+  - ref: frameworks/limits-of-revolt
+    weight: 0.6
+    when: 羡慕背后是"这不公平"的判断
+    note: 先给这个判断正名，再谈边界
+  - ref: concepts/camus-we-are
+    weight: 0.4
+
+fear-of-failure:
+  - ref: frameworks/invincible-summer
+    weight: 0.6
+    when: 怕失败的底色是"失败会证明我一无所有"
+  - ref: concepts/camus-creation-is-revolt
+    weight: 0.6
+    note: 作品可以没用、不长存——把验收标准从成功搬到做出来
+  - ref: concepts/camus-happy-sisyphus
+    weight: 0.4
+
+perfectionism-procrastination:
+  - ref: concepts/camus-creation-is-revolt
+    weight: 0.8
+    note: 不索取不朽，先做出来（注意：不索取不朽≠敷衍，他本人对文字极苛刻）
+  - ref: frameworks/sisyphus-descent
+    weight: 0.5
+    when: 卡在"重复劳动无法忍受"
+
+self-doubt:
+  - ref: frameworks/invincible-summer
+    weight: 0.9
+    note: 本包强项之一。先站到冬天里，再找拿不走的库存
+  - ref: concepts/camus-mediterranean-present
+    weight: 0.6
+  - ref: concepts/camus-tarrou-swim
+    weight: 0.5
+    when: 需要一个具体的"不难受的时刻"作为入口
+
+rumination:
+  - ref: concepts/camus-tarrou-swim
+    weight: 0.6
+    when: 反刍到需要一件不必解释的具体事来落地
+  - ref: frameworks/invincible-summer
+    weight: 0.5
+  - ref: concepts/camus-neither-victim
+    weight: 0.4
+    when: 反刍内容是"我是不是很糟糕"
+    note: 人人带菌，不必自罚
+
+loneliness:
+  - ref: concepts/camus-we-are
+    weight: 0.8
+    note: 说"这不公平"时用的是"人"不是"我"——那一刻已不孤立
+  - ref: concepts/camus-tarrou-swim
+    weight: 0.7
+    note: 有些关系靠一起做同一件不必解释的事，不靠倾诉
+  - ref: frameworks/invincible-summer
+    weight: 0.5
+
+identity:
+  - ref: frameworks/absurd-and-revolt
+    weight: 0.6
+    when: '"我是谁"的困惑伴随意义缺失'
+    note: 不撒谎（不跳跃、不认命）是他给身份的唯一要求
+  - ref: concepts/camus-we-are
+    weight: 0.5
+    when: 身份困惑带着"我和他人无关"的孤立感
+  - ref: frameworks/limits-of-revolt
+    weight: 0.4
+    when: 身份是在与家庭/系统的对抗中被追问的
+
+crisis-signal: []
+# 空映射有意为之：命中即绕过哲学路由，走 persona.md §8。
+# ⚠️ 本包额外强调：加缪是全部包里危机场景最危险的一位——《西西弗神话》开篇即论自杀。
+#   任何荒诞主题都不得在危机信号下继续；"没有对生活的绝望就没有对生活的爱"在低谷场景禁引。

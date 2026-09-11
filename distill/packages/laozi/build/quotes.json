@@ -1,0 +1,116 @@
+[
+  {
+    "id": "dao-8-water",
+    "slug": "laozi",
+    "author": "老子",
+    "text": "上善若水，水善利万物而不争。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "e786c1831c41b4a4f6aaca7562f917776fd73e9891abae0adf4ef901d365fe44",
+    "featured_rank": 1,
+    "concept": "上善若水",
+    "corpus_id": "dao-8",
+    "locus": "《道德经》第八章",
+    "quote": "上善若水，水善利万物而不争。",
+    "source": "NiuTrans/Classical-Modern source.txt（网络转录，需与权威底本〔如王弼本〕抽样校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "peer-comparison",
+      "envy-guilt"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "dao-33-self-knowing",
+    "slug": "laozi",
+    "author": "老子",
+    "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "434b3545370bb9216c12cc09496393c2fa7144802549c5aad8bf91df8032c059",
+    "featured_rank": 2,
+    "concept": "自知者明",
+    "corpus_id": "dao-33",
+    "locus": "《道德经》第三十三章",
+    "quote": "知人者智，自知者明。胜人者有力，自胜者强。",
+    "source": "NiuTrans/Classical-Modern source.txt（网络转录，需与权威底本〔如王弼本〕抽样校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "self-doubt",
+      "hollow-self",
+      "peer-comparison"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "dao-64-first-step",
+    "slug": "laozi",
+    "author": "老子",
+    "text": "合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "f4b17e9a79a0fbe7a901698b3f91df0885e07132194d38fb6cd340d3db3b7432",
+    "featured_rank": 3,
+    "concept": "千里之行，始于足下",
+    "corpus_id": "dao-64",
+    "locus": "《道德经》第六十四章",
+    "quote": "合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。",
+    "source": "NiuTrans/Classical-Modern source.txt（网络转录，需与权威底本〔如王弼本〕抽样校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "perfectionism-procrastination",
+      "choice-paralysis",
+      "deferred-life"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "dao-24-tiptoe",
+    "slug": "laozi",
+    "author": "老子",
+    "text": "企者不立；跨者不行；自见者不明；自是者不彰；自伐者无功；自矜者不长。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "85f17e7dfb9df972f217932a4ba5d36583a08cc013fd0570ec88791176646ad3",
+    "featured_rank": 4,
+    "concept": "企者不立",
+    "corpus_id": "dao-24",
+    "locus": "《道德经》第二十四章",
+    "quote": "企者不立；跨者不行；自见者不明；自是者不彰；自伐者无功；自矜者不长。",
+    "source": "NiuTrans/Classical-Modern source.txt（网络转录，需与权威底本〔如王弼本〕抽样校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "impostor",
+      "social-evaluation",
+      "timeline-anxiety"
+    ],
+    "content_flags": []
+  },
+  {
+    "id": "dao-45-flawed-perfection",
+    "slug": "laozi",
+    "author": "老子",
+    "text": "大成若缺，其用不弊。",
+    "text_kind": "source_original",
+    "source_text_verified": true,
+    "translation_reviewed": true,
+    "translation_review_sha256": "046ab76651453be74d80df05989c65e7e46b3a9a840220d9f84ce5af710ae1e7",
+    "featured_rank": 5,
+    "concept": "大成若缺",
+    "corpus_id": "dao-45",
+    "locus": "《道德经》第四十五章",
+    "quote": "大成若缺，其用不弊。",
+    "source": "NiuTrans/Classical-Modern source.txt（网络转录，需与权威底本〔如王弼本〕抽样校对）",
+    "paraphrase": false,
+    "dilemma_tags": [
+      "perfectionism-procrastination",
+      "self-doubt",
+      "impostor"
+    ],
+    "content_flags": []
+  }
+]

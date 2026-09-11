@@ -1,0 +1,7 @@
+# 本地状态（运行时生成，不入库）
+data/
+*.db
+__pycache__/
+*.pyc
+# 本机智谱 API 配置（含密钥）
+.env.local

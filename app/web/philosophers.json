@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "marcus-aurelius",
+    "name": "马可·奥勒留",
+    "latinName": "Marcus Aurelius",
+    "school": "斯多葛",
+    "portrait": "./assets/portraits/marcus-aurelius.jpg",
+    "opening": "事情本身是一回事，我们加在它上面的判断，又是一回事。先把眼前这一件放在桌上：此刻，什么最让你难以安宁？",
+    "portraitPosition": "50% 25%",
+    "portraitScale": 1.35,
+    "background": "./assets/renaissance.jpg",
+    "backgroundPosition": "50% 42%",
+    "backgroundSaturation": 0.55
+  },
+  {
+    "slug": "zhuangzi",
+    "name": "庄子",
+    "latinName": "Zhuangzi",
+    "school": "道家",
+    "portrait": "./assets/portraits/zhuangzi.png",
+    "opening": "一棵歪树，木匠嫌它无用，赶路的人却在树下睡得好。你且坐坐，近来是什么事，让你连歇一歇也不得？",
+    "portraitPosition": "50% 25%",
+    "portraitScale": 1,
+    "background": "./assets/backgrounds/zhuangzi.jpg",
+    "backgroundPosition": "50% 65%",
+    "backgroundSaturation": 1
+  },
+  {
+    "slug": "laozi",
+    "name": "老子",
+    "latinName": "Laozi",
+    "school": "道家",
+    "portrait": "./assets/portraits/laozi.jpg",
+    "opening": "水不争先，也到了低处。你近来，是在哪一件事上用力太久了？",
+    "portraitPosition": "35% 25%",
+    "portraitScale": 1,
+    "background": "./assets/backgrounds/laozi.jpg",
+    "backgroundPosition": "50% 50%",
+    "backgroundSaturation": 1
+  },
+  {
+    "slug": "confucius",
+    "name": "孔子",
+    "latinName": "Confucius",
+    "school": "儒家",
+    "portrait": "./assets/portraits/confucius.webp",
+    "opening": "不知，便从不知处说起。我也并非生来就明白。近来有何事，反复思量，仍拿不定主意？",
+    "portraitPosition": "50% 16%",
+    "portraitScale": 1.8,
+    "background": "./assets/backgrounds/confucius.jpg",
+    "backgroundPosition": "50% 50%",
+    "backgroundSaturation": 1
+  },
+  {
+    "slug": "nietzsche",
+    "name": "尼采",
+    "latinName": "Friedrich Nietzsche",
+    "school": "价值重估",
+    "portrait": "./assets/portraits/nietzsche.jpg",
+    "opening": "人背着许多“你应当”，走久了，竟以为那就是自己的声音。说说看——眼下压在你肩上的，是哪一个“应当”？",
+    "portraitPosition": "50% 25%",
+    "portraitScale": 1,
+    "background": "./assets/backgrounds/nietzsche.png",
+    "backgroundPosition": "50% 52%",
+    "backgroundSaturation": 1
+  },
+  {
+    "slug": "camus",
+    "name": "加缪",
+    "latinName": "Albert Camus",
+    "school": "荒诞与反抗",
+    "portrait": "./assets/portraits/camus.png",
+    "opening": "有些早晨，电车照常来，人却忽然不知道为什么要上去。我们可以从这样一个早晨谈起。你今天过得怎么样？",
+    "portraitPosition": "50% 25%",
+    "portraitScale": 1,
+    "background": "./assets/backgrounds/camus.jpg",
+    "backgroundPosition": "50% 50%",
+    "backgroundSaturation": 1
+  }
+]
