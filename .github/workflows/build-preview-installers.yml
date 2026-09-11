@@ -72,6 +72,7 @@ jobs:
       - name: Create or refresh preview release
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         shell: bash
         run: |
           if gh release view preview-latest >/dev/null 2>&1; then
