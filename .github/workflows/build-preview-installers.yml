@@ -6,7 +6,11 @@ on:
       service_url:
         description: Render 服务地址，例如 https://philo-pet-preview.onrender.com
         required: true
+        default: https://pilo-pet.onrender.com
         type: string
+  push:
+    branches:
+      - codex/preview-build
 
 jobs:
   build:
@@ -26,7 +30,7 @@ jobs:
       run:
         working-directory: app/desktop
     env:
-      PHILO_SERVICE_URL: ${{ inputs.service_url }}
+      PHILO_SERVICE_URL: ${{ inputs.service_url || 'https://pilo-pet.onrender.com' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
